@@ -1,0 +1,2697 @@
+#################################################################
+For kernel size = 3 and drop rate = 0.3
+
+Building embedding space of greek-1
+
+Batch 0:
+Input batch size: torch.Size([45, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([45, 50])
+
+Shape of the output nodes from the submodel: torch.Size([45, 50])
+Number of the labels: torch.Size([45])
+Embedding space of greek-1 built
+
+Distance from selected alpha to others: 
+0.00 1135.33 1236.11 1328.40 2251.37 1043.33 1843.38 1041.14 1172.29 1760.02 1134.70 1883.43 998.46 1618.30 1378.29 1488.45 1716.94 923.61 4110.90 3697.25 2566.54 3383.18 3368.31 3689.68 2917.18 2436.71 2618.76 1933.20 1916.39 1841.38 1908.41 2259.09 1786.75 2341.99 2325.38 1985.67 1366.09 1730.49 2962.33 2525.76 2486.69 1806.78 2587.12 2108.33 2042.61 
+Average distance to label alpha: 1381.42
+Average distance to label beta: 1433.58
+Average distance to label gamma: 2033.14
+Average distance to label eta: 3198.72
+Average distance to label phi: 2179.58
+
+Distance from selected beta to others: 
+1760.02 1224.80 2041.25 1855.73 3069.12 2306.51 2959.73 2330.88 1732.07 0.00 1403.04 2424.96 1178.86 2136.10 1633.77 1417.91 1913.46 1135.24 4673.79 4060.15 2810.75 3923.51 3673.78 3616.57 3386.94 2184.75 2803.59 1968.83 2709.14 3102.48 2346.86 3092.70 2618.62 2905.32 3174.84 3183.93 1964.64 2623.26 3375.32 3195.22 3369.51 2155.63 2746.41 3299.79 2797.98 
+Average distance to label alpha: 2142.23
+Average distance to label beta: 1655.41
+Average distance to label gamma: 2789.19
+Average distance to label eta: 3459.31
+Average distance to label phi: 2836.42
+
+Distance from selected gamma to others: 
+1933.20 2639.74 2287.59 1359.73 1394.70 1599.63 2270.00 1937.91 915.24 1968.83 1279.30 1719.71 1262.98 929.35 920.60 2211.65 1753.73 2157.95 1938.80 1486.70 1232.06 1726.31 1750.68 1122.93 1780.27 1446.08 1269.07 0.00 716.07 1011.43 769.11 969.98 1104.95 1142.41 1185.99 949.16 665.23 1125.53 1352.85 1344.60 1073.99 744.11 1113.27 1376.89 1029.65 
+Average distance to label alpha: 1815.30
+Average distance to label beta: 1578.23
+Average distance to label gamma: 981.14
+Average distance to label eta: 1528.10
+Average distance to label phi: 1091.79
+
+
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1652.90 2021.33 1395.21 847.19 479.36 844.98 1073.72 789.96 641.42 2503.45 986.98 1471.58 1130.91 1133.92 994.17 1523.54 1182.12 2198.24 1990.94 1325.72 858.70 1179.03 1391.91 1371.40 1107.83 1230.72 1052.04 1134.55 1316.02 812.75 716.23 1655.48 1366.15 1255.18 1439.17 1101.64 712.80 852.20 1113.68 923.82 797.50 782.06 1114.59 839.83 691.98 
+Average distance to label alpha: 1082.90
+Average distance to label beta: 1458.32
+Average distance to label gamma: 1199.69
+Average distance to label eta: 1278.70
+Average distance to label phi: 869.83
+
+Distance from selected image 1 to others: 
+2467.30 2500.82 1837.34 1119.83 577.77 1265.11 1465.52 1258.81 835.97 2762.99 1097.34 1459.31 1210.78 1495.78 1182.51 1616.12 1078.31 2643.02 2215.86 1302.68 608.63 1258.76 1425.89 1411.21 1347.54 1227.55 1039.54 1456.95 1330.36 918.36 698.75 1695.96 1493.74 1204.57 1665.46 1535.91 978.09 1187.57 1117.90 1167.05 968.16 954.61 1195.76 998.14 1018.25 
+Average distance to label alpha: 1480.94
+Average distance to label beta: 1616.24
+Average distance to label gamma: 1333.34
+Average distance to label eta: 1315.30
+Average distance to label phi: 1065.06
+
+Distance from selected image 2 to others: 
+842.05 845.99 897.65 430.77 1197.59 597.85 1397.74 701.42 518.76 1488.96 719.60 1196.35 439.91 1040.84 803.88 1197.69 1294.99 1066.54 2884.62 2225.86 1161.56 2001.61 2310.18 2429.55 1668.48 1557.96 1650.84 1188.76 1425.39 1464.38 1113.52 1525.82 1447.68 1783.59 1637.23 1517.80 1021.93 1320.64 1746.12 1570.76 1537.20 959.11 1454.22 1301.18 1249.27 
+Average distance to label alpha: 825.54
+Average distance to label beta: 1027.64
+Average distance to label gamma: 1456.02
+Average distance to label eta: 1987.85
+Average distance to label phi: 1351.16
+
+Distance from selected image 3 to others: 
+2007.66 2184.25 1856.20 904.45 1338.27 1036.96 1462.88 1274.82 1076.59 2199.02 768.27 699.95 886.73 626.39 761.13 1291.66 708.77 1857.16 3553.72 1960.80 1038.55 2062.32 2428.20 1962.14 1944.97 1737.07 1825.67 1322.38 1305.39 1511.71 1067.34 1737.55 1968.34 1745.26 2125.11 1848.06 982.28 1191.16 1961.63 1446.59 1393.57 1238.67 1934.85 1747.49 1349.38 
+Average distance to label alpha: 1460.23
+Average distance to label beta: 1088.79
+Average distance to label gamma: 1625.68
+Average distance to label eta: 2057.05
+Average distance to label phi: 1471.74
+
+Distance from selected image 4 to others: 
+2034.78 2183.26 1621.06 913.43 1299.06 1500.00 1847.21 1288.43 902.72 2420.09 1024.08 1140.78 980.67 1187.78 545.65 1687.04 1095.55 2247.36 2465.95 1700.57 1011.93 1818.15 1675.66 1514.07 1559.55 1226.52 1149.53 894.80 738.31 1164.79 838.59 739.86 1083.14 1492.97 1233.59 1430.18 539.81 709.64 1230.36 1325.23 1024.24 1280.08 1273.85 1003.28 1124.41 
+Average distance to label alpha: 1509.99
+Average distance to label beta: 1369.89
+Average distance to label gamma: 1068.47
+Average distance to label eta: 1569.10
+Average distance to label phi: 1056.77
+
+Distance from selected image 5 to others: 
+1823.30 2321.59 1656.09 805.44 989.94 1146.40 1374.23 1001.00 804.22 2400.54 723.93 750.76 722.75 957.38 490.32 1497.55 704.60 2083.35 2600.37 1474.58 742.17 1608.45 1613.93 1534.19 1394.18 1075.71 961.08 999.05 656.85 852.54 762.64 765.93 1104.16 1220.82 1271.86 1355.24 550.60 606.62 1096.76 1102.98 815.39 905.99 1175.58 819.47 924.65 
+Average distance to label alpha: 1324.69
+Average distance to label beta: 1147.91
+Average distance to label gamma: 998.79
+Average distance to label eta: 1444.96
+Average distance to label phi: 888.67
+
+Distance from selected image 6 to others: 
+1800.93 2435.82 1957.82 1107.40 1643.42 1332.76 1367.97 1173.79 1063.94 2516.22 1464.49 1607.16 1186.31 1901.51 1402.73 1409.13 1440.40 2189.73 2080.27 1862.35 1067.40 1604.30 1950.31 2042.12 1832.07 1328.13 1247.58 1336.18 511.39 1218.91 1064.82 819.56 385.70 807.66 621.49 1155.15 877.04 996.47 907.36 896.96 939.17 733.12 766.77 795.55 904.19 
+Average distance to label alpha: 1542.65
+Average distance to label beta: 1679.74
+Average distance to label gamma: 880.09
+Average distance to label eta: 1668.28
+Average distance to label phi: 868.51
+
+Distance from selected image 7 to others: 
+2552.43 3584.02 2597.82 1747.88 843.67 1550.61 1394.94 1197.50 1133.15 3626.38 1725.08 2290.01 2037.02 2000.41 1539.84 2253.96 1860.57 3070.66 1734.92 1489.77 756.24 1197.49 1858.33 1473.99 1462.25 1482.42 1288.59 1574.78 1121.19 825.09 580.95 1422.16 771.87 845.25 1116.96 582.82 902.74 937.06 807.66 745.68 631.90 907.44 1067.26 623.29 606.65 
+Average distance to label alpha: 1844.67
+Average distance to label beta: 2267.10
+Average distance to label gamma: 982.34
+Average distance to label eta: 1416.00
+Average distance to label phi: 803.30
+
+Distance from selected image 8 to others: 
+2274.75 3284.98 2597.62 1651.75 1581.02 1939.55 2098.08 1854.21 1168.51 2698.66 2192.93 2485.66 1923.66 1950.85 1574.64 2318.87 2114.98 2770.99 1313.91 1509.13 1529.08 1648.18 1764.33 1322.11 1876.11 1436.83 1191.55 586.91 544.42 1010.29 957.81 732.13 572.37 825.28 460.40 886.47 776.25 1113.51 792.31 824.12 821.11 652.23 602.00 801.52 639.14 
+Average distance to label alpha: 2050.05
+Average distance to label beta: 2225.69
+Average distance to label gamma: 730.67
+Average distance to label eta: 1510.14
+Average distance to label phi: 780.24
+
+Distance from selected image 9 to others: 
+2565.59 2368.33 1854.39 1020.48 1018.90 1321.53 1803.66 1430.06 1152.66 2862.97 1737.39 1697.01 1276.90 2177.34 1306.24 1801.42 1937.25 2927.12 1807.49 997.13 824.81 1022.65 1222.81 1740.49 508.17 723.44 529.54 1711.46 1608.94 1921.44 1482.74 1943.92 1792.67 1767.24 1957.58 1710.21 1088.47 946.21 942.71 1609.29 1737.00 1176.06 1448.22 1384.16 1604.82 
+Average distance to label alpha: 1615.07
+Average distance to label beta: 1969.29
+Average distance to label gamma: 1766.24
+Average distance to label eta: 1041.84
+Average distance to label phi: 1326.33
+
+Distance from selected image 10 to others: 
+2847.94 3289.33 2544.65 1633.82 1006.50 1743.32 2024.88 1890.41 1418.75 3546.86 1702.91 2040.41 1737.65 2388.56 1674.05 2720.69 2437.58 3281.34 958.43 802.84 789.10 626.65 620.87 832.77 719.92 694.53 273.79 1399.04 1393.59 1385.31 1238.12 1611.00 1316.25 1343.82 1651.92 1281.13 931.46 948.78 694.65 1216.91 1154.91 1122.68 1033.37 1027.76 1349.84 
+Average distance to label alpha: 2044.40
+Average distance to label beta: 2392.23
+Average distance to label gamma: 1402.24
+Average distance to label eta: 702.10
+Average distance to label phi: 1053.37
+
+Distance from selected image 11 to others: 
+2847.63 3438.83 2521.42 1501.26 1018.04 1726.13 1788.89 1770.43 1281.33 3382.68 1835.69 1726.37 1603.25 2163.91 1775.77 2468.51 2129.29 3138.74 961.50 495.41 836.74 642.52 404.30 715.32 701.71 434.47 228.29 1213.37 956.31 1199.26 1051.57 1117.14 1132.85 931.40 1118.19 1204.83 730.48 868.81 386.59 858.34 926.31 822.48 790.72 897.24 1057.15 
+Average distance to label alpha: 1988.22
+Average distance to label beta: 2247.13
+Average distance to label gamma: 1102.77
+Average distance to label eta: 602.25
+Average distance to label phi: 815.35
+
+Distance from selected image 12 to others: 
+2091.18 2465.41 1885.02 1094.54 497.92 1119.82 1433.98 953.38 784.34 2776.53 1389.28 1905.62 1395.72 1368.71 1248.02 1924.69 1327.06 2326.52 1763.59 1039.54 896.86 1233.67 1077.75 1218.61 1165.59 985.02 936.39 1230.77 872.82 1022.77 323.63 715.71 1059.10 1085.84 1032.13 1209.53 574.91 986.72 644.58 479.63 473.53 792.01 551.79 330.81 491.34 
+Average distance to label alpha: 1369.51
+Average distance to label beta: 1740.24
+Average distance to label gamma: 950.26
+Average distance to label eta: 1146.33
+Average distance to label phi: 591.70
+
+Distance from selected image 13 to others: 
+2843.85 3408.43 2606.60 1466.20 923.46 1728.20 1622.44 1696.92 1407.83 3460.74 1982.23 1967.65 1777.95 2599.44 1896.46 2191.66 2296.45 3057.63 906.82 751.29 991.49 679.93 504.60 761.80 718.43 470.31 383.54 1698.02 1311.80 1508.30 1243.67 1564.97 1310.93 1059.58 1369.27 1271.97 835.80 827.34 597.07 884.44 1091.81 937.12 919.65 969.52 1099.78 
+Average distance to label alpha: 1967.10
+Average distance to label beta: 2358.91
+Average distance to label gamma: 1370.95
+Average distance to label eta: 685.36
+Average distance to label phi: 906.95
+
+Distance from selected image 14 to others: 
+2464.23 3313.52 2383.49 1444.51 887.12 1266.80 1342.93 1279.78 1016.24 3311.82 2066.29 1994.15 1780.08 1832.42 1914.45 2213.63 1830.95 2863.11 1217.12 679.21 967.21 798.69 1021.66 1263.42 994.80 912.20 735.90 1301.89 948.85 1034.39 803.39 1128.70 984.31 786.25 863.81 994.89 854.29 1083.80 491.04 409.54 637.25 530.77 660.64 596.25 475.58 
+Average distance to label alpha: 1710.96
+Average distance to label beta: 2200.77
+Average distance to label gamma: 982.94
+Average distance to label eta: 954.47
+Average distance to label phi: 637.68
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1652.90 2021.33 1395.21 847.19 479.36 844.98 1073.72 789.96 641.42 2503.45 986.98 1471.58 1130.91 1133.92 994.17 1523.54 1182.12 2198.24 1990.94 1325.72 858.70 1179.03 1391.91 1371.40 1107.83 1230.72 1052.04 1134.55 1316.02 812.75 716.23 1655.48 1366.15 1255.18 1439.17 1101.64 712.80 852.20 1113.68 923.82 797.50 782.06 1114.59 839.83 691.98 
+Total distance to top kth label alpha: 6071.85
+Total distance to top kth label beta: 8423.22
+Total distance to top kth label gamma: 7702.52
+Total distance to top kth label eta: 8125.45
+Total distance to top kth label phi: 5600.19
+
+Distance from selected image 1 to others: 
+2467.30 2500.82 1837.34 1119.83 577.77 1265.11 1465.52 1258.81 835.97 2762.99 1097.34 1459.31 1210.78 1495.78 1182.51 1616.12 1078.31 2643.02 2215.86 1302.68 608.63 1258.76 1425.89 1411.21 1347.54 1227.55 1039.54 1456.95 1330.36 918.36 698.75 1695.96 1493.74 1204.57 1665.46 1535.91 978.09 1187.57 1117.90 1167.05 968.16 954.61 1195.76 998.14 1018.25 
+Total distance to top kth label alpha: 8360.34
+Total distance to top kth label beta: 9140.15
+Total distance to top kth label gamma: 8638.64
+Total distance to top kth label eta: 8195.91
+Total distance to top kth label phi: 7202.19
+
+Distance from selected image 2 to others: 
+842.05 845.99 897.65 430.77 1197.59 597.85 1397.74 701.42 518.76 1488.96 719.60 1196.35 439.91 1040.84 803.88 1197.69 1294.99 1066.54 2884.62 2225.86 1161.56 2001.61 2310.18 2429.55 1668.48 1557.96 1650.84 1188.76 1425.39 1464.38 1113.52 1525.82 1447.68 1783.59 1637.23 1517.80 1021.93 1320.64 1746.12 1570.76 1537.20 959.11 1454.22 1301.18 1249.27 
+Total distance to top kth label alpha: 4834.49
+Total distance to top kth label beta: 6464.81
+Total distance to top kth label gamma: 9683.34
+Total distance to top kth label eta: 12576.49
+Total distance to top kth label phi: 8843.55
+
+Distance from selected image 3 to others: 
+2007.66 2184.25 1856.20 904.45 1338.27 1036.96 1462.88 1274.82 1076.59 2199.02 768.27 699.95 886.73 626.39 761.13 1291.66 708.77 1857.16 3553.72 1960.80 1038.55 2062.32 2428.20 1962.14 1944.97 1737.07 1825.67 1322.38 1305.39 1511.71 1067.34 1737.55 1968.34 1745.26 2125.11 1848.06 982.28 1191.16 1961.63 1446.59 1393.57 1238.67 1934.85 1747.49 1349.38 
+Total distance to top kth label alpha: 8950.18
+Total distance to top kth label beta: 5742.90
+Total distance to top kth label gamma: 10537.68
+Total distance to top kth label eta: 12531.52
+Total distance to top kth label phi: 9349.14
+
+Distance from selected image 4 to others: 
+2034.78 2183.26 1621.06 913.43 1299.06 1500.00 1847.21 1288.43 902.72 2420.09 1024.08 1140.78 980.67 1187.78 545.65 1687.04 1095.55 2247.36 2465.95 1700.57 1011.93 1818.15 1675.66 1514.07 1559.55 1226.52 1149.53 894.80 738.31 1164.79 838.59 739.86 1083.14 1492.97 1233.59 1430.18 539.81 709.64 1230.36 1325.23 1024.24 1280.08 1273.85 1003.28 1124.41 
+Total distance to top kth label alpha: 9371.91
+Total distance to top kth label beta: 7661.54
+Total distance to top kth label gamma: 6693.09
+Total distance to top kth label eta: 9837.84
+Total distance to top kth label phi: 6905.60
+
+Distance from selected image 5 to others: 
+1823.30 2321.59 1656.09 805.44 989.94 1146.40 1374.23 1001.00 804.22 2400.54 723.93 750.76 722.75 957.38 490.32 1497.55 704.60 2083.35 2600.37 1474.58 742.17 1608.45 1613.93 1534.19 1394.18 1075.71 961.08 999.05 656.85 852.54 762.64 765.93 1104.16 1220.82 1271.86 1355.24 550.60 606.62 1096.76 1102.98 815.39 905.99 1175.58 819.47 924.65 
+Total distance to top kth label alpha: 7777.31
+Total distance to top kth label beta: 5847.30
+Total distance to top kth label gamma: 6362.00
+Total distance to top kth label eta: 8790.35
+Total distance to top kth label phi: 5719.48
+
+Distance from selected image 6 to others: 
+1800.93 2435.82 1957.82 1107.40 1643.42 1332.76 1367.97 1173.79 1063.94 2516.22 1464.49 1607.16 1186.31 1901.51 1402.73 1409.13 1440.40 2189.73 2080.27 1862.35 1067.40 1604.30 1950.31 2042.12 1832.07 1328.13 1247.58 1336.18 511.39 1218.91 1064.82 819.56 385.70 807.66 621.49 1155.15 877.04 996.47 907.36 896.96 939.17 733.12 766.77 795.55 904.19 
+Total distance to top kth label alpha: 9490.21
+Total distance to top kth label beta: 10411.72
+Total distance to top kth label gamma: 5365.77
+Total distance to top kth label eta: 10892.12
+Total distance to top kth label phi: 5880.99
+
+Distance from selected image 7 to others: 
+2552.43 3584.02 2597.82 1747.88 843.67 1550.61 1394.94 1197.50 1133.15 3626.38 1725.08 2290.01 2037.02 2000.41 1539.84 2253.96 1860.57 3070.66 1734.92 1489.77 756.24 1197.49 1858.33 1473.99 1462.25 1482.42 1288.59 1574.78 1121.19 825.09 580.95 1422.16 771.87 845.25 1116.96 582.82 902.74 937.06 807.66 745.68 631.90 907.44 1067.26 623.29 606.65 
+Total distance to top kth label alpha: 10420.18
+Total distance to top kth label beta: 13706.88
+Total distance to top kth label gamma: 5844.13
+Total distance to top kth label eta: 9150.75
+Total distance to top kth label phi: 5225.36
+
+Distance from selected image 8 to others: 
+2274.75 3284.98 2597.62 1651.75 1581.02 1939.55 2098.08 1854.21 1168.51 2698.66 2192.93 2485.66 1923.66 1950.85 1574.64 2318.87 2114.98 2770.99 1313.91 1509.13 1529.08 1648.18 1764.33 1322.11 1876.11 1436.83 1191.55 586.91 544.42 1010.29 957.81 732.13 572.37 825.28 460.40 886.47 776.25 1113.51 792.31 824.12 821.11 652.23 602.00 801.52 639.14 
+Total distance to top kth label alpha: 12567.87
+Total distance to top kth label beta: 14561.59
+Total distance to top kth label gamma: 4607.97
+Total distance to top kth label eta: 9950.79
+Total distance to top kth label phi: 5084.55
+
+Distance from selected image 9 to others: 
+2565.59 2368.33 1854.39 1020.48 1018.90 1321.53 1803.66 1430.06 1152.66 2862.97 1737.39 1697.01 1276.90 2177.34 1306.24 1801.42 1937.25 2927.12 1807.49 997.13 824.81 1022.65 1222.81 1740.49 508.17 723.44 529.54 1711.46 1608.94 1921.44 1482.74 1943.92 1792.67 1767.24 1957.58 1710.21 1088.47 946.21 942.71 1609.29 1737.00 1176.06 1448.22 1384.16 1604.82 
+Total distance to top kth label alpha: 9601.69
+Total distance to top kth label beta: 11933.55
+Total distance to top kth label gamma: 11994.70
+Total distance to top kth label eta: 5828.56
+Total distance to top kth label phi: 8590.64
+
+Distance from selected image 10 to others: 
+2847.94 3289.33 2544.65 1633.82 1006.50 1743.32 2024.88 1890.41 1418.75 3546.86 1702.91 2040.41 1737.65 2388.56 1674.05 2720.69 2437.58 3281.34 958.43 802.84 789.10 626.65 620.87 832.77 719.92 694.53 273.79 1399.04 1393.59 1385.31 1238.12 1611.00 1316.25 1343.82 1651.92 1281.13 931.46 948.78 694.65 1216.91 1154.91 1122.68 1033.37 1027.76 1349.84 
+Total distance to top kth label alpha: 12262.31
+Total distance to top kth label beta: 14701.85
+Total distance to top kth label gamma: 9357.26
+Total distance to top kth label eta: 4527.70
+Total distance to top kth label phi: 6913.62
+
+Distance from selected image 11 to others: 
+2847.63 3438.83 2521.42 1501.26 1018.04 1726.13 1788.89 1770.43 1281.33 3382.68 1835.69 1726.37 1603.25 2163.91 1775.77 2468.51 2129.29 3138.74 961.50 495.41 836.74 642.52 404.30 715.32 701.71 434.47 228.29 1213.37 956.31 1199.26 1051.57 1117.14 1132.85 931.40 1118.19 1204.83 730.48 868.81 386.59 858.34 926.31 822.48 790.72 897.24 1057.15 
+Total distance to top kth label alpha: 11607.50
+Total distance to top kth label beta: 13702.79
+Total distance to top kth label gamma: 7506.72
+Total distance to top kth label eta: 3622.02
+Total distance to top kth label phi: 5354.66
+
+Distance from selected image 12 to others: 
+2091.18 2465.41 1885.02 1094.54 497.92 1119.82 1433.98 953.38 784.34 2776.53 1389.28 1905.62 1395.72 1368.71 1248.02 1924.69 1327.06 2326.52 1763.59 1039.54 896.86 1233.67 1077.75 1218.61 1165.59 985.02 936.39 1230.77 872.82 1022.77 323.63 715.71 1059.10 1085.84 1032.13 1209.53 574.91 986.72 644.58 479.63 473.53 792.01 551.79 330.81 491.34 
+Total distance to top kth label alpha: 7769.00
+Total distance to top kth label beta: 10559.10
+Total distance to top kth label gamma: 6112.02
+Total distance to top kth label eta: 7319.75
+Total distance to top kth label phi: 3546.58
+
+Distance from selected image 13 to others: 
+2843.85 3408.43 2606.60 1466.20 923.46 1728.20 1622.44 1696.92 1407.83 3460.74 1982.23 1967.65 1777.95 2599.44 1896.46 2191.66 2296.45 3057.63 906.82 751.29 991.49 679.93 504.60 761.80 718.43 470.31 383.54 1698.02 1311.80 1508.30 1243.67 1564.97 1310.93 1059.58 1369.27 1271.97 835.80 827.34 597.07 884.44 1091.81 937.12 919.65 969.52 1099.78 
+Total distance to top kth label alpha: 11451.66
+Total distance to top kth label beta: 14711.85
+Total distance to top kth label gamma: 9075.53
+Total distance to top kth label eta: 4269.90
+Total distance to top kth label phi: 5970.94
+
+Distance from selected image 14 to others: 
+2464.23 3313.52 2383.49 1444.51 887.12 1266.80 1342.93 1279.78 1016.24 3311.82 2066.29 1994.15 1780.08 1832.42 1914.45 2213.63 1830.95 2863.11 1217.12 679.21 967.21 798.69 1021.66 1263.42 994.80 912.20 735.90 1301.89 948.85 1034.39 803.39 1128.70 984.31 786.25 863.81 994.89 854.29 1083.80 491.04 409.54 637.25 530.77 660.64 596.25 475.58 
+Total distance to top kth label alpha: 9620.88
+Total distance to top kth label beta: 13631.97
+Total distance to top kth label gamma: 6415.89
+Total distance to top kth label eta: 6109.68
+Total distance to top kth label phi: 3801.07
+#################################################################
+
+#################################################################
+For kernel size = 3 and drop rate = 0.5
+
+Building embedding space of greek-1
+
+Batch 0:
+Input batch size: torch.Size([45, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([45, 50])
+
+Shape of the output nodes from the submodel: torch.Size([45, 50])
+Number of the labels: torch.Size([45])
+Embedding space of greek-1 built
+
+Distance from selected alpha to others: 
+0.00 682.49 891.59 1426.21 1956.29 1125.62 1399.38 1356.28 1798.75 2000.07 1582.17 1667.52 2172.61 2217.46 1681.51 1427.70 1821.92 1676.81 2628.46 2944.34 2704.88 3303.40 2839.87 3298.58 2980.03 1960.27 2143.52 2753.78 2057.79 2778.86 2592.31 2844.68 3136.58 2399.19 2463.95 2612.47 2747.28 2566.98 3430.39 3404.20 2965.41 2474.06 2987.24 2228.23 2443.58 
+Average distance to label alpha: 1329.58
+Average distance to label beta: 1805.31
+Average distance to label gamma: 2626.62
+Average distance to label eta: 2755.93
+Average distance to label phi: 2805.26
+
+Distance from selected beta to others: 
+2000.07 1879.03 1943.48 2555.41 1983.29 2264.79 1568.31 2694.48 890.34 0.00 1565.35 1287.00 1602.89 1466.32 1039.76 1274.86 1665.65 744.32 1345.75 1340.78 1487.13 2168.45 1547.96 1366.54 1667.96 1669.07 1483.80 1585.56 1999.45 1592.39 2145.69 1592.00 1687.43 1790.17 1502.75 1502.64 1585.53 1381.92 1509.26 1342.47 1291.78 1694.58 1861.10 1735.38 1446.40 
+Average distance to label alpha: 1975.47
+Average distance to label beta: 1330.77
+Average distance to label gamma: 1710.90
+Average distance to label eta: 1564.16
+Average distance to label phi: 1538.71
+
+Distance from selected gamma to others: 
+2753.78 2211.16 2113.08 2451.05 1338.17 1538.39 1660.52 2093.18 1394.68 1585.56 1565.29 1479.43 1945.92 1057.88 1590.49 1816.95 1682.42 1582.01 1030.88 832.55 1336.97 1166.08 996.73 1124.34 1241.77 1359.42 1311.50 0.00 1058.40 958.82 1075.63 882.75 1737.50 1114.73 948.74 1124.71 1008.45 1041.64 1079.72 776.51 778.03 1146.80 1245.74 976.85 1100.13 
+Average distance to label alpha: 1950.45
+Average distance to label beta: 1589.55
+Average distance to label gamma: 1112.66
+Average distance to label eta: 1155.58
+Average distance to label phi: 1017.09
+
+
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1500.38 1297.77 1006.68 1528.54 1198.85 691.59 829.89 867.31 1618.87 1926.01 813.96 1059.99 1783.11 1483.16 1405.69 1456.54 1150.61 1338.92 1881.70 1538.78 1680.67 1813.55 2105.83 2018.12 1469.01 1027.82 1214.58 1401.87 917.99 1389.65 1575.22 1824.90 2404.49 1336.23 1833.52 1569.23 1160.81 1401.96 2309.12 1805.21 1701.05 1530.76 2289.92 1393.71 1386.41 
+Average distance to label alpha: 1171.10
+Average distance to label beta: 1379.78
+Average distance to label gamma: 1583.68
+Average distance to label eta: 1638.90
+Average distance to label phi: 1664.33
+
+Distance from selected image 1 to others: 
+1289.01 1205.16 654.90 1102.62 986.74 312.53 654.75 612.85 1712.56 2403.37 816.72 1198.82 1842.56 1715.95 1685.05 1363.26 1366.88 1566.93 1871.87 1807.23 2026.19 2079.87 1975.05 2187.56 1521.09 1360.22 1516.81 1782.07 981.16 1843.09 1358.77 1936.54 2471.05 1455.28 1860.89 1723.20 1515.80 1505.80 2705.92 2095.02 2227.84 1567.81 2370.47 1264.22 1676.31 
+Average distance to label alpha: 947.90
+Average distance to label beta: 1551.06
+Average distance to label gamma: 1712.45
+Average distance to label eta: 1816.21
+Average distance to label phi: 1881.02
+
+Distance from selected image 2 to others: 
+1013.07 581.82 601.33 699.45 866.94 583.59 847.39 788.35 1141.44 1514.72 995.82 1121.99 1192.45 1101.41 1014.35 1049.90 847.52 1307.44 1983.03 1636.25 1733.12 1788.23 1835.91 2121.89 1459.41 1000.58 1176.02 1310.67 1072.66 1739.33 1661.52 1913.65 2566.25 1613.95 1963.46 1795.97 1550.43 1757.13 2225.26 2115.04 1736.64 1309.61 2189.23 1380.37 1443.92 
+Average distance to label alpha: 791.49
+Average distance to label beta: 1127.29
+Average distance to label gamma: 1737.50
+Average distance to label eta: 1637.16
+Average distance to label phi: 1745.29
+
+Distance from selected image 3 to others: 
+1900.40 1635.76 1251.31 1642.81 786.59 885.58 1138.31 1112.25 1221.60 1616.81 1239.42 1254.39 1175.54 680.96 1016.32 1399.97 794.17 1197.84 1568.73 1410.70 872.72 1086.58 1304.69 1568.58 1170.01 1081.57 926.05 762.20 713.88 1204.20 1081.02 1087.53 1793.78 1112.03 1290.94 1244.87 1227.09 1339.90 1341.19 1410.25 1258.84 1104.89 1846.79 1308.96 1011.34 
+Average distance to label alpha: 1286.07
+Average distance to label beta: 1152.83
+Average distance to label gamma: 1143.38
+Average distance to label eta: 1221.07
+Average distance to label phi: 1316.59
+
+Distance from selected image 4 to others: 
+2187.22 1920.38 1581.69 1807.00 1293.86 1409.59 1353.36 1515.53 1035.22 1430.25 915.18 1174.04 784.53 569.69 997.17 1204.44 1100.01 1206.30 1583.11 1233.79 907.38 1138.75 1306.79 1534.89 1158.12 854.85 1183.54 1038.62 640.91 1257.93 773.26 633.00 970.91 987.59 804.69 771.55 1031.32 1009.29 1177.96 1133.67 966.47 1032.44 1350.95 1038.48 1288.29 
+Average distance to label alpha: 1567.09
+Average distance to label beta: 1042.40
+Average distance to label gamma: 875.39
+Average distance to label eta: 1211.25
+Average distance to label phi: 1114.32
+
+Distance from selected image 5 to others: 
+2208.55 1759.56 1541.95 1664.72 1224.95 1215.63 1345.29 1625.85 606.93 1213.25 1012.71 723.74 1112.86 980.23 1018.65 1373.40 1171.74 936.84 1014.75 808.38 793.08 853.74 895.25 1024.29 803.13 814.08 892.47 728.99 773.03 877.13 1090.13 828.45 1360.65 1080.39 1036.46 857.44 638.44 899.12 1101.33 725.84 707.48 683.93 999.19 744.08 735.78 
+Average distance to label alpha: 1465.94
+Average distance to label beta: 1060.38
+Average distance to label gamma: 959.19
+Average distance to label eta: 877.69
+Average distance to label phi: 803.91
+
+Distance from selected image 6 to others: 
+2267.57 1922.04 2108.63 2247.35 1160.83 1869.93 1333.45 1629.83 845.38 1411.03 1651.11 932.96 1506.85 1805.60 1208.02 1287.32 1753.09 1021.37 859.46 1160.72 891.26 1261.81 827.34 1397.49 1143.00 1224.64 1109.12 1286.82 914.00 1185.90 793.42 708.68 455.20 722.86 570.87 780.08 1079.47 980.23 882.55 942.61 1001.20 773.12 788.19 827.45 1084.50 
+Average distance to label alpha: 1709.45
+Average distance to label beta: 1397.48
+Average distance to label gamma: 824.20
+Average distance to label eta: 1097.20
+Average distance to label phi: 928.81
+
+Distance from selected image 7 to others: 
+2031.78 1623.31 1779.29 1917.26 1064.74 1476.34 1104.11 1474.18 342.76 1313.63 1231.83 596.09 1446.31 1610.84 1102.67 1108.76 1692.73 806.22 893.70 1115.77 960.74 1160.68 1166.75 1279.56 807.09 1073.96 1093.21 1167.93 827.39 736.43 784.54 987.08 798.08 669.07 806.98 389.06 625.08 632.74 1121.06 710.82 605.16 415.33 722.95 586.16 606.98 
+Average distance to label alpha: 1423.75
+Average distance to label beta: 1212.12
+Average distance to label gamma: 796.29
+Average distance to label eta: 1061.27
+Average distance to label phi: 669.59
+
+Distance from selected image 8 to others: 
+2208.67 1935.94 1763.04 2101.01 784.39 1606.59 1320.71 1678.16 778.38 1365.21 1300.60 1006.96 1389.87 1508.31 1120.29 1120.49 1610.21 929.69 619.99 832.94 813.68 1133.33 922.19 1042.66 793.91 1135.85 815.20 1027.59 897.67 660.01 659.23 1058.75 1034.52 707.53 742.33 845.20 760.71 664.66 854.73 575.86 627.37 649.36 1242.63 697.87 475.11 
+Average distance to label alpha: 1575.21
+Average distance to label beta: 1261.29
+Average distance to label gamma: 848.09
+Average distance to label eta: 901.08
+Average distance to label phi: 727.59
+
+Distance from selected image 9 to others: 
+2768.09 1970.14 1292.81 1601.16 1225.09 1384.02 1443.98 1602.23 1436.58 2062.66 1435.33 1211.43 1473.60 1984.70 1692.12 1778.20 1658.09 1508.34 1566.91 1404.25 1420.34 1109.33 1539.75 1646.06 514.42 705.91 977.25 1267.67 1052.70 1144.05 1432.31 1343.57 1654.39 1179.37 1688.59 1214.17 1192.56 1383.98 1459.65 1282.52 1647.48 925.76 1748.20 888.69 1460.27 
+Average distance to label alpha: 1636.01
+Average distance to label beta: 1644.94
+Average distance to label gamma: 1330.76
+Average distance to label eta: 1209.36
+Average distance to label phi: 1332.12
+
+Distance from selected image 10 to others: 
+3112.81 2588.72 2209.99 2608.31 1585.01 2296.64 2065.78 2581.67 1682.83 1786.48 2120.26 1712.41 2510.33 2213.31 2533.74 2062.67 2163.41 1884.71 680.64 480.67 1374.08 1321.43 410.82 607.38 1013.24 1629.43 1634.09 1287.71 2052.52 1944.54 1310.39 1477.02 1288.88 1838.37 1259.64 1563.39 1638.08 1339.40 805.08 862.04 1091.11 1194.89 1016.34 823.51 1342.82 
+Average distance to label alpha: 2303.53
+Average distance to label beta: 2109.70
+Average distance to label gamma: 1558.05
+Average distance to label eta: 1016.87
+Average distance to label phi: 1123.70
+
+Distance from selected image 11 to others: 
+2666.02 2130.73 1786.99 2076.44 1446.68 1860.40 1655.37 2066.74 1473.89 1644.06 1625.96 1400.78 1965.86 1875.87 2169.49 1935.55 1944.94 1645.61 848.01 536.40 1258.80 1209.70 696.66 833.18 551.05 545.56 1002.58 884.00 1179.27 1036.15 1165.20 1231.12 1395.96 1117.81 1222.87 1120.11 1087.79 1067.45 844.06 820.48 1058.15 888.67 879.36 423.21 1203.09 
+Average distance to label alpha: 1907.03
+Average distance to label beta: 1800.90
+Average distance to label gamma: 1150.28
+Average distance to label eta: 831.33
+Average distance to label phi: 919.14
+
+Distance from selected image 12 to others: 
+2747.53 2091.57 2066.92 2021.06 1261.57 1766.66 1533.03 1890.78 591.85 1662.18 1496.04 811.78 1636.46 1873.57 1471.93 1545.96 2012.37 1304.96 1096.55 1047.64 957.04 812.40 1110.63 1040.88 515.50 983.01 910.85 1060.28 936.48 658.16 1122.73 1077.87 1064.77 863.93 1160.46 525.09 630.63 880.47 1068.30 642.47 483.34 412.89 579.90 513.92 452.58 
+Average distance to label alpha: 1774.55
+Average distance to label beta: 1535.03
+Average distance to label gamma: 941.09
+Average distance to label eta: 941.61
+Average distance to label phi: 629.39
+
+Distance from selected image 13 to others: 
+2880.26 2422.30 1940.73 2816.90 1089.01 1748.13 1706.61 2315.42 950.42 1304.39 1695.59 1096.10 2045.57 1478.73 1552.65 1521.47 1725.91 1154.37 402.71 662.70 897.07 1186.44 663.59 593.53 691.76 1567.51 1246.47 932.52 1374.70 1072.84 989.13 899.10 1023.24 1183.03 882.71 974.57 851.99 661.37 772.05 309.78 734.82 808.24 1269.92 828.84 845.24 
+Average distance to label alpha: 1985.53
+Average distance to label beta: 1508.31
+Average distance to label gamma: 1036.87
+Average distance to label eta: 879.08
+Average distance to label phi: 786.92
+
+Distance from selected image 14 to others: 
+2166.85 1749.53 1667.07 1874.10 975.46 1590.91 1421.81 1792.26 696.38 1535.10 1338.10 976.34 1562.35 1920.89 1415.39 1219.47 2048.32 1251.72 680.87 966.71 902.85 1095.65 863.54 974.24 641.40 982.05 862.05 1126.38 973.65 831.92 785.26 954.99 813.32 665.11 704.09 700.85 913.55 786.21 891.04 556.73 556.48 476.49 699.43 317.60 488.79 
+Average distance to label alpha: 1548.26
+Average distance to label beta: 1474.19
+Average distance to label gamma: 839.51
+Average distance to label eta: 885.48
+Average distance to label phi: 631.81
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1500.38 1297.77 1006.68 1528.54 1198.85 691.59 829.89 867.31 1618.87 1926.01 813.96 1059.99 1783.11 1483.16 1405.69 1456.54 1150.61 1338.92 1881.70 1538.78 1680.67 1813.55 2105.83 2018.12 1469.01 1027.82 1214.58 1401.87 917.99 1389.65 1575.22 1824.90 2404.49 1336.23 1833.52 1569.23 1160.81 1401.96 2309.12 1805.21 1701.05 1530.76 2289.92 1393.71 1386.41 
+Total distance to top kth label alpha: 7392.47
+Total distance to top kth label beta: 8708.87
+Total distance to top kth label gamma: 10015.09
+Total distance to top kth label eta: 10626.10
+Total distance to top kth label phi: 10379.91
+
+Distance from selected image 1 to others: 
+1289.01 1205.16 654.90 1102.62 986.74 312.53 654.75 612.85 1712.56 2403.37 816.72 1198.82 1842.56 1715.95 1685.05 1363.26 1366.88 1566.93 1871.87 1807.23 2026.19 2079.87 1975.05 2187.56 1521.09 1360.22 1516.81 1782.07 981.16 1843.09 1358.77 1936.54 2471.05 1455.28 1860.89 1723.20 1515.80 1505.80 2705.92 2095.02 2227.84 1567.81 2370.47 1264.22 1676.31 
+Total distance to top kth label alpha: 5529.55
+Total distance to top kth label beta: 9713.61
+Total distance to top kth label gamma: 11004.45
+Total distance to top kth label eta: 12078.46
+Total distance to top kth label phi: 11852.80
+
+Distance from selected image 2 to others: 
+1013.07 581.82 601.33 699.45 866.94 583.59 847.39 788.35 1141.44 1514.72 995.82 1121.99 1192.45 1101.41 1014.35 1049.90 847.52 1307.44 1983.03 1636.25 1733.12 1788.23 1835.91 2121.89 1459.41 1000.58 1176.02 1310.67 1072.66 1739.33 1661.52 1913.65 2566.25 1613.95 1963.46 1795.97 1550.43 1757.13 2225.26 2115.04 1736.64 1309.61 2189.23 1380.37 1443.92 
+Total distance to top kth label alpha: 4968.86
+Total distance to top kth label beta: 7323.43
+Total distance to top kth label gamma: 11107.77
+Total distance to top kth label eta: 10629.52
+Total distance to top kth label phi: 11293.14
+
+Distance from selected image 3 to others: 
+1900.40 1635.76 1251.31 1642.81 786.59 885.58 1138.31 1112.25 1221.60 1616.81 1239.42 1254.39 1175.54 680.96 1016.32 1399.97 794.17 1197.84 1568.73 1410.70 872.72 1086.58 1304.69 1568.58 1170.01 1081.57 926.05 762.20 713.88 1204.20 1081.02 1087.53 1793.78 1112.03 1290.94 1244.87 1227.09 1339.90 1341.19 1410.25 1258.84 1104.89 1846.79 1308.96 1011.34 
+Total distance to top kth label alpha: 8031.41
+Total distance to top kth label beta: 7358.64
+Total distance to top kth label gamma: 7205.73
+Total distance to top kth label eta: 7852.31
+Total distance to top kth label phi: 8592.22
+
+Distance from selected image 4 to others: 
+2187.22 1920.38 1581.69 1807.00 1293.86 1409.59 1353.36 1515.53 1035.22 1430.25 915.18 1174.04 784.53 569.69 997.17 1204.44 1100.01 1206.30 1583.11 1233.79 907.38 1138.75 1306.79 1534.89 1158.12 854.85 1183.54 1038.62 640.91 1257.93 773.26 633.00 970.91 987.59 804.69 771.55 1031.32 1009.29 1177.96 1133.67 966.47 1032.44 1350.95 1038.48 1288.29 
+Total distance to top kth label alpha: 9996.25
+Total distance to top kth label beta: 6745.07
+Total distance to top kth label gamma: 5581.92
+Total distance to top kth label eta: 7783.22
+Total distance to top kth label phi: 7389.63
+
+Distance from selected image 5 to others: 
+2208.55 1759.56 1541.95 1664.72 1224.95 1215.63 1345.29 1625.85 606.93 1213.25 1012.71 723.74 1112.86 980.23 1018.65 1373.40 1171.74 936.84 1014.75 808.38 793.08 853.74 895.25 1024.29 803.13 814.08 892.47 728.99 773.03 877.13 1090.13 828.45 1360.65 1080.39 1036.46 857.44 638.44 899.12 1101.33 725.84 707.48 683.93 999.19 744.08 735.78 
+Total distance to top kth label alpha: 9225.31
+Total distance to top kth label beta: 6956.76
+Total distance to top kth label gamma: 6181.90
+Total distance to top kth label eta: 5860.14
+Total distance to top kth label phi: 5134.67
+
+Distance from selected image 6 to others: 
+2267.57 1922.04 2108.63 2247.35 1160.83 1869.93 1333.45 1629.83 845.38 1411.03 1651.11 932.96 1506.85 1805.60 1208.02 1287.32 1753.09 1021.37 859.46 1160.72 891.26 1261.81 827.34 1397.49 1143.00 1224.64 1109.12 1286.82 914.00 1185.90 793.42 708.68 455.20 722.86 570.87 780.08 1079.47 980.23 882.55 942.61 1001.20 773.12 788.19 827.45 1084.50 
+Total distance to top kth label alpha: 10870.11
+Total distance to top kth label beta: 9018.66
+Total distance to top kth label gamma: 4945.12
+Total distance to top kth label eta: 7215.54
+Total distance to top kth label phi: 6195.35
+
+Distance from selected image 7 to others: 
+2031.78 1623.31 1779.29 1917.26 1064.74 1476.34 1104.11 1474.18 342.76 1313.63 1231.83 596.09 1446.31 1610.84 1102.67 1108.76 1692.73 806.22 893.70 1115.77 960.74 1160.68 1166.75 1279.56 807.09 1073.96 1093.21 1167.93 827.39 736.43 784.54 987.08 798.08 669.07 806.98 389.06 625.08 632.74 1121.06 710.82 605.16 415.33 722.95 586.16 606.98 
+Total distance to top kth label alpha: 8864.74
+Total distance to top kth label beta: 7605.51
+Total distance to top kth label gamma: 5011.56
+Total distance to top kth label eta: 7105.16
+Total distance to top kth label phi: 4182.27
+
+Distance from selected image 8 to others: 
+2208.67 1935.94 1763.04 2101.01 784.39 1606.59 1320.71 1678.16 778.38 1365.21 1300.60 1006.96 1389.87 1508.31 1120.29 1120.49 1610.21 929.69 619.99 832.94 813.68 1133.33 922.19 1042.66 793.91 1135.85 815.20 1027.59 897.67 660.01 659.23 1058.75 1034.52 707.53 742.33 845.20 760.71 664.66 854.73 575.86 627.37 649.36 1242.63 697.87 475.11 
+Total distance to top kth label alpha: 9867.20
+Total distance to top kth label beta: 8233.12
+Total distance to top kth label gamma: 5539.56
+Total distance to top kth label eta: 5840.58
+Total distance to top kth label phi: 4450.93
+
+Distance from selected image 9 to others: 
+2768.09 1970.14 1292.81 1601.16 1225.09 1384.02 1443.98 1602.23 1436.58 2062.66 1435.33 1211.43 1473.60 1984.70 1692.12 1778.20 1658.09 1508.34 1566.91 1404.25 1420.34 1109.33 1539.75 1646.06 514.42 705.91 977.25 1267.67 1052.70 1144.05 1432.31 1343.57 1654.39 1179.37 1688.59 1214.17 1192.56 1383.98 1459.65 1282.52 1647.48 925.76 1748.20 888.69 1460.27 
+Total distance to top kth label alpha: 9985.87
+Total distance to top kth label beta: 10757.09
+Total distance to top kth label gamma: 8633.84
+Total distance to top kth label eta: 7671.27
+Total distance to top kth label phi: 8593.43
+
+Distance from selected image 10 to others: 
+3112.81 2588.72 2209.99 2608.31 1585.01 2296.64 2065.78 2581.67 1682.83 1786.48 2120.26 1712.41 2510.33 2213.31 2533.74 2062.67 2163.41 1884.71 680.64 480.67 1374.08 1321.43 410.82 607.38 1013.24 1629.43 1634.09 1287.71 2052.52 1944.54 1310.39 1477.02 1288.88 1838.37 1259.64 1563.39 1638.08 1339.40 805.08 862.04 1091.11 1194.89 1016.34 823.51 1342.82 
+Total distance to top kth label alpha: 15010.63
+Total distance to top kth label beta: 13943.25
+Total distance to top kth label gamma: 10025.40
+Total distance to top kth label eta: 5888.28
+Total distance to top kth label phi: 7132.38
+
+Distance from selected image 11 to others: 
+2666.02 2130.73 1786.99 2076.44 1446.68 1860.40 1655.37 2066.74 1473.89 1644.06 1625.96 1400.78 1965.86 1875.87 2169.49 1935.55 1944.94 1645.61 848.01 536.40 1258.80 1209.70 696.66 833.18 551.05 545.56 1002.58 884.00 1179.27 1036.15 1165.20 1231.12 1395.96 1117.81 1222.87 1120.11 1087.79 1067.45 844.06 820.48 1058.15 888.67 879.36 423.21 1203.09 
+Total distance to top kth label alpha: 12366.52
+Total distance to top kth label beta: 12072.76
+Total distance to top kth label gamma: 7725.41
+Total distance to top kth label eta: 5013.43
+Total distance to top kth label phi: 5981.37
+
+Distance from selected image 12 to others: 
+2747.53 2091.57 2066.92 2021.06 1261.57 1766.66 1533.03 1890.78 591.85 1662.18 1496.04 811.78 1636.46 1873.57 1471.93 1545.96 2012.37 1304.96 1096.55 1047.64 957.04 812.40 1110.63 1040.88 515.50 983.01 910.85 1060.28 936.48 658.16 1122.73 1077.87 1064.77 863.93 1160.46 525.09 630.63 880.47 1068.30 642.47 483.34 412.89 579.90 513.92 452.58 
+Total distance to top kth label alpha: 11131.87
+Total distance to top kth label beta: 9929.30
+Total distance to top kth label gamma: 6186.58
+Total distance to top kth label eta: 6267.31
+Total distance to top kth label phi: 3715.72
+
+Distance from selected image 13 to others: 
+2880.26 2422.30 1940.73 2816.90 1089.01 1748.13 1706.61 2315.42 950.42 1304.39 1695.59 1096.10 2045.57 1478.73 1552.65 1521.47 1725.91 1154.37 402.71 662.70 897.07 1186.44 663.59 593.53 691.76 1567.51 1246.47 932.52 1374.70 1072.84 989.13 899.10 1023.24 1183.03 882.71 974.57 851.99 661.37 772.05 309.78 734.82 808.24 1269.92 828.84 845.24 
+Total distance to top kth label alpha: 12172.62
+Total distance to top kth label beta: 9803.29
+Total distance to top kth label gamma: 6774.12
+Total distance to top kth label eta: 5097.78
+Total distance to top kth label phi: 4960.34
+
+Distance from selected image 14 to others: 
+2166.85 1749.53 1667.07 1874.10 975.46 1590.91 1421.81 1792.26 696.38 1535.10 1338.10 976.34 1562.35 1920.89 1415.39 1219.47 2048.32 1251.72 680.87 966.71 902.85 1095.65 863.54 974.24 641.40 982.05 862.05 1126.38 973.65 831.92 785.26 954.99 813.32 665.11 704.09 700.85 913.55 786.21 891.04 556.73 556.48 476.49 699.43 317.60 488.79 
+Total distance to top kth label alpha: 9893.43
+Total distance to top kth label beta: 9298.47
+Total distance to top kth label gamma: 5455.52
+Total distance to top kth label eta: 5891.65
+Total distance to top kth label phi: 3881.72
+#################################################################
+
+#################################################################
+For kernel size = 3 and drop rate = 0.7
+
+Building embedding space of greek-1
+
+Batch 0:
+Input batch size: torch.Size([45, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([45, 50])
+
+Shape of the output nodes from the submodel: torch.Size([45, 50])
+Number of the labels: torch.Size([45])
+Embedding space of greek-1 built
+
+Distance from selected alpha to others: 
+0.00 673.92 1739.80 1732.77 1280.58 1143.93 1598.12 1328.81 1538.40 2716.98 2584.43 1187.17 1263.12 1761.78 1609.12 2317.01 2406.28 2467.80 1553.50 2398.20 1908.92 2512.65 1464.23 2403.50 1570.25 2079.70 1754.11 2819.13 1834.91 2466.79 1792.61 2315.88 1618.99 1984.83 2097.50 1620.29 2588.59 1624.67 1618.53 2257.59 2104.37 2116.07 1544.78 1699.87 2208.87 
+Average distance to label alpha: 1379.54
+Average distance to label beta: 2034.85
+Average distance to label gamma: 2061.21
+Average distance to label eta: 1960.56
+Average distance to label phi: 1973.70
+
+Distance from selected beta to others: 
+2716.98 2578.86 3230.14 3891.22 3345.25 2769.48 2818.74 3309.98 3488.93 0.00 3710.71 2546.54 2093.21 2425.50 3356.60 3570.29 2761.74 2731.43 3225.32 3146.23 3833.85 4234.33 2859.07 3566.15 2976.79 3638.64 3485.58 3123.52 3067.99 3447.33 2964.61 3962.35 3307.27 2977.80 3498.50 3492.19 2627.33 2054.29 2794.63 2473.79 2701.16 2898.13 3223.47 4014.12 3004.48 
+Average distance to label alpha: 3127.73
+Average distance to label beta: 2899.50
+Average distance to label gamma: 3315.73
+Average distance to label eta: 3440.66
+Average distance to label phi: 2865.71
+
+Distance from selected gamma to others: 
+2819.13 3723.93 3283.49 2449.17 1873.65 2203.76 1895.91 2443.00 2235.58 3123.52 4157.14 2366.38 2262.25 1710.19 3321.39 2978.15 3118.39 3085.13 1625.56 2217.37 2897.76 1699.62 1851.13 2327.90 2070.17 3030.43 3135.15 0.00 1333.51 1425.98 1583.95 2099.64 2613.49 1484.50 1739.43 1187.28 1477.11 1949.19 2526.19 1698.26 1720.60 3050.72 2778.83 2746.09 2117.69 
+Average distance to label alpha: 2547.51
+Average distance to label beta: 2902.50
+Average distance to label gamma: 1683.47
+Average distance to label eta: 2317.23
+Average distance to label phi: 2229.41
+
+
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1032.22 890.15 1536.11 1611.16 1189.82 1390.53 1477.55 811.56 1495.12 2547.24 1957.82 1793.48 1237.26 2389.66 1365.16 2096.83 2622.46 2939.39 1335.35 2336.52 1750.77 2373.45 1358.61 1838.16 1086.71 1868.51 1530.04 2527.28 1339.40 1976.84 1424.15 2046.04 1789.48 1493.66 1851.53 1523.79 1598.60 1064.54 1044.06 1280.71 1289.72 980.60 1146.25 1411.64 1748.08 
+Average distance to label alpha: 1270.47
+Average distance to label beta: 2105.48
+Average distance to label gamma: 1774.69
+Average distance to label eta: 1719.79
+Average distance to label phi: 1284.91
+
+Distance from selected image 1 to others: 
+1437.84 1429.89 1401.18 1336.75 1445.80 2128.90 2042.49 1136.46 2039.57 3160.63 1432.83 1349.30 1267.85 2504.13 1333.57 1780.63 2240.88 2819.67 1938.52 2486.76 1605.55 2676.97 1606.45 2298.07 1289.60 1916.22 1501.58 3153.55 2034.32 2140.28 1409.06 1798.77 1184.30 1889.61 1461.32 1859.15 2251.45 1474.70 1502.19 1891.95 1666.16 1308.88 1487.30 2184.46 2204.25 
+Average distance to label alpha: 1599.87
+Average distance to label beta: 1987.72
+Average distance to label gamma: 1881.15
+Average distance to label eta: 1924.41
+Average distance to label phi: 1774.59
+
+Distance from selected image 2 to others: 
+764.34 1242.32 1993.90 1645.56 1108.32 1290.27 1770.14 1310.59 1840.66 3050.76 2379.18 1312.58 1192.04 2308.99 1384.71 2129.95 2822.33 2605.55 1719.22 2515.11 1946.77 2314.93 1827.36 2762.98 1413.33 2290.17 2042.85 2432.59 1839.12 2109.47 1738.61 2496.41 1985.96 1851.98 2139.94 1632.18 2402.67 1168.47 2100.70 2451.12 2160.89 2475.10 2187.04 2077.44 2354.83 
+Average distance to label alpha: 1440.68
+Average distance to label beta: 2131.79
+Average distance to label gamma: 2025.14
+Average distance to label eta: 2092.53
+Average distance to label phi: 2153.14
+
+Distance from selected image 3 to others: 
+1684.22 1712.34 1444.37 1314.14 1227.82 1719.82 1560.98 1440.25 2071.10 2458.30 2059.21 1123.59 1335.23 1778.00 1438.63 2177.91 1611.70 2361.73 1364.14 1893.26 867.78 1210.68 1818.87 1380.30 636.77 2144.74 1773.55 1745.02 1216.47 1712.20 1705.27 2037.94 2061.94 1330.44 1457.32 1551.38 1123.66 1373.59 1717.52 1582.99 1430.45 1875.33 1857.84 2453.19 1590.43 
+Average distance to label alpha: 1575.00
+Average distance to label beta: 1816.03
+Average distance to label gamma: 1646.44
+Average distance to label eta: 1454.45
+Average distance to label phi: 1667.22
+
+Distance from selected image 4 to others: 
+1862.66 2034.81 1396.47 1026.04 1510.92 2095.52 2195.93 1762.69 1982.09 3605.78 1419.87 1102.26 1582.56 2166.63 1570.04 1889.23 1988.91 3218.07 1785.66 2049.37 1197.42 1584.15 1492.40 1966.11 824.09 1476.96 1730.06 2367.88 1911.47 1837.13 1549.45 1822.00 1474.98 1938.78 1304.34 1712.77 1526.45 1197.64 1976.48 2318.74 2000.04 2108.57 1975.44 2540.61 2080.79 
+Average distance to label alpha: 1763.02
+Average distance to label beta: 2060.37
+Average distance to label gamma: 1768.76
+Average distance to label eta: 1567.36
+Average distance to label phi: 1969.42
+
+Distance from selected image 5 to others: 
+1735.37 1707.50 1583.47 797.07 1255.87 2163.46 1885.93 1215.27 1605.76 3239.44 1728.62 1329.82 1165.75 2162.27 1650.97 2466.63 1727.75 2225.81 1344.67 1702.86 835.80 1605.41 1545.30 1663.54 1112.59 1947.08 1400.58 2467.03 1402.16 1430.53 1408.21 1688.68 1541.15 1177.69 1066.35 1469.25 1548.61 1311.54 1382.35 1257.99 1130.64 1056.27 1816.92 2142.68 1253.18 
+Average distance to label alpha: 1549.97
+Average distance to label beta: 1966.34
+Average distance to label gamma: 1516.78
+Average distance to label eta: 1461.98
+Average distance to label phi: 1433.35
+
+Distance from selected image 6 to others: 
+2613.16 2287.72 2065.88 2043.50 2043.71 2618.68 2588.56 2113.61 2627.02 4120.34 1758.11 1523.44 1961.71 2698.31 1212.00 1815.30 2669.59 3165.34 2779.50 3372.84 2122.29 3012.87 2681.66 2966.66 2315.24 2543.83 2355.32 3657.71 1824.36 2323.93 1645.48 936.03 1649.57 1859.36 1384.63 2719.53 2373.08 2041.56 2272.19 1916.40 2090.20 1632.12 1988.94 2515.19 1688.23 
+Average distance to label alpha: 2333.54
+Average distance to label beta: 2324.91
+Average distance to label gamma: 2000.07
+Average distance to label eta: 2683.35
+Average distance to label phi: 2057.55
+
+Distance from selected image 7 to others: 
+1987.23 1955.58 1650.63 1103.44 1078.67 1744.30 1455.22 909.81 1512.95 3413.30 2018.74 1741.48 1737.27 2421.23 1305.57 1659.43 2481.34 3089.69 1541.44 2430.11 1450.11 2161.71 1769.74 1746.10 1131.24 1861.25 1318.98 2619.64 1011.74 1099.15 643.58 1132.97 1211.95 1174.24 935.97 1410.97 1355.68 1272.98 1049.01 1158.78 1115.65 754.44 1310.51 1784.49 1668.78 
+Average distance to label alpha: 1488.65
+Average distance to label beta: 2207.56
+Average distance to label gamma: 1248.91
+Average distance to label eta: 1712.30
+Average distance to label phi: 1274.48
+
+Distance from selected image 8 to others: 
+2496.61 2947.29 2548.24 1567.47 1365.78 2057.89 1599.47 1809.59 1379.97 3841.96 3278.86 2027.47 1914.42 1932.86 2521.80 2511.53 2724.77 2286.95 1171.04 1740.00 2040.10 1662.40 1446.17 1530.06 1825.11 2078.29 1897.00 1474.11 1133.35 781.66 934.81 1417.58 1468.84 844.01 1277.17 1091.27 1425.12 2036.62 1501.65 836.80 761.17 1357.12 1656.11 2156.84 1324.63 
+Average distance to label alpha: 1974.70
+Average distance to label beta: 2560.07
+Average distance to label gamma: 1158.09
+Average distance to label eta: 1710.02
+Average distance to label phi: 1450.67
+
+Distance from selected image 9 to others: 
+1717.43 1726.60 1704.81 1400.63 1401.70 1572.35 1176.41 1629.94 1712.64 2639.01 1587.05 988.55 875.92 1288.90 1386.72 1631.59 1446.37 1577.86 1670.86 1977.86 1665.12 1708.48 1311.84 1812.98 1455.54 1991.55 1635.48 1996.15 1810.94 1554.87 872.64 1727.04 1235.50 1290.45 1534.73 1558.26 1044.40 1326.08 1730.11 1447.18 1312.79 1614.90 1755.18 2397.67 1776.67 
+Average distance to label alpha: 1560.28
+Average distance to label beta: 1491.33
+Average distance to label gamma: 1508.95
+Average distance to label eta: 1692.19
+Average distance to label phi: 1600.55
+
+Distance from selected image 10 to others: 
+1594.72 1551.13 2103.50 1656.95 1877.85 2117.61 1985.99 1810.23 2065.39 3097.35 1024.50 2010.59 1326.39 1777.63 1842.17 2942.90 1983.08 3147.40 1028.56 1053.52 1229.72 1757.66 874.47 1495.96 1126.75 620.71 933.37 3009.27 2129.79 2014.51 1982.22 2218.72 1604.76 2229.07 1824.05 2279.52 1325.54 1008.23 705.24 1560.28 1508.67 1030.37 991.05 1663.07 1413.16 
+Average distance to label alpha: 1862.60
+Average distance to label beta: 2128.00
+Average distance to label gamma: 2143.55
+Average distance to label eta: 1124.52
+Average distance to label phi: 1245.07
+
+Distance from selected image 11 to others: 
+1837.74 1915.83 2356.36 1820.26 1766.68 2179.40 2027.20 2356.72 2009.81 3057.18 1383.69 2196.26 1590.23 1785.65 2076.29 3170.33 2237.40 3095.95 822.72 824.73 1548.03 1787.01 762.22 1184.27 1510.32 417.00 834.53 2939.49 1921.32 1583.64 1789.74 1874.99 1619.56 2177.20 1604.95 2402.30 1351.17 1273.26 567.08 1280.02 1469.25 906.41 967.83 1451.36 1148.24 
+Average distance to label alpha: 2030.00
+Average distance to label beta: 2288.11
+Average distance to label gamma: 1990.35
+Average distance to label eta: 1076.76
+Average distance to label phi: 1157.18
+
+Distance from selected image 12 to others: 
+2260.92 2216.74 2306.57 1424.07 863.25 1241.79 738.19 1598.86 1229.39 3063.42 2584.37 2243.53 1418.37 1646.45 1860.17 2426.38 2047.48 2131.89 1013.73 1696.28 1612.67 1914.42 1444.84 1335.90 1619.72 1645.72 1151.15 1679.28 605.41 1053.96 1326.10 1279.64 1652.09 1018.13 1427.40 1630.39 1059.25 1590.17 866.64 200.40 394.03 722.00 1197.34 1151.93 593.75 
+Average distance to label alpha: 1542.20
+Average distance to label beta: 2158.01
+Average distance to label gamma: 1296.93
+Average distance to label eta: 1492.71
+Average distance to label phi: 863.95
+
+Distance from selected image 13 to others: 
+1869.67 1830.70 2194.16 1799.73 1579.29 2117.73 1601.47 1726.35 1676.74 2420.80 1858.94 2363.94 1273.22 1142.55 2015.61 2986.44 2325.82 2989.28 787.41 1235.36 1472.21 1095.88 1068.01 1262.55 1077.38 1336.21 1501.11 1578.61 1354.22 1377.71 1478.08 1638.30 1969.25 1499.94 1378.75 1573.39 713.80 928.90 998.15 1001.38 1160.68 1306.04 1193.77 1639.81 1080.73 
+Average distance to label alpha: 1821.76
+Average distance to label beta: 2152.95
+Average distance to label gamma: 1538.69
+Average distance to label eta: 1204.02
+Average distance to label phi: 1113.69
+
+Distance from selected image 14 to others: 
+2120.80 1803.28 2024.26 1699.45 1046.99 1663.85 1037.32 1765.24 1275.14 2804.47 1921.04 2363.73 1237.69 1507.25 1767.53 2377.89 2026.03 2312.83 1327.54 1809.75 1641.10 2362.51 1242.24 1469.36 1606.70 1534.57 601.05 2605.51 1180.09 1223.01 1237.21 1307.51 1049.96 1272.64 1400.51 1917.61 1269.01 1588.58 895.71 422.64 613.91 449.87 1034.04 1124.93 881.53 
+Average distance to label alpha: 1604.04
+Average distance to label beta: 2035.39
+Average distance to label gamma: 1466.01
+Average distance to label eta: 1510.54
+Average distance to label phi: 920.03
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1032.22 890.15 1536.11 1611.16 1189.82 1390.53 1477.55 811.56 1495.12 2547.24 1957.82 1793.48 1237.26 2389.66 1365.16 2096.83 2622.46 2939.39 1335.35 2336.52 1750.77 2373.45 1358.61 1838.16 1086.71 1868.51 1530.04 2527.28 1339.40 1976.84 1424.15 2046.04 1789.48 1493.66 1851.53 1523.79 1598.60 1064.54 1044.06 1280.71 1289.72 980.60 1146.25 1411.64 1748.08 
+Total distance to top kth label alpha: 8286.96
+Total distance to top kth label beta: 13387.46
+Total distance to top kth label gamma: 11398.85
+Total distance to top kth label eta: 10768.14
+Total distance to top kth label phi: 8217.53
+
+Distance from selected image 1 to others: 
+1437.84 1429.89 1401.18 1336.75 1445.80 2128.90 2042.49 1136.46 2039.57 3160.63 1432.83 1349.30 1267.85 2504.13 1333.57 1780.63 2240.88 2819.67 1938.52 2486.76 1605.55 2676.97 1606.45 2298.07 1289.60 1916.22 1501.58 3153.55 2034.32 2140.28 1409.06 1798.77 1184.30 1889.61 1461.32 1859.15 2251.45 1474.70 1502.19 1891.95 1666.16 1308.88 1487.30 2184.46 2204.25 
+Total distance to top kth label alpha: 10227.49
+Total distance to top kth label beta: 11909.18
+Total distance to top kth label gamma: 11636.53
+Total distance to top kth label eta: 12155.99
+Total distance to top kth label phi: 11515.63
+
+Distance from selected image 2 to others: 
+764.34 1242.32 1993.90 1645.56 1108.32 1290.27 1770.14 1310.59 1840.66 3050.76 2379.18 1312.58 1192.04 2308.99 1384.71 2129.95 2822.33 2605.55 1719.22 2515.11 1946.77 2314.93 1827.36 2762.98 1413.33 2290.17 2042.85 2432.59 1839.12 2109.47 1738.61 2496.41 1985.96 1851.98 2139.94 1632.18 2402.67 1168.47 2100.70 2451.12 2160.89 2475.10 2187.04 2077.44 2354.83 
+Total distance to top kth label alpha: 9131.54
+Total distance to top kth label beta: 13313.02
+Total distance to top kth label gamma: 13297.26
+Total distance to top kth label eta: 13554.64
+Total distance to top kth label phi: 14452.05
+
+Distance from selected image 3 to others: 
+1684.22 1712.34 1444.37 1314.14 1227.82 1719.82 1560.98 1440.25 2071.10 2458.30 2059.21 1123.59 1335.23 1778.00 1438.63 2177.91 1611.70 2361.73 1364.14 1893.26 867.78 1210.68 1818.87 1380.30 636.77 2144.74 1773.55 1745.02 1216.47 1712.20 1705.27 2037.94 2061.94 1330.44 1457.32 1551.38 1123.66 1373.59 1717.52 1582.99 1430.45 1875.33 1857.84 2453.19 1590.43 
+Total distance to top kth label alpha: 10384.10
+Total distance to top kth label beta: 11524.27
+Total distance to top kth label gamma: 10718.10
+Total distance to top kth label eta: 9052.09
+Total distance to top kth label phi: 10676.48
+
+Distance from selected image 4 to others: 
+1862.66 2034.81 1396.47 1026.04 1510.92 2095.52 2195.93 1762.69 1982.09 3605.78 1419.87 1102.26 1582.56 2166.63 1570.04 1889.23 1988.91 3218.07 1785.66 2049.37 1197.42 1584.15 1492.40 1966.11 824.09 1476.96 1730.06 2367.88 1911.47 1837.13 1549.45 1822.00 1474.98 1938.78 1304.34 1712.77 1526.45 1197.64 1976.48 2318.74 2000.04 2108.57 1975.44 2540.61 2080.79 
+Total distance to top kth label alpha: 11575.69
+Total distance to top kth label beta: 11719.49
+Total distance to top kth label gamma: 11612.14
+Total distance to top kth label eta: 10090.74
+Total distance to top kth label phi: 12865.42
+
+Distance from selected image 5 to others: 
+1735.37 1707.50 1583.47 797.07 1255.87 2163.46 1885.93 1215.27 1605.76 3239.44 1728.62 1329.82 1165.75 2162.27 1650.97 2466.63 1727.75 2225.81 1344.67 1702.86 835.80 1605.41 1545.30 1663.54 1112.59 1947.08 1400.58 2467.03 1402.16 1430.53 1408.21 1688.68 1541.15 1177.69 1066.35 1469.25 1548.61 1311.54 1382.35 1257.99 1130.64 1056.27 1816.92 2142.68 1253.18 
+Total distance to top kth label alpha: 9900.31
+Total distance to top kth label beta: 11990.98
+Total distance to top kth label gamma: 9495.35
+Total distance to top kth label eta: 9507.88
+Total distance to top kth label phi: 8940.58
+
+Distance from selected image 6 to others: 
+2613.16 2287.72 2065.88 2043.50 2043.71 2618.68 2588.56 2113.61 2627.02 4120.34 1758.11 1523.44 1961.71 2698.31 1212.00 1815.30 2669.59 3165.34 2779.50 3372.84 2122.29 3012.87 2681.66 2966.66 2315.24 2543.83 2355.32 3657.71 1824.36 2323.93 1645.48 936.03 1649.57 1859.36 1384.63 2719.53 2373.08 2041.56 2272.19 1916.40 2090.20 1632.12 1988.94 2515.19 1688.23 
+Total distance to top kth label alpha: 15756.12
+Total distance to top kth label beta: 13638.48
+Total distance to top kth label gamma: 11623.36
+Total distance to top kth label eta: 17764.48
+Total distance to top kth label phi: 13629.64
+
+Distance from selected image 7 to others: 
+1987.23 1955.58 1650.63 1103.44 1078.67 1744.30 1455.22 909.81 1512.95 3413.30 2018.74 1741.48 1737.27 2421.23 1305.57 1659.43 2481.34 3089.69 1541.44 2430.11 1450.11 2161.71 1769.74 1746.10 1131.24 1861.25 1318.98 2619.64 1011.74 1099.15 643.58 1132.97 1211.95 1174.24 935.97 1410.97 1355.68 1272.98 1049.01 1158.78 1115.65 754.44 1310.51 1784.49 1668.78 
+Total distance to top kth label alpha: 9455.02
+Total distance to top kth label beta: 13365.07
+Total distance to top kth label gamma: 7209.60
+Total distance to top kth label eta: 10818.86
+Total distance to top kth label phi: 8017.05
+
+Distance from selected image 8 to others: 
+2496.61 2947.29 2548.24 1567.47 1365.78 2057.89 1599.47 1809.59 1379.97 3841.96 3278.86 2027.47 1914.42 1932.86 2521.80 2511.53 2724.77 2286.95 1171.04 1740.00 2040.10 1662.40 1446.17 1530.06 1825.11 2078.29 1897.00 1474.11 1133.35 781.66 934.81 1417.58 1468.84 844.01 1277.17 1091.27 1425.12 2036.62 1501.65 836.80 761.17 1357.12 1656.11 2156.84 1324.63 
+Total distance to top kth label alpha: 12276.79
+Total distance to top kth label beta: 15919.80
+Total distance to top kth label gamma: 7479.85
+Total distance to top kth label eta: 11271.78
+Total distance to top kth label phi: 8862.60
+
+Distance from selected image 9 to others: 
+1717.43 1726.60 1704.81 1400.63 1401.70 1572.35 1176.41 1629.94 1712.64 2639.01 1587.05 988.55 875.92 1288.90 1386.72 1631.59 1446.37 1577.86 1670.86 1977.86 1665.12 1708.48 1311.84 1812.98 1455.54 1991.55 1635.48 1996.15 1810.94 1554.87 872.64 1727.04 1235.50 1290.45 1534.73 1558.26 1044.40 1326.08 1730.11 1447.18 1312.79 1614.90 1755.18 2397.67 1776.67 
+Total distance to top kth label alpha: 10598.49
+Total distance to top kth label beta: 9151.37
+Total distance to top kth label gamma: 9773.48
+Total distance to top kth label eta: 11260.30
+Total distance to top kth label phi: 10230.64
+
+Distance from selected image 10 to others: 
+1594.72 1551.13 2103.50 1656.95 1877.85 2117.61 1985.99 1810.23 2065.39 3097.35 1024.50 2010.59 1326.39 1777.63 1842.17 2942.90 1983.08 3147.40 1028.56 1053.52 1229.72 1757.66 874.47 1495.96 1126.75 620.71 933.37 3009.27 2129.79 2014.51 1982.22 2218.72 1604.76 2229.07 1824.05 2279.52 1325.54 1008.23 705.24 1560.28 1508.67 1030.37 991.05 1663.07 1413.16 
+Total distance to top kth label alpha: 12542.26
+Total distance to top kth label beta: 12907.25
+Total distance to top kth label gamma: 14003.12
+Total distance to top kth label eta: 6867.10
+Total distance to top kth label phi: 7982.26
+
+Distance from selected image 11 to others: 
+1837.74 1915.83 2356.36 1820.26 1766.68 2179.40 2027.20 2356.72 2009.81 3057.18 1383.69 2196.26 1590.23 1785.65 2076.29 3170.33 2237.40 3095.95 822.72 824.73 1548.03 1787.01 762.22 1184.27 1510.32 417.00 834.53 2939.49 1921.32 1583.64 1789.74 1874.99 1619.56 2177.20 1604.95 2402.30 1351.17 1273.26 567.08 1280.02 1469.25 906.41 967.83 1451.36 1148.24 
+Total distance to top kth label alpha: 13556.92
+Total distance to top kth label beta: 14326.69
+Total distance to top kth label gamma: 12571.40
+Total distance to top kth label eta: 6355.79
+Total distance to top kth label phi: 7494.03
+
+Distance from selected image 12 to others: 
+2260.92 2216.74 2306.57 1424.07 863.25 1241.79 738.19 1598.86 1229.39 3063.42 2584.37 2243.53 1418.37 1646.45 1860.17 2426.38 2047.48 2131.89 1013.73 1696.28 1612.67 1914.42 1444.84 1335.90 1619.72 1645.72 1151.15 1679.28 605.41 1053.96 1326.10 1279.64 1652.09 1018.13 1427.40 1630.39 1059.25 1590.17 866.64 200.40 394.03 722.00 1197.34 1151.93 593.75 
+Total distance to top kth label alpha: 9312.27
+Total distance to top kth label beta: 13774.27
+Total distance to top kth label gamma: 8341.03
+Total distance to top kth label eta: 9823.73
+Total distance to top kth label phi: 4988.00
+
+Distance from selected image 13 to others: 
+1869.67 1830.70 2194.16 1799.73 1579.29 2117.73 1601.47 1726.35 1676.74 2420.80 1858.94 2363.94 1273.22 1142.55 2015.61 2986.44 2325.82 2989.28 787.41 1235.36 1472.21 1095.88 1068.01 1262.55 1077.38 1336.21 1501.11 1578.61 1354.22 1377.71 1478.08 1638.30 1969.25 1499.94 1378.75 1573.39 713.80 928.90 998.15 1001.38 1160.68 1306.04 1193.77 1639.81 1080.73 
+Total distance to top kth label alpha: 12083.94
+Total distance to top kth label beta: 13400.87
+Total distance to top kth label gamma: 10240.70
+Total distance to top kth label eta: 7862.82
+Total distance to top kth label phi: 7077.40
+
+Distance from selected image 14 to others: 
+2120.80 1803.28 2024.26 1699.45 1046.99 1663.85 1037.32 1765.24 1275.14 2804.47 1921.04 2363.73 1237.69 1507.25 1767.53 2377.89 2026.03 2312.83 1327.54 1809.75 1641.10 2362.51 1242.24 1469.36 1606.70 1534.57 601.05 2605.51 1180.09 1223.01 1237.21 1307.51 1049.96 1272.64 1400.51 1917.61 1269.01 1588.58 895.71 422.64 613.91 449.87 1034.04 1124.93 881.53 
+Total distance to top kth label alpha: 10291.26
+Total distance to top kth label beta: 13136.11
+Total distance to top kth label gamma: 8670.93
+Total distance to top kth label eta: 9422.57
+Total distance to top kth label phi: 5422.63
+#################################################################
+
+#################################################################
+For kernel size = 5 and drop rate = 0.3
+
+Building embedding space of greek-1
+
+Batch 0:
+Input batch size: torch.Size([45, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([45, 50])
+
+Shape of the output nodes from the submodel: torch.Size([45, 50])
+Number of the labels: torch.Size([45])
+Embedding space of greek-1 built
+
+Distance from selected alpha to others: 
+0.00 498.30 512.50 1260.95 1412.97 1040.47 770.11 674.52 829.60 1397.46 1915.58 1260.15 1225.25 1657.80 2438.34 1304.28 1302.46 900.07 2666.97 2116.11 2629.22 2195.77 2364.95 2708.44 2544.12 2509.19 1736.12 2314.85 776.55 1090.78 2014.85 1323.72 2129.10 1583.42 2254.19 1443.73 893.81 1334.00 2541.93 1992.75 2258.05 2131.00 1362.54 956.30 2007.38 
+Average distance to label alpha: 874.93
+Average distance to label beta: 1489.04
+Average distance to label gamma: 1659.02
+Average distance to label eta: 2385.65
+Average distance to label phi: 1719.75
+
+Distance from selected beta to others: 
+1397.46 1892.63 1205.21 1651.42 1473.53 1316.33 1399.89 1086.01 1554.23 0.00 1677.84 1374.99 1745.20 987.37 2034.31 1210.56 1467.93 1280.51 1660.10 1526.02 1532.13 1741.74 1956.31 1965.16 1729.96 1899.11 1305.01 1753.76 1602.49 1723.63 1942.70 1661.26 1798.14 1635.85 1847.51 1435.74 1221.65 1538.66 1652.71 1361.61 1648.51 2076.02 1444.08 1263.30 1492.52 
+Average distance to label alpha: 1441.86
+Average distance to label beta: 1472.34
+Average distance to label gamma: 1711.23
+Average distance to label eta: 1701.73
+Average distance to label phi: 1522.12
+
+Distance from selected gamma to others: 
+2314.85 2653.75 1817.01 2350.89 1859.63 1694.36 2176.93 1553.36 1766.75 1753.76 1524.37 1477.02 1617.86 1653.60 1464.56 1416.62 2266.09 2488.14 1906.32 1274.56 1135.23 791.67 1535.41 1381.11 1205.92 1518.50 1267.59 0.00 1597.56 1223.35 1540.35 1513.16 1690.13 1214.40 1186.39 1052.54 1201.65 1616.78 1808.93 1247.37 1307.66 1635.84 2020.19 1683.19 1155.59 
+Average distance to label alpha: 2020.84
+Average distance to label beta: 1740.23
+Average distance to label gamma: 1377.24
+Average distance to label eta: 1335.15
+Average distance to label phi: 1519.69
+
+
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1172.11 974.80 729.37 1030.48 763.99 443.73 845.07 533.96 746.80 1351.16 1432.12 1121.94 1171.66 1511.37 1056.07 826.11 1176.64 1532.26 1852.04 1052.94 1194.81 840.65 1316.06 1565.31 1323.36 1180.75 905.56 1338.06 995.31 556.10 1215.24 1119.71 1577.92 892.57 1429.54 897.24 946.18 1180.59 1834.94 1075.94 1213.92 1282.13 1210.65 633.51 1194.72 
+Average distance to label alpha: 804.48
+Average distance to label beta: 1242.15
+Average distance to label gamma: 1113.52
+Average distance to label eta: 1247.94
+Average distance to label phi: 1174.73
+
+Distance from selected image 1 to others: 
+1594.66 1405.85 977.52 1070.12 602.48 991.70 1037.60 901.34 1122.15 1613.10 1981.15 1134.32 1575.88 2130.65 1555.38 952.94 1683.85 2142.53 2538.75 1699.25 1704.73 1748.59 2028.86 2194.06 2071.66 1884.57 1683.18 2116.94 1464.49 997.65 1476.85 1248.48 1765.91 1325.95 1651.62 1377.97 1397.52 1968.97 1904.09 1317.44 1429.51 1411.93 1426.03 845.18 1561.27 
+Average distance to label alpha: 1078.16
+Average distance to label beta: 1641.09
+Average distance to label gamma: 1491.76
+Average distance to label eta: 1950.41
+Average distance to label phi: 1473.55
+
+Distance from selected image 2 to others: 
+911.68 753.90 755.35 882.33 1244.52 772.22 930.03 665.78 688.24 1522.10 1332.23 1057.59 960.57 1152.92 1611.98 898.92 1103.03 1105.92 2253.02 1451.80 1917.41 1423.69 1670.18 1976.37 1771.58 1415.17 1033.32 2094.18 989.01 722.45 1761.87 1470.95 1950.55 1530.62 2007.94 1510.45 854.83 1441.76 2218.62 1483.04 1636.15 1663.30 1340.24 664.68 1855.47 
+Average distance to label alpha: 844.89
+Average distance to label beta: 1193.92
+Average distance to label gamma: 1559.78
+Average distance to label eta: 1656.95
+Average distance to label phi: 1462.01
+
+Distance from selected image 3 to others: 
+1734.12 2052.68 1521.74 1813.09 1778.11 1202.01 1763.37 1105.62 1798.31 1808.65 1131.38 1266.45 981.50 1136.53 1269.38 1195.25 1194.26 1724.05 2189.73 1370.77 1388.63 1035.00 1637.21 1675.58 1708.10 1534.11 1099.56 999.03 1615.35 1295.26 2007.06 1871.98 1813.06 1681.18 1802.82 1573.55 928.58 1742.53 2546.42 1860.50 1706.51 2254.18 1902.46 1610.91 1587.17 
+Average distance to label alpha: 1641.01
+Average distance to label beta: 1300.83
+Average distance to label gamma: 1628.81
+Average distance to label eta: 1515.41
+Average distance to label phi: 1793.25
+
+Distance from selected image 4 to others: 
+1099.79 1306.36 815.63 858.14 1445.27 931.49 1131.11 916.52 1035.02 1606.47 1316.75 901.88 554.39 1416.59 1165.94 645.74 760.23 1878.09 2014.44 1254.51 1573.87 1317.32 1702.07 1948.94 1888.26 1797.90 1198.18 1539.54 1405.69 974.37 1402.59 810.94 1086.91 1481.87 1482.48 1120.76 752.86 1327.92 1620.44 1498.60 1228.46 1287.80 985.56 1154.88 936.21 
+Average distance to label alpha: 1059.93
+Average distance to label beta: 1138.45
+Average distance to label gamma: 1256.13
+Average distance to label eta: 1632.83
+Average distance to label phi: 1199.19
+
+Distance from selected image 5 to others: 
+1684.35 1940.47 1094.37 1531.69 1172.94 1176.26 1527.15 920.10 1618.94 1546.07 1143.40 1300.16 1165.88 1272.32 882.22 1092.73 1488.62 1767.28 2289.03 1236.72 930.20 1136.90 1646.80 1778.93 1704.76 1476.71 1160.63 1151.54 1563.53 882.75 1656.63 1481.63 1785.69 1415.74 1577.30 1439.10 1075.64 2028.65 2249.51 1568.77 1480.66 1920.76 1542.48 1304.16 1467.83 
+Average distance to label alpha: 1407.36
+Average distance to label beta: 1295.41
+Average distance to label gamma: 1439.32
+Average distance to label eta: 1484.52
+Average distance to label phi: 1626.50
+
+Distance from selected image 6 to others: 
+1804.64 2114.92 1451.49 867.78 1444.86 1300.56 1265.35 1421.91 1098.33 1674.66 1753.30 616.43 1260.20 2079.87 2077.80 798.36 1337.37 2185.00 1743.55 1441.61 1836.35 1172.77 1605.47 1918.86 1705.18 1671.12 1472.41 1454.81 1524.96 1454.50 1207.35 664.59 499.29 1303.52 1103.23 1042.05 1161.09 1572.79 1061.22 1104.45 868.35 1159.03 1244.30 1437.48 769.28 
+Average distance to label alpha: 1418.87
+Average distance to label beta: 1531.44
+Average distance to label gamma: 1139.37
+Average distance to label eta: 1618.59
+Average distance to label phi: 1153.11
+
+Distance from selected image 7 to others: 
+1560.72 1692.17 1277.14 911.98 1214.27 1306.57 1102.02 1406.61 994.23 1713.77 2143.30 996.17 1829.70 2614.54 2532.84 1219.49 1863.82 2554.68 1350.68 1354.61 2042.54 1262.76 1161.95 1639.50 1477.18 1834.73 1482.90 1782.71 905.04 1177.36 478.78 434.69 720.54 713.30 639.64 414.34 1500.10 1076.71 679.78 887.72 693.71 617.05 822.53 934.50 539.63 
+Average distance to label alpha: 1273.97
+Average distance to label beta: 1940.92
+Average distance to label gamma: 807.38
+Average distance to label eta: 1511.87
+Average distance to label phi: 861.30
+
+Distance from selected image 8 to others: 
+940.38 960.90 428.37 806.27 794.13 718.43 813.55 741.28 504.46 1291.49 1288.45 879.23 1055.39 1384.86 1254.55 690.89 1523.08 1373.54 1357.84 898.29 1068.78 838.90 829.16 1388.32 1073.09 1119.10 736.95 1093.26 598.73 330.68 803.22 493.51 1136.55 676.77 901.91 537.79 784.55 1015.26 1210.69 774.56 920.04 759.58 723.56 628.64 924.36 
+Average distance to label alpha: 745.31
+Average distance to label beta: 1193.50
+Average distance to label gamma: 730.27
+Average distance to label eta: 1034.49
+Average distance to label phi: 860.14
+
+Distance from selected image 9 to others: 
+3269.41 3315.25 2447.66 1996.15 1841.64 1803.16 2431.51 2046.67 2151.09 1773.29 1964.16 1621.62 2721.90 2070.94 2318.88 1622.70 2366.98 2760.85 1272.61 1211.44 1381.88 791.76 1012.37 1179.24 810.07 1260.78 1116.05 1475.80 2044.84 2028.73 1387.59 2004.71 1867.35 1384.09 1381.29 1441.06 2013.10 1880.08 1929.38 1202.41 1017.93 1589.47 1897.99 1461.69 1281.61 
+Average distance to label alpha: 2366.95
+Average distance to label beta: 2135.70
+Average distance to label gamma: 1668.38
+Average distance to label eta: 1115.13
+Average distance to label phi: 1585.96
+
+Distance from selected image 10 to others: 
+2061.12 2124.15 1611.91 1200.18 1484.82 1420.56 1552.37 1760.25 1282.10 1795.44 1883.80 1154.11 2078.99 2023.64 2526.97 1546.29 2156.58 2241.93 513.84 913.99 1545.61 679.26 187.04 708.87 548.04 954.48 718.08 1521.91 915.17 1401.20 832.40 1091.32 1124.63 840.94 900.04 660.27 1638.51 1052.43 1139.49 875.54 653.10 858.00 1018.54 1023.64 849.56 
+Average distance to label alpha: 1610.83
+Average distance to label beta: 1934.19
+Average distance to label gamma: 1031.99
+Average distance to label eta: 752.13
+Average distance to label phi: 1012.09
+
+Distance from selected image 11 to others: 
+2823.86 2575.63 2152.38 1386.24 2024.26 1606.20 2052.54 2232.00 1495.17 1859.84 2247.26 1475.61 2268.19 2068.65 2762.04 1729.54 2380.68 2570.50 637.41 797.48 1531.62 677.58 494.59 797.85 374.09 656.50 674.68 1717.29 1537.56 1628.08 1304.41 1530.54 1558.32 1250.85 1345.35 1260.17 1829.34 1200.39 1354.33 922.99 1046.36 1192.61 1223.88 1337.04 1136.86 
+Average distance to label alpha: 2038.70
+Average distance to label beta: 2151.37
+Average distance to label gamma: 1459.17
+Average distance to label eta: 737.98
+Average distance to label phi: 1249.31
+
+Distance from selected image 12 to others: 
+1265.19 1544.75 1264.16 856.61 1086.95 1190.49 1064.97 1234.16 798.64 1548.11 1541.13 653.27 1513.22 1660.64 2326.44 1370.40 1566.80 2010.37 943.35 1051.19 1727.44 1138.30 838.78 988.88 1250.68 1174.13 942.26 1567.50 598.34 1108.49 843.71 731.87 881.20 726.04 930.76 577.36 971.50 611.16 949.70 554.95 515.86 677.64 592.00 335.51 666.75 
+Average distance to label alpha: 1145.10
+Average distance to label beta: 1576.71
+Average distance to label gamma: 885.03
+Average distance to label eta: 1117.22
+Average distance to label phi: 652.79
+
+Distance from selected image 13 to others: 
+2060.97 2323.87 1696.94 1338.73 1462.69 1467.65 1554.74 1731.12 1412.02 1519.72 1576.85 841.92 1714.19 1620.47 2566.16 1297.97 1940.23 2267.54 676.75 984.63 1493.46 711.61 761.57 940.67 823.57 1123.33 940.33 1064.83 1124.49 1557.09 988.22 982.86 754.85 970.28 829.03 801.19 1246.28 905.43 922.79 735.86 692.88 1200.03 1018.72 1308.92 552.55 
+Average distance to label alpha: 1672.08
+Average distance to label beta: 1705.00
+Average distance to label gamma: 1008.09
+Average distance to label eta: 939.55
+Average distance to label phi: 953.72
+
+Distance from selected image 14 to others: 
+1842.80 1755.76 1468.39 967.19 1011.79 1361.39 1430.39 1629.31 653.72 1747.16 1970.02 823.25 1779.20 2158.76 2220.43 920.78 2223.26 2135.55 1441.96 1237.79 1909.17 1096.06 747.95 1238.34 1173.68 1484.80 1115.79 1453.59 988.51 1152.15 1114.23 803.04 950.75 899.08 947.75 751.43 1144.37 1197.53 1091.91 532.45 805.71 443.06 1054.51 676.34 793.21 
+Average distance to label alpha: 1346.75
+Average distance to label beta: 1775.38
+Average distance to label gamma: 1006.73
+Average distance to label eta: 1271.73
+Average distance to label phi: 859.90
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1172.11 974.80 729.37 1030.48 763.99 443.73 845.07 533.96 746.80 1351.16 1432.12 1121.94 1171.66 1511.37 1056.07 826.11 1176.64 1532.26 1852.04 1052.94 1194.81 840.65 1316.06 1565.31 1323.36 1180.75 905.56 1338.06 995.31 556.10 1215.24 1119.71 1577.92 892.57 1429.54 897.24 946.18 1180.59 1834.94 1075.94 1213.92 1282.13 1210.65 633.51 1194.72 
+Total distance to top kth label alpha: 5037.72
+Total distance to top kth label beta: 8135.70
+Total distance to top kth label gamma: 7014.24
+Total distance to top kth label eta: 7814.13
+Total distance to top kth label phi: 7455.50
+
+Distance from selected image 1 to others: 
+1594.66 1405.85 977.52 1070.12 602.48 991.70 1037.60 901.34 1122.15 1613.10 1981.15 1134.32 1575.88 2130.65 1555.38 952.94 1683.85 2142.53 2538.75 1699.25 1704.73 1748.59 2028.86 2194.06 2071.66 1884.57 1683.18 2116.94 1464.49 997.65 1476.85 1248.48 1765.91 1325.95 1651.62 1377.97 1397.52 1968.97 1904.09 1317.44 1429.51 1411.93 1426.03 845.18 1561.27 
+Total distance to top kth label alpha: 6702.92
+Total distance to top kth label beta: 10496.62
+Total distance to top kth label gamma: 9543.02
+Total distance to top kth label eta: 12820.85
+Total distance to top kth label phi: 9388.88
+
+Distance from selected image 2 to others: 
+911.68 753.90 755.35 882.33 1244.52 772.22 930.03 665.78 688.24 1522.10 1332.23 1057.59 960.57 1152.92 1611.98 898.92 1103.03 1105.92 2253.02 1451.80 1917.41 1423.69 1670.18 1976.37 1771.58 1415.17 1033.32 2094.18 989.01 722.45 1761.87 1470.95 1950.55 1530.62 2007.94 1510.45 854.83 1441.76 2218.62 1483.04 1636.15 1663.30 1340.24 664.68 1855.47 
+Total distance to top kth label alpha: 5429.49
+Total distance to top kth label beta: 7611.19
+Total distance to top kth label gamma: 9935.91
+Total distance to top kth label eta: 10683.15
+Total distance to top kth label phi: 9083.98
+
+Distance from selected image 3 to others: 
+1734.12 2052.68 1521.74 1813.09 1778.11 1202.01 1763.37 1105.62 1798.31 1808.65 1131.38 1266.45 981.50 1136.53 1269.38 1195.25 1194.26 1724.05 2189.73 1370.77 1388.63 1035.00 1637.21 1675.58 1708.10 1534.11 1099.56 999.03 1615.35 1295.26 2007.06 1871.98 1813.06 1681.18 1802.82 1573.55 928.58 1742.53 2546.42 1860.50 1706.51 2254.18 1902.46 1610.91 1587.17 
+Total distance to top kth label alpha: 10903.28
+Total distance to top kth label beta: 8174.75
+Total distance to top kth label gamma: 10780.25
+Total distance to top kth label eta: 9740.85
+Total distance to top kth label phi: 11338.66
+
+Distance from selected image 4 to others: 
+1099.79 1306.36 815.63 858.14 1445.27 931.49 1131.11 916.52 1035.02 1606.47 1316.75 901.88 554.39 1416.59 1165.94 645.74 760.23 1878.09 2014.44 1254.51 1573.87 1317.32 1702.07 1948.94 1888.26 1797.90 1198.18 1539.54 1405.69 974.37 1402.59 810.94 1086.91 1481.87 1482.48 1120.76 752.86 1327.92 1620.44 1498.60 1228.46 1287.80 985.56 1154.88 936.21 
+Total distance to top kth label alpha: 6787.70
+Total distance to top kth label beta: 6761.53
+Total distance to top kth label gamma: 8283.12
+Total distance to top kth label eta: 10732.12
+Total distance to top kth label phi: 7673.69
+
+Distance from selected image 5 to others: 
+1684.35 1940.47 1094.37 1531.69 1172.94 1176.26 1527.15 920.10 1618.94 1546.07 1143.40 1300.16 1165.88 1272.32 882.22 1092.73 1488.62 1767.28 2289.03 1236.72 930.20 1136.90 1646.80 1778.93 1704.76 1476.71 1160.63 1151.54 1563.53 882.75 1656.63 1481.63 1785.69 1415.74 1577.30 1439.10 1075.64 2028.65 2249.51 1568.77 1480.66 1920.76 1542.48 1304.16 1467.83 
+Total distance to top kth label alpha: 9041.45
+Total distance to top kth label beta: 8345.31
+Total distance to top kth label gamma: 9511.59
+Total distance to top kth label eta: 9292.73
+Total distance to top kth label phi: 10360.31
+
+Distance from selected image 6 to others: 
+1804.64 2114.92 1451.49 867.78 1444.86 1300.56 1265.35 1421.91 1098.33 1674.66 1753.30 616.43 1260.20 2079.87 2077.80 798.36 1337.37 2185.00 1743.55 1441.61 1836.35 1172.77 1605.47 1918.86 1705.18 1671.12 1472.41 1454.81 1524.96 1454.50 1207.35 664.59 499.29 1303.52 1103.23 1042.05 1161.09 1572.79 1061.22 1104.45 868.35 1159.03 1244.30 1437.48 769.28 
+Total distance to top kth label alpha: 8850.28
+Total distance to top kth label beta: 9518.13
+Total distance to top kth label gamma: 7274.52
+Total distance to top kth label eta: 10812.11
+Total distance to top kth label phi: 7367.72
+
+Distance from selected image 7 to others: 
+1560.72 1692.17 1277.14 911.98 1214.27 1306.57 1102.02 1406.61 994.23 1713.77 2143.30 996.17 1829.70 2614.54 2532.84 1219.49 1863.82 2554.68 1350.68 1354.61 2042.54 1262.76 1161.95 1639.50 1477.18 1834.73 1482.90 1782.71 905.04 1177.36 478.78 434.69 720.54 713.30 639.64 414.34 1500.10 1076.71 679.78 887.72 693.71 617.05 822.53 934.50 539.63 
+Total distance to top kth label alpha: 8212.82
+Total distance to top kth label beta: 12299.09
+Total distance to top kth label gamma: 4306.32
+Total distance to top kth label eta: 9729.56
+Total distance to top kth label phi: 5174.92
+
+Distance from selected image 8 to others: 
+940.38 960.90 428.37 806.27 794.13 718.43 813.55 741.28 504.46 1291.49 1288.45 879.23 1055.39 1384.86 1254.55 690.89 1523.08 1373.54 1357.84 898.29 1068.78 838.90 829.16 1388.32 1073.09 1119.10 736.95 1093.26 598.73 330.68 803.22 493.51 1136.55 676.77 901.91 537.79 784.55 1015.26 1210.69 774.56 920.04 759.58 723.56 628.64 924.36 
+Total distance to top kth label alpha: 4806.50
+Total distance to top kth label beta: 7833.53
+Total distance to top kth label gamma: 4342.61
+Total distance to top kth label eta: 6564.27
+Total distance to top kth label phi: 5515.28
+
+Distance from selected image 9 to others: 
+3269.41 3315.25 2447.66 1996.15 1841.64 1803.16 2431.51 2046.67 2151.09 1773.29 1964.16 1621.62 2721.90 2070.94 2318.88 1622.70 2366.98 2760.85 1272.61 1211.44 1381.88 791.76 1012.37 1179.24 810.07 1260.78 1116.05 1475.80 2044.84 2028.73 1387.59 2004.71 1867.35 1384.09 1381.29 1441.06 2013.10 1880.08 1929.38 1202.41 1017.93 1589.47 1897.99 1461.69 1281.61 
+Total distance to top kth label alpha: 14717.89
+Total distance to top kth label beta: 13738.57
+Total distance to top kth label gamma: 10941.88
+Total distance to top kth label eta: 7381.71
+Total distance to top kth label phi: 10331.18
+
+Distance from selected image 10 to others: 
+2061.12 2124.15 1611.91 1200.18 1484.82 1420.56 1552.37 1760.25 1282.10 1795.44 1883.80 1154.11 2078.99 2023.64 2526.97 1546.29 2156.58 2241.93 513.84 913.99 1545.61 679.26 187.04 708.87 548.04 954.48 718.08 1521.91 915.17 1401.20 832.40 1091.32 1124.63 840.94 900.04 660.27 1638.51 1052.43 1139.49 875.54 653.10 858.00 1018.54 1023.64 849.56 
+Total distance to top kth label alpha: 10312.19
+Total distance to top kth label beta: 12638.85
+Total distance to top kth label gamma: 6364.76
+Total distance to top kth label eta: 4269.11
+Total distance to top kth label phi: 6330.82
+
+Distance from selected image 11 to others: 
+2823.86 2575.63 2152.38 1386.24 2024.26 1606.20 2052.54 2232.00 1495.17 1859.84 2247.26 1475.61 2268.19 2068.65 2762.04 1729.54 2380.68 2570.50 637.41 797.48 1531.62 677.58 494.59 797.85 374.09 656.50 674.68 1717.29 1537.56 1628.08 1304.41 1530.54 1558.32 1250.85 1345.35 1260.17 1829.34 1200.39 1354.33 922.99 1046.36 1192.61 1223.88 1337.04 1136.86 
+Total distance to top kth label alpha: 12948.78
+Total distance to top kth label beta: 14029.78
+Total distance to top kth label gamma: 9787.19
+Total distance to top kth label eta: 4312.33
+Total distance to top kth label phi: 8060.13
+
+Distance from selected image 12 to others: 
+1265.19 1544.75 1264.16 856.61 1086.95 1190.49 1064.97 1234.16 798.64 1548.11 1541.13 653.27 1513.22 1660.64 2326.44 1370.40 1566.80 2010.37 943.35 1051.19 1727.44 1138.30 838.78 988.88 1250.68 1174.13 942.26 1567.50 598.34 1108.49 843.71 731.87 881.20 726.04 930.76 577.36 971.50 611.16 949.70 554.95 515.86 677.64 592.00 335.51 666.75 
+Total distance to top kth label alpha: 7495.99
+Total distance to top kth label beta: 9853.59
+Total distance to top kth label gamma: 5289.28
+Total distance to top kth label eta: 7076.88
+Total distance to top kth label phi: 3953.89
+
+Distance from selected image 13 to others: 
+2060.97 2323.87 1696.94 1338.73 1462.69 1467.65 1554.74 1731.12 1412.02 1519.72 1576.85 841.92 1714.19 1620.47 2566.16 1297.97 1940.23 2267.54 676.75 984.63 1493.46 711.61 761.57 940.67 823.57 1123.33 940.33 1064.83 1124.49 1557.09 988.22 982.86 754.85 970.28 829.03 801.19 1246.28 905.43 922.79 735.86 692.88 1200.03 1018.72 1308.92 552.55 
+Total distance to top kth label alpha: 10663.89
+Total distance to top kth label beta: 10511.34
+Total distance to top kth label gamma: 6391.27
+Total distance to top kth label eta: 5839.13
+Total distance to top kth label phi: 6028.25
+
+Distance from selected image 14 to others: 
+1842.80 1755.76 1468.39 967.19 1011.79 1361.39 1430.39 1629.31 653.72 1747.16 1970.02 823.25 1779.20 2158.76 2220.43 920.78 2223.26 2135.55 1441.96 1237.79 1909.17 1096.06 747.95 1238.34 1173.68 1484.80 1115.79 1453.59 988.51 1152.15 1114.23 803.04 950.75 899.08 947.75 751.43 1144.37 1197.53 1091.91 532.45 805.71 443.06 1054.51 676.34 793.21 
+Total distance to top kth label alpha: 8522.19
+Total distance to top kth label beta: 11534.73
+Total distance to top kth label gamma: 6454.79
+Total distance to top kth label eta: 8051.57
+Total distance to top kth label phi: 5397.18
+#################################################################
+
+#################################################################
+For kernel size = 5 and drop rate = 0.5
+
+Building embedding space of greek-1
+
+Batch 0:
+Input batch size: torch.Size([45, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([45, 50])
+
+Shape of the output nodes from the submodel: torch.Size([45, 50])
+Number of the labels: torch.Size([45])
+Embedding space of greek-1 built
+
+Distance from selected alpha to others: 
+0.00 597.12 512.97 1063.29 2088.77 1084.38 1143.82 870.40 1078.38 1603.99 1844.00 877.56 1942.08 1897.37 1860.21 1466.29 1494.43 1527.16 2080.04 2557.50 3113.14 2072.84 2400.67 2437.40 1354.54 3155.72 2848.39 2336.13 1387.06 1755.77 1374.36 1087.40 1998.87 1230.85 1245.78 1451.03 1530.44 1056.54 1446.14 1732.08 1594.45 1242.02 1129.84 1578.37 1537.17 
+Average distance to label alpha: 1054.89
+Average distance to label beta: 1612.56
+Average distance to label gamma: 1540.81
+Average distance to label eta: 2446.69
+Average distance to label phi: 1427.45
+
+Distance from selected beta to others: 
+1603.99 1600.90 954.89 1499.01 2031.41 860.45 1487.07 1311.34 1648.86 0.00 1979.87 1618.27 676.11 1743.23 1731.88 1669.36 1400.69 1181.61 1516.39 1585.40 1659.33 1175.58 1846.29 2209.70 923.55 1935.64 1580.21 1985.26 1382.42 1580.13 1002.02 1075.92 1144.58 1180.36 1137.27 1398.43 1510.59 1486.29 1697.89 1601.54 1765.46 1052.88 1049.90 1087.12 1886.77 
+Average distance to label alpha: 1444.21
+Average distance to label beta: 1500.13
+Average distance to label gamma: 1320.71
+Average distance to label eta: 1603.57
+Average distance to label phi: 1459.83
+
+Distance from selected gamma to others: 
+2336.13 2666.70 2219.89 2151.06 1418.13 1637.41 1464.63 2014.33 1960.11 1985.26 2246.94 1619.51 2085.45 1743.51 1755.07 2437.61 1935.46 2188.64 1076.01 1304.12 1618.58 1772.86 1144.57 1121.21 1358.81 1675.55 2085.70 0.00 767.21 616.39 822.25 884.46 2316.52 680.11 917.53 1114.31 1024.54 1014.26 1015.97 1209.73 1198.22 1460.58 1121.66 1090.88 1572.11 
+Average distance to label alpha: 1985.38
+Average distance to label beta: 1999.72
+Average distance to label gamma: 1014.85
+Average distance to label eta: 1461.93
+Average distance to label phi: 1189.77
+
+
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1682.94 1704.40 1406.37 1312.91 996.22 974.59 896.10 1200.87 1754.73 1406.45 1084.31 1270.27 1664.70 1178.61 1281.41 1345.36 1150.25 1564.21 1101.56 1597.94 1813.53 2052.38 1572.78 1441.33 1295.30 1359.53 1944.19 1106.00 1175.32 1371.03 1517.68 804.93 2336.02 1035.19 1451.05 1743.39 980.18 1131.72 1965.50 1275.93 2128.64 1614.06 1495.53 1411.87 2350.56 
+Average distance to label alpha: 1325.46
+Average distance to label beta: 1327.28
+Average distance to label gamma: 1393.40
+Average distance to label eta: 1575.39
+Average distance to label phi: 1594.89
+
+Distance from selected image 1 to others: 
+901.04 1006.92 964.04 941.91 1283.33 768.89 706.12 982.34 1031.27 1471.88 1003.46 734.69 1380.99 1085.47 1225.67 1102.72 1061.68 1410.89 929.53 1289.77 1614.55 1582.93 1115.86 1179.95 821.16 1447.23 1647.17 1024.40 855.94 921.60 923.55 404.05 1620.58 796.18 837.48 969.14 1068.70 711.60 940.74 875.29 1284.64 796.79 605.40 932.38 1426.96 
+Average distance to label alpha: 953.99
+Average distance to label beta: 1164.16
+Average distance to label gamma: 928.10
+Average distance to label eta: 1292.02
+Average distance to label phi: 960.28
+
+Distance from selected image 2 to others: 
+1191.03 1333.61 1118.58 1013.09 1501.53 663.45 874.74 1048.57 987.91 1496.17 1168.26 1203.87 1507.96 1403.06 1070.25 931.88 1040.20 1429.16 1243.16 1558.53 2085.12 1842.90 1674.15 1737.14 1077.07 1649.48 1880.99 1644.97 1314.29 1549.41 1521.71 708.09 1761.71 1260.14 1306.09 1359.29 1252.83 984.01 1668.49 1343.45 1815.90 1113.23 1054.62 1249.42 2055.75 
+Average distance to label alpha: 1081.39
+Average distance to label beta: 1250.09
+Average distance to label gamma: 1380.63
+Average distance to label eta: 1638.73
+Average distance to label phi: 1393.08
+
+Distance from selected image 3 to others: 
+1073.23 1269.65 1182.12 1054.18 1207.95 1037.63 842.40 824.37 1186.71 1655.48 1415.96 739.93 1520.00 1312.81 992.68 1323.08 1039.89 1096.81 1174.82 1566.94 1546.20 1443.91 1318.39 1217.45 864.74 1609.18 1652.82 1743.19 843.21 1541.15 1103.32 942.60 2104.60 1130.30 1303.17 1335.25 1311.04 622.18 968.72 1429.72 1416.72 1002.41 1204.36 1565.57 1135.02 
+Average distance to label alpha: 1075.36
+Average distance to label beta: 1232.96
+Average distance to label gamma: 1338.53
+Average distance to label eta: 1377.16
+Average distance to label phi: 1183.97
+
+Distance from selected image 4 to others: 
+1124.11 1190.12 1176.14 1156.13 1202.47 895.54 771.04 1084.66 1086.42 1374.82 1153.46 445.55 1060.16 1357.07 1236.34 1324.67 897.15 1277.72 1203.11 1673.53 1186.79 1063.96 1266.43 1416.88 664.03 1549.40 1435.46 1320.33 1065.19 969.65 826.67 793.92 1883.22 1138.73 750.08 1066.94 1280.00 755.52 775.58 937.70 806.79 729.32 835.20 946.12 829.24 
+Average distance to label alpha: 1076.29
+Average distance to label beta: 1125.22
+Average distance to label gamma: 1090.52
+Average distance to label eta: 1273.29
+Average distance to label phi: 877.27
+
+Distance from selected image 5 to others: 
+1431.32 1168.14 1225.17 1230.82 745.50 1105.50 541.27 1291.34 1568.53 1589.91 1074.84 659.61 1306.21 1123.39 1095.98 1620.04 1038.69 1215.30 979.95 1462.28 1286.04 1496.43 1108.24 944.51 769.91 1250.03 1548.07 1153.11 878.03 1390.89 1038.64 886.33 2457.96 927.48 1381.49 1525.19 924.76 844.95 1209.76 1012.20 1312.84 989.63 1220.08 1282.03 1231.85 
+Average distance to label alpha: 1145.29
+Average distance to label beta: 1191.55
+Average distance to label gamma: 1293.24
+Average distance to label eta: 1205.05
+Average distance to label phi: 1114.23
+
+Distance from selected image 6 to others: 
+1542.41 1589.06 1228.96 1369.61 2260.92 1127.39 1536.04 1403.54 1083.95 849.50 1916.16 1238.75 799.22 1276.21 1488.44 1721.90 1266.82 1078.06 1083.95 1362.40 1229.22 675.28 1070.07 1667.20 654.85 1799.90 1159.33 1463.21 1042.51 764.00 648.15 1006.46 643.81 778.70 916.28 892.07 1251.52 1140.16 762.14 957.91 802.85 674.25 609.07 634.21 676.42 
+Average distance to label alpha: 1460.21
+Average distance to label beta: 1292.78
+Average distance to label gamma: 906.13
+Average distance to label eta: 1189.13
+Average distance to label phi: 834.28
+
+Distance from selected image 7 to others: 
+1115.40 1614.99 881.75 1268.39 1632.19 897.60 1256.59 798.48 644.11 1369.30 2492.69 1137.19 1312.41 1858.28 1643.14 1234.72 1640.69 1527.26 1472.02 1696.29 1892.98 1140.46 1495.69 1817.93 747.94 2214.32 1970.83 1353.48 927.94 1011.61 656.60 738.60 1129.76 859.86 377.49 339.41 1637.50 1001.92 511.61 1183.98 635.11 600.82 449.57 908.03 771.49 
+Average distance to label alpha: 1123.28
+Average distance to label beta: 1579.52
+Average distance to label gamma: 821.64
+Average distance to label eta: 1605.38
+Average distance to label phi: 855.56
+
+Distance from selected image 8 to others: 
+1388.82 1473.17 944.78 1053.79 1886.03 1104.42 1329.07 1137.69 881.58 1260.07 2192.90 1071.12 1041.85 1317.36 1615.17 1486.20 1388.17 1253.25 1066.49 1439.32 1402.41 726.02 1046.58 1384.65 656.56 1936.33 1427.21 1235.46 891.97 555.35 547.07 894.91 952.73 654.84 805.12 714.79 1130.81 1166.49 496.12 734.48 623.17 503.29 452.67 582.82 459.79 
+Average distance to label alpha: 1244.37
+Average distance to label beta: 1402.90
+Average distance to label gamma: 805.80
+Average distance to label eta: 1231.73
+Average distance to label phi: 683.29
+
+Distance from selected image 9 to others: 
+1487.09 1395.01 1103.26 986.59 1081.13 708.69 780.04 948.11 999.74 1236.52 1341.40 770.26 1006.68 933.41 852.60 1064.96 960.73 1301.84 684.99 894.42 877.28 907.26 756.16 887.76 319.27 967.46 1023.30 1149.09 748.48 1133.88 823.01 479.23 1303.95 808.68 821.03 711.82 1007.75 880.30 728.37 794.82 1008.85 487.51 600.64 921.68 951.15 
+Average distance to label alpha: 1054.40
+Average distance to label beta: 1052.05
+Average distance to label gamma: 886.57
+Average distance to label eta: 813.10
+Average distance to label phi: 820.12
+
+Distance from selected image 10 to others: 
+2019.01 1957.88 1589.05 1441.84 1143.12 1118.86 1161.69 1249.76 1372.25 1336.70 1587.01 1154.99 986.44 1111.65 1250.32 1526.82 1381.42 1389.44 319.87 504.88 745.23 1098.42 293.79 420.89 408.22 664.87 645.92 940.63 520.23 1114.43 774.04 791.66 1233.23 647.46 962.00 752.64 1192.66 974.40 664.78 769.23 1116.51 795.97 583.35 1034.74 1312.53 
+Average distance to label alpha: 1450.39
+Average distance to label beta: 1302.75
+Average distance to label gamma: 859.59
+Average distance to label eta: 566.90
+Average distance to label phi: 938.24
+
+Distance from selected image 11 to others: 
+2509.80 2303.26 2007.47 1692.72 1400.52 1354.35 1376.44 1934.07 1936.56 1563.42 1660.92 1434.85 1078.46 1283.53 1476.63 1930.47 1468.57 1656.48 200.43 281.07 798.77 1535.08 383.95 458.12 730.03 491.51 724.00 959.54 709.02 1094.44 1108.34 1204.36 1680.56 853.17 1357.04 1200.61 1044.52 1231.90 1165.12 728.39 1386.35 1063.48 814.29 1033.64 1858.48 
+Average distance to label alpha: 1835.02
+Average distance to label beta: 1505.93
+Average distance to label gamma: 1129.68
+Average distance to label eta: 622.55
+Average distance to label phi: 1147.35
+
+Distance from selected image 12 to others: 
+1355.61 1611.32 945.50 529.25 1108.19 761.47 721.58 1129.56 635.36 1331.80 1776.11 944.70 895.64 1170.60 1125.24 821.28 995.01 995.08 1075.36 1280.96 1678.49 1285.85 1356.85 1508.21 901.11 1786.78 1899.26 1159.33 965.65 716.62 949.22 553.99 1388.70 811.70 825.11 888.48 853.26 999.33 1014.43 603.35 976.64 701.18 576.48 392.03 1014.44 
+Average distance to label alpha: 977.54
+Average distance to label beta: 1117.27
+Average distance to label gamma: 917.65
+Average distance to label eta: 1419.21
+Average distance to label phi: 792.35
+
+Distance from selected image 13 to others: 
+1563.12 1609.04 1110.23 1004.72 820.45 642.21 664.81 1211.19 1160.48 994.17 1098.82 744.74 742.60 1018.87 790.98 1127.55 777.40 1049.64 510.15 796.38 1036.59 1139.18 808.05 912.28 434.16 731.81 945.29 937.67 705.41 1067.65 879.83 583.36 1524.54 763.06 819.31 1012.86 635.25 689.52 1059.17 475.32 1055.97 680.15 706.52 606.90 1300.34 
+Average distance to label alpha: 1087.36
+Average distance to label beta: 927.20
+Average distance to label gamma: 921.52
+Average distance to label eta: 812.65
+Average distance to label phi: 801.02
+
+Distance from selected image 14 to others: 
+1850.87 2018.73 1267.18 1170.98 1771.10 1057.97 1292.24 1465.25 874.08 1437.79 2160.96 1242.55 914.47 1158.69 1667.73 1543.27 1523.37 1325.18 618.59 1006.70 1283.80 1143.78 622.18 1048.44 659.43 1385.20 1017.35 1117.34 778.08 603.14 827.87 1028.98 880.30 668.13 838.46 615.60 1138.22 1095.13 668.57 404.47 447.29 590.66 438.64 407.60 615.50 
+Average distance to label alpha: 1418.71
+Average distance to label beta: 1441.56
+Average distance to label gamma: 817.54
+Average distance to label eta: 976.16
+Average distance to label phi: 645.12
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1682.94 1704.40 1406.37 1312.91 996.22 974.59 896.10 1200.87 1754.73 1406.45 1084.31 1270.27 1664.70 1178.61 1281.41 1345.36 1150.25 1564.21 1101.56 1597.94 1813.53 2052.38 1572.78 1441.33 1295.30 1359.53 1944.19 1106.00 1175.32 1371.03 1517.68 804.93 2336.02 1035.19 1451.05 1743.39 980.18 1131.72 1965.50 1275.93 2128.64 1614.06 1495.53 1411.87 2350.56 
+Total distance to top kth label alpha: 8470.01
+Total distance to top kth label beta: 8716.65
+Total distance to top kth label gamma: 8461.19
+Total distance to top kth label eta: 10181.97
+Total distance to top kth label phi: 9874.80
+
+Distance from selected image 1 to others: 
+901.04 1006.92 964.04 941.91 1283.33 768.89 706.12 982.34 1031.27 1471.88 1003.46 734.69 1380.99 1085.47 1225.67 1102.72 1061.68 1410.89 929.53 1289.77 1614.55 1582.93 1115.86 1179.95 821.16 1447.23 1647.17 1024.40 855.94 921.60 923.55 404.05 1620.58 796.18 837.48 969.14 1068.70 711.60 940.74 875.29 1284.64 796.79 605.40 932.38 1426.96 
+Total distance to top kth label alpha: 6271.26
+Total distance to top kth label beta: 7594.68
+Total distance to top kth label gamma: 5707.94
+Total distance to top kth label eta: 8366.43
+Total distance to top kth label phi: 5930.90
+
+Distance from selected image 2 to others: 
+1191.03 1333.61 1118.58 1013.09 1501.53 663.45 874.74 1048.57 987.91 1496.17 1168.26 1203.87 1507.96 1403.06 1070.25 931.88 1040.20 1429.16 1243.16 1558.53 2085.12 1842.90 1674.15 1737.14 1077.07 1649.48 1880.99 1644.97 1314.29 1549.41 1521.71 708.09 1761.71 1260.14 1306.09 1359.29 1252.83 984.01 1668.49 1343.45 1815.90 1113.23 1054.62 1249.42 2055.75 
+Total distance to top kth label alpha: 6897.38
+Total distance to top kth label beta: 8246.67
+Total distance to top kth label gamma: 9019.02
+Total distance to top kth label eta: 10782.42
+Total distance to top kth label phi: 8666.04
+
+Distance from selected image 3 to others: 
+1073.23 1269.65 1182.12 1054.18 1207.95 1037.63 842.40 824.37 1186.71 1655.48 1415.96 739.93 1520.00 1312.81 992.68 1323.08 1039.89 1096.81 1174.82 1566.94 1546.20 1443.91 1318.39 1217.45 864.74 1609.18 1652.82 1743.19 843.21 1541.15 1103.32 942.60 2104.60 1130.30 1303.17 1335.25 1311.04 622.18 968.72 1429.72 1416.72 1002.41 1204.36 1565.57 1135.02 
+Total distance to top kth label alpha: 7200.64
+Total distance to top kth label beta: 7921.16
+Total distance to top kth label gamma: 8198.99
+Total distance to top kth label eta: 9132.45
+Total distance to top kth label phi: 7660.45
+
+Distance from selected image 4 to others: 
+1124.11 1190.12 1176.14 1156.13 1202.47 895.54 771.04 1084.66 1086.42 1374.82 1153.46 445.55 1060.16 1357.07 1236.34 1324.67 897.15 1277.72 1203.11 1673.53 1186.79 1063.96 1266.43 1416.88 664.03 1549.40 1435.46 1320.33 1065.19 969.65 826.67 793.92 1883.22 1138.73 750.08 1066.94 1280.00 755.52 775.58 937.70 806.79 729.32 835.20 946.12 829.24 
+Total distance to top kth label alpha: 7294.04
+Total distance to top kth label beta: 7395.06
+Total distance to top kth label gamma: 6611.18
+Total distance to top kth label eta: 8236.66
+Total distance to top kth label phi: 5669.35
+
+Distance from selected image 5 to others: 
+1431.32 1168.14 1225.17 1230.82 745.50 1105.50 541.27 1291.34 1568.53 1589.91 1074.84 659.61 1306.21 1123.39 1095.98 1620.04 1038.69 1215.30 979.95 1462.28 1286.04 1496.43 1108.24 944.51 769.91 1250.03 1548.07 1153.11 878.03 1390.89 1038.64 886.33 2457.96 927.48 1381.49 1525.19 924.76 844.95 1209.76 1012.20 1312.84 989.63 1220.08 1282.03 1231.85 
+Total distance to top kth label alpha: 7307.75
+Total distance to top kth label beta: 7514.01
+Total distance to top kth label gamma: 7655.98
+Total distance to top kth label eta: 7800.96
+Total distance to top kth label phi: 7433.23
+
+Distance from selected image 6 to others: 
+1542.41 1589.06 1228.96 1369.61 2260.92 1127.39 1536.04 1403.54 1083.95 849.50 1916.16 1238.75 799.22 1276.21 1488.44 1721.90 1266.82 1078.06 1083.95 1362.40 1229.22 675.28 1070.07 1667.20 654.85 1799.90 1159.33 1463.21 1042.51 764.00 648.15 1006.46 643.81 778.70 916.28 892.07 1251.52 1140.16 762.14 957.91 802.85 674.25 609.07 634.21 676.42 
+Total distance to top kth label alpha: 9291.90
+Total distance to top kth label beta: 7996.99
+Total distance to top kth label gamma: 5649.47
+Total distance to top kth label eta: 7235.09
+Total distance to top kth label phi: 5116.85
+
+Distance from selected image 7 to others: 
+1115.40 1614.99 881.75 1268.39 1632.19 897.60 1256.59 798.48 644.11 1369.30 2492.69 1137.19 1312.41 1858.28 1643.14 1234.72 1640.69 1527.26 1472.02 1696.29 1892.98 1140.46 1495.69 1817.93 747.94 2214.32 1970.83 1353.48 927.94 1011.61 656.60 738.60 1129.76 859.86 377.49 339.41 1637.50 1001.92 511.61 1183.98 635.11 600.82 449.57 908.03 771.49 
+Total distance to top kth label alpha: 6862.32
+Total distance to top kth label beta: 9864.71
+Total distance to top kth label gamma: 4911.49
+Total distance to top kth label eta: 10263.31
+Total distance to top kth label phi: 4878.54
+
+Distance from selected image 8 to others: 
+1388.82 1473.17 944.78 1053.79 1886.03 1104.42 1329.07 1137.69 881.58 1260.07 2192.90 1071.12 1041.85 1317.36 1615.17 1486.20 1388.17 1253.25 1066.49 1439.32 1402.41 726.02 1046.58 1384.65 656.56 1936.33 1427.21 1235.46 891.97 555.35 547.07 894.91 952.73 654.84 805.12 714.79 1130.81 1166.49 496.12 734.48 623.17 503.29 452.67 582.82 459.79 
+Total distance to top kth label alpha: 7840.15
+Total distance to top kth label beta: 8818.02
+Total distance to top kth label gamma: 5064.04
+Total distance to top kth label eta: 7709.92
+Total distance to top kth label phi: 3852.35
+
+Distance from selected image 9 to others: 
+1487.09 1395.01 1103.26 986.59 1081.13 708.69 780.04 948.11 999.74 1236.52 1341.40 770.26 1006.68 933.41 852.60 1064.96 960.73 1301.84 684.99 894.42 877.28 907.26 756.16 887.76 319.27 967.46 1023.30 1149.09 748.48 1133.88 823.01 479.23 1303.95 808.68 821.03 711.82 1007.75 880.30 728.37 794.82 1008.85 487.51 600.64 921.68 951.15 
+Total distance to top kth label alpha: 6607.54
+Total distance to top kth label beta: 6825.17
+Total distance to top kth label gamma: 5526.13
+Total distance to top kth label eta: 5327.15
+Total distance to top kth label phi: 5364.47
+
+Distance from selected image 10 to others: 
+2019.01 1957.88 1589.05 1441.84 1143.12 1118.86 1161.69 1249.76 1372.25 1336.70 1587.01 1154.99 986.44 1111.65 1250.32 1526.82 1381.42 1389.44 319.87 504.88 745.23 1098.42 293.79 420.89 408.22 664.87 645.92 940.63 520.23 1114.43 774.04 791.66 1233.23 647.46 962.00 752.64 1192.66 974.40 664.78 769.23 1116.51 795.97 583.35 1034.74 1312.53 
+Total distance to top kth label alpha: 9076.58
+Total distance to top kth label beta: 8610.96
+Total distance to top kth label gamma: 5388.67
+Total distance to top kth label eta: 3258.43
+Total distance to top kth label phi: 5938.99
+
+Distance from selected image 11 to others: 
+2509.80 2303.26 2007.47 1692.72 1400.52 1354.35 1376.44 1934.07 1936.56 1563.42 1660.92 1434.85 1078.46 1283.53 1476.63 1930.47 1468.57 1656.48 200.43 281.07 798.77 1535.08 383.95 458.12 730.03 491.51 724.00 959.54 709.02 1094.44 1108.34 1204.36 1680.56 853.17 1357.04 1200.61 1044.52 1231.90 1165.12 728.39 1386.35 1063.48 814.29 1033.64 1858.48 
+Total distance to top kth label alpha: 11702.13
+Total distance to top kth label beta: 9961.95
+Total distance to top kth label gamma: 7129.50
+Total distance to top kth label eta: 3269.10
+Total distance to top kth label phi: 7081.34
+
+Distance from selected image 12 to others: 
+1355.61 1611.32 945.50 529.25 1108.19 761.47 721.58 1129.56 635.36 1331.80 1776.11 944.70 895.64 1170.60 1125.24 821.28 995.01 995.08 1075.36 1280.96 1678.49 1285.85 1356.85 1508.21 901.11 1786.78 1899.26 1159.33 965.65 716.62 949.22 553.99 1388.70 811.70 825.11 888.48 853.26 999.33 1014.43 603.35 976.64 701.18 576.48 392.03 1014.44 
+Total distance to top kth label alpha: 5830.91
+Total distance to top kth label beta: 6947.54
+Total distance to top kth label gamma: 5710.78
+Total distance to top kth label eta: 9086.84
+Total distance to top kth label phi: 5102.28
+
+Distance from selected image 13 to others: 
+1563.12 1609.04 1110.23 1004.72 820.45 642.21 664.81 1211.19 1160.48 994.17 1098.82 744.74 742.60 1018.87 790.98 1127.55 777.40 1049.64 510.15 796.38 1036.59 1139.18 808.05 912.28 434.16 731.81 945.29 937.67 705.41 1067.65 879.83 583.36 1524.54 763.06 819.31 1012.86 635.25 689.52 1059.17 475.32 1055.97 680.15 706.52 606.90 1300.34 
+Total distance to top kth label alpha: 6614.10
+Total distance to top kth label beta: 6118.40
+Total distance to top kth label gamma: 5701.49
+Total distance to top kth label eta: 5138.12
+Total distance to top kth label phi: 4849.64
+
+Distance from selected image 14 to others: 
+1850.87 2018.73 1267.18 1170.98 1771.10 1057.97 1292.24 1465.25 874.08 1437.79 2160.96 1242.55 914.47 1158.69 1667.73 1543.27 1523.37 1325.18 618.59 1006.70 1283.80 1143.78 622.18 1048.44 659.43 1385.20 1017.35 1117.34 778.08 603.14 827.87 1028.98 880.30 668.13 838.46 615.60 1138.22 1095.13 668.57 404.47 447.29 590.66 438.64 407.60 615.50 
+Total distance to top kth label alpha: 8898.80
+Total distance to top kth label beta: 9145.31
+Total distance to top kth label gamma: 5211.58
+Total distance to top kth label eta: 6116.46
+Total distance to top kth label phi: 3572.73
+#################################################################
+
+#################################################################
+For kernel size = 5 and drop rate = 0.7
+
+Building embedding space of greek-1
+
+Batch 0:
+Input batch size: torch.Size([45, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([45, 50])
+
+Shape of the output nodes from the submodel: torch.Size([45, 50])
+Number of the labels: torch.Size([45])
+Embedding space of greek-1 built
+
+Distance from selected alpha to others: 
+0.00 816.03 699.11 1181.14 1881.96 915.36 822.59 1424.36 1449.90 4442.58 2958.83 2222.57 2502.99 2333.93 2282.14 2007.81 1458.76 2011.44 3881.11 3131.38 2894.41 3079.71 3556.13 2961.32 2568.44 2369.99 2464.88 2288.11 682.42 2111.52 1310.41 1057.17 1980.86 903.74 1657.99 1410.61 2232.34 1815.23 2376.56 1954.54 2098.07 1874.89 2116.55 1951.12 2142.09 
+Average distance to label alpha: 1148.81
+Average distance to label beta: 2469.01
+Average distance to label gamma: 1489.20
+Average distance to label eta: 2989.71
+Average distance to label phi: 2062.38
+
+Distance from selected beta to others: 
+4442.58 3081.01 2952.48 3948.04 5104.35 3561.67 4739.81 5006.49 3655.91 0.00 1713.54 2714.28 1923.99 2434.36 2499.40 1767.77 2494.22 2153.69 5997.83 4757.23 3713.82 3729.38 5980.41 4258.47 4078.58 4982.37 5437.02 4889.30 4250.56 5459.00 4053.02 3812.03 3071.00 4561.64 3843.99 4632.29 4819.28 4632.28 2703.10 4220.34 3928.38 2705.35 3326.78 4594.96 2602.63 
+Average distance to label alpha: 4054.71
+Average distance to label beta: 2212.66
+Average distance to label gamma: 4285.87
+Average distance to label eta: 4770.57
+Average distance to label phi: 3725.90
+
+Distance from selected gamma to others: 
+2288.11 3142.75 2059.55 2484.82 1713.37 1940.75 2425.11 1942.35 2284.09 4889.30 3449.11 3393.42 2981.25 2598.85 3011.40 3282.88 3321.71 4386.65 2687.47 2795.72 2502.94 3266.36 2091.56 1987.58 3226.81 2703.30 2356.56 0.00 1116.63 1294.67 1229.97 1113.08 1536.96 840.38 1110.58 1181.45 1501.72 1683.20 2244.08 955.09 1765.37 2238.92 3355.79 1599.79 1862.11 
+Average distance to label alpha: 2253.43
+Average distance to label beta: 3479.40
+Average distance to label gamma: 1177.96
+Average distance to label eta: 2624.26
+Average distance to label phi: 1911.79
+
+
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1771.28 2275.69 1459.80 1540.04 1765.53 1329.56 1500.64 1149.72 2022.81 4821.84 3378.77 2809.54 2153.01 2900.72 2696.66 2591.10 2701.98 2794.47 2695.14 2276.70 2109.72 2489.44 2354.15 1505.67 2151.81 1471.62 1612.41 2056.65 1254.35 2147.36 1612.11 1350.05 1904.34 1616.54 2117.94 1535.34 3027.29 2568.05 2444.31 1955.42 2335.94 2004.99 2084.56 1754.35 2664.59 
+Average distance to label alpha: 1646.12
+Average distance to label beta: 2983.12
+Average distance to label gamma: 1732.74
+Average distance to label eta: 2074.08
+Average distance to label phi: 2315.50
+
+Distance from selected image 1 to others: 
+2757.48 2272.92 2153.69 1185.32 2443.16 2329.36 2810.73 1619.86 2760.19 4558.38 2640.16 2562.07 2921.44 3725.42 2908.39 2648.89 2790.71 2847.18 2245.47 1168.32 1599.77 2167.77 2001.63 2047.86 1541.57 765.94 1416.43 3351.50 2135.45 3393.46 1780.95 2139.09 1544.12 3048.59 2201.87 2666.75 1853.87 2063.39 1274.62 2328.50 1968.62 1811.30 1325.85 2273.64 2154.57 
+Average distance to label alpha: 2259.19
+Average distance to label beta: 3066.96
+Average distance to label gamma: 2473.53
+Average distance to label eta: 1661.64
+Average distance to label phi: 1894.93
+
+Distance from selected image 2 to others: 
+1459.34 815.97 1411.41 1203.05 2384.48 1248.72 1925.26 2007.24 2402.04 3212.58 2360.46 1359.22 1898.95 1731.59 2560.59 1416.41 1156.91 1984.02 4039.13 2643.28 3292.80 2384.70 3598.57 2822.78 2317.27 2422.62 3035.18 2755.81 1680.73 2262.93 1620.19 1609.81 2003.57 2180.27 2512.49 2363.82 2562.34 2936.76 2462.43 2590.64 2542.83 2168.70 2078.04 2547.50 2574.43 
+Average distance to label alpha: 1650.83
+Average distance to label beta: 1964.53
+Average distance to label gamma: 2109.96
+Average distance to label eta: 2950.70
+Average distance to label phi: 2495.96
+
+Distance from selected image 3 to others: 
+1789.81 1979.52 1043.58 1253.09 1595.91 983.96 1458.78 1205.37 1380.49 2865.25 1777.68 1319.57 927.78 1834.81 1635.64 1687.67 1542.33 1588.83 2978.55 2223.93 1472.34 1244.72 2592.51 2197.51 1196.01 2088.91 2075.44 2418.45 1745.47 2545.18 1676.39 1453.92 1807.16 1758.76 1819.72 2301.96 1331.34 1716.73 1585.43 1432.77 1389.98 1267.45 1850.43 1848.40 1308.15 
+Average distance to label alpha: 1410.06
+Average distance to label beta: 1686.62
+Average distance to label gamma: 1947.45
+Average distance to label eta: 2007.77
+Average distance to label phi: 1525.63
+
+Distance from selected image 4 to others: 
+1816.62 1709.83 946.80 1152.20 1484.89 1160.83 1576.25 1205.90 1303.81 3312.97 1880.31 1410.41 1967.73 1938.26 1536.66 1847.31 1462.79 1705.08 3433.92 2414.38 2141.12 2273.33 2983.63 2679.78 1735.61 2247.01 2273.67 2373.54 2101.04 2839.41 1742.32 1687.66 2184.71 1948.87 1286.65 2616.34 1134.37 1305.98 1733.80 1714.30 1097.74 1417.01 2117.79 1799.74 1049.95 
+Average distance to label alpha: 1373.01
+Average distance to label beta: 1895.72
+Average distance to label gamma: 2086.73
+Average distance to label eta: 2464.72
+Average distance to label phi: 1485.63
+
+Distance from selected image 5 to others: 
+2233.48 2318.01 1671.98 1294.04 1208.22 1833.47 1966.43 1012.61 1446.52 4964.01 2728.55 2766.75 2512.10 2945.72 2293.36 3139.12 2531.34 3332.59 1949.05 1474.46 1163.25 2701.49 1245.21 1492.60 1951.54 1118.66 1409.87 1539.63 1560.80 2277.55 1460.47 1719.12 1620.17 1822.39 1122.60 1779.33 1390.22 785.01 1602.79 1413.13 792.30 1471.28 1815.33 1225.68 1406.24 
+Average distance to label alpha: 1664.97
+Average distance to label beta: 3023.73
+Average distance to label gamma: 1655.79
+Average distance to label eta: 1611.79
+Average distance to label phi: 1322.44
+
+Distance from selected image 6 to others: 
+1350.61 1668.24 935.86 1328.26 1810.42 1174.02 1429.16 1205.16 1094.32 3101.60 1905.82 1846.34 1560.63 2209.74 1381.96 1390.43 1596.06 1665.16 2762.01 2382.41 1485.11 2268.44 2445.11 2259.05 1727.01 1948.12 1809.55 1892.35 1110.71 2248.34 1400.84 1073.24 647.11 1427.46 1113.40 1428.44 1098.81 1484.11 723.75 1283.36 1660.55 675.61 1244.02 1648.81 927.26 
+Average distance to label alpha: 1332.89
+Average distance to label beta: 1850.86
+Average distance to label gamma: 1371.32
+Average distance to label eta: 2120.76
+Average distance to label phi: 1194.03
+
+Distance from selected image 7 to others: 
+1745.20 2306.40 1373.49 1480.99 1711.81 1559.95 1896.51 1167.77 1214.51 3610.86 2128.57 2185.98 1597.54 3063.06 1611.19 1862.27 2383.70 2223.44 2480.49 2147.93 803.18 2058.90 2229.28 1803.12 1661.35 1134.42 1320.90 2304.87 1180.91 2360.03 1311.99 1177.18 848.70 1833.14 1547.69 1429.05 1881.94 1749.22 931.59 1588.31 1829.57 692.10 992.76 1217.75 1388.39 
+Average distance to label alpha: 1606.29
+Average distance to label beta: 2296.29
+Average distance to label gamma: 1554.84
+Average distance to label eta: 1737.73
+Average distance to label phi: 1363.51
+
+Distance from selected image 8 to others: 
+2325.30 3321.57 2323.39 2666.22 1782.82 2117.23 2417.30 1950.14 1963.70 4463.86 2945.31 3063.40 2750.05 3885.96 2540.71 3232.01 2950.95 3385.71 2080.05 3150.90 1670.79 2922.07 2056.60 1917.50 2538.85 2077.55 1865.94 2000.07 1233.72 1619.90 1273.68 1292.23 1433.18 1591.11 1810.24 1107.36 2075.67 1951.10 1695.92 1536.31 1974.56 1001.39 1910.41 1443.00 1499.01 
+Average distance to label alpha: 2318.63
+Average distance to label beta: 3246.44
+Average distance to label gamma: 1484.61
+Average distance to label eta: 2253.36
+Average distance to label phi: 1676.37
+
+Distance from selected image 9 to others: 
+3452.11 2636.01 1873.80 1997.87 2442.16 2332.16 3250.16 2505.29 1909.13 2255.50 2075.18 2304.29 2662.31 3024.26 2054.32 2345.98 2460.02 2211.05 2291.05 1628.47 1820.75 1786.47 2190.41 1949.43 1372.29 2379.09 2119.54 2995.59 2666.68 3632.90 2008.74 2768.16 1767.47 2830.21 1583.16 2718.61 1781.06 1455.00 895.47 2187.88 1444.86 1650.68 1609.57 2552.19 903.73 
+Average distance to label alpha: 2488.74
+Average distance to label beta: 2376.99
+Average distance to label gamma: 2552.39
+Average distance to label eta: 1948.61
+Average distance to label phi: 1608.94
+
+Distance from selected image 10 to others: 
+1977.45 2683.87 1531.80 1415.60 1046.99 1382.39 1603.99 1006.15 2133.77 5665.53 3257.28 2811.26 3308.50 3275.96 3126.07 3704.21 2761.90 3757.78 1163.66 1161.57 1740.58 2319.31 737.12 1315.77 1429.07 1064.65 733.06 1420.55 1174.46 2174.03 940.05 1332.47 1928.01 1177.74 1093.74 1526.95 869.10 529.55 1847.60 985.67 751.13 1929.90 2314.54 1253.98 1758.44 
+Average distance to label alpha: 1642.45
+Average distance to label beta: 3518.72
+Average distance to label gamma: 1418.67
+Average distance to label eta: 1296.09
+Average distance to label phi: 1359.99
+
+Distance from selected image 11 to others: 
+1913.17 2169.83 1393.48 901.91 1216.71 1381.60 1543.97 807.54 2226.68 5374.48 3089.87 2627.00 3093.54 3121.09 3314.56 3361.81 2493.12 3367.75 1482.73 865.47 1869.16 2095.58 1009.09 1304.04 1304.79 784.42 715.40 1736.25 1186.43 2172.49 871.54 1459.75 2084.32 1257.39 1309.59 1634.94 1416.93 834.70 1787.17 1232.99 1048.60 2094.35 1905.13 1448.93 2052.86 
+Average distance to label alpha: 1506.10
+Average distance to label beta: 3315.91
+Average distance to label gamma: 1523.63
+Average distance to label eta: 1270.07
+Average distance to label phi: 1535.74
+
+Distance from selected image 12 to others: 
+2085.22 2186.23 1479.44 1671.11 1334.65 1716.25 1529.59 1559.23 1663.52 4061.84 3503.11 2859.27 2855.06 3084.05 2542.07 2801.12 2587.32 2834.57 2836.08 2225.95 2007.89 2703.78 2354.83 2514.19 3026.18 2227.91 2487.29 2015.31 1552.83 3066.24 1997.42 1413.73 2194.55 1604.29 1255.71 2333.38 2164.68 1531.76 2018.14 1155.65 941.18 1461.11 2179.94 460.06 1348.84 
+Average distance to label alpha: 1691.69
+Average distance to label beta: 3014.26
+Average distance to label gamma: 1937.05
+Average distance to label eta: 2487.12
+Average distance to label phi: 1473.48
+
+Distance from selected image 13 to others: 
+3895.07 4177.66 2697.76 2717.28 1897.07 2596.30 3249.41 2136.77 2294.65 5175.46 3347.47 3572.51 3393.03 4231.40 2678.09 4310.32 3789.07 4182.42 946.71 1669.06 1278.00 2459.94 684.19 1069.21 1752.40 1999.40 1301.89 2344.60 2592.03 3380.62 2220.65 2802.38 2183.28 2702.45 1768.22 2349.21 1447.11 1029.33 1759.68 1953.08 1181.10 2118.49 2864.05 2515.10 1526.68 
+Average distance to label alpha: 2851.33
+Average distance to label beta: 3853.31
+Average distance to label gamma: 2482.61
+Average distance to label eta: 1462.31
+Average distance to label phi: 1821.62
+
+Distance from selected image 14 to others: 
+2610.30 3197.18 2075.33 1675.17 1263.34 2074.56 1881.83 1230.47 1935.10 4867.99 3391.85 2999.92 2955.05 4160.19 2804.55 3128.07 3365.11 3375.53 1307.26 1846.68 1337.97 2254.45 1082.21 1347.99 2395.48 1306.92 1181.53 1400.45 1421.95 2025.95 1549.57 1317.46 1624.51 1474.77 1444.36 1559.27 1747.62 1649.69 1575.04 738.68 1157.29 1162.60 2098.39 466.19 1292.81 
+Average distance to label alpha: 1993.70
+Average distance to label beta: 3449.81
+Average distance to label gamma: 1535.36
+Average distance to label eta: 1562.28
+Average distance to label phi: 1320.92
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+1771.28 2275.69 1459.80 1540.04 1765.53 1329.56 1500.64 1149.72 2022.81 4821.84 3378.77 2809.54 2153.01 2900.72 2696.66 2591.10 2701.98 2794.47 2695.14 2276.70 2109.72 2489.44 2354.15 1505.67 2151.81 1471.62 1612.41 2056.65 1254.35 2147.36 1612.11 1350.05 1904.34 1616.54 2117.94 1535.34 3027.29 2568.05 2444.31 1955.42 2335.94 2004.99 2084.56 1754.35 2664.59 
+Total distance to top kth label alpha: 10516.57
+Total distance to top kth label beta: 18647.47
+Total distance to top kth label gamma: 11329.40
+Total distance to top kth label eta: 13482.09
+Total distance to top kth label phi: 15147.62
+
+Distance from selected image 1 to others: 
+2757.48 2272.92 2153.69 1185.32 2443.16 2329.36 2810.73 1619.86 2760.19 4558.38 2640.16 2562.07 2921.44 3725.42 2908.39 2648.89 2790.71 2847.18 2245.47 1168.32 1599.77 2167.77 2001.63 2047.86 1541.57 765.94 1416.43 3351.50 2135.45 3393.46 1780.95 2139.09 1544.12 3048.59 2201.87 2666.75 1853.87 2063.39 1274.62 2328.50 1968.62 1811.30 1325.85 2273.64 2154.57 
+Total distance to top kth label alpha: 14761.80
+Total distance to top kth label beta: 19318.83
+Total distance to top kth label gamma: 15516.83
+Total distance to top kth label eta: 10541.52
+Total distance to top kth label phi: 12452.23
+
+Distance from selected image 2 to others: 
+1459.34 815.97 1411.41 1203.05 2384.48 1248.72 1925.26 2007.24 2402.04 3212.58 2360.46 1359.22 1898.95 1731.59 2560.59 1416.41 1156.91 1984.02 4039.13 2643.28 3292.80 2384.70 3598.57 2822.78 2317.27 2422.62 3035.18 2755.81 1680.73 2262.93 1620.19 1609.81 2003.57 2180.27 2512.49 2363.82 2562.34 2936.76 2462.43 2590.64 2542.83 2168.70 2078.04 2547.50 2574.43 
+Total distance to top kth label alpha: 10070.98
+Total distance to top kth label beta: 11907.56
+Total distance to top kth label gamma: 13721.32
+Total distance to top kth label eta: 18918.62
+Total distance to top kth label phi: 16936.28
+
+Distance from selected image 3 to others: 
+1789.81 1979.52 1043.58 1253.09 1595.91 983.96 1458.78 1205.37 1380.49 2865.25 1777.68 1319.57 927.78 1834.81 1635.64 1687.67 1542.33 1588.83 2978.55 2223.93 1472.34 1244.72 2592.51 2197.51 1196.01 2088.91 2075.44 2418.45 1745.47 2545.18 1676.39 1453.92 1807.16 1758.76 1819.72 2301.96 1331.34 1716.73 1585.43 1432.77 1389.98 1267.45 1850.43 1848.40 1308.15 
+Total distance to top kth label alpha: 8921.19
+Total distance to top kth label beta: 10479.51
+Total distance to top kth label gamma: 12563.38
+Total distance to top kth label eta: 12498.86
+Total distance to top kth label phi: 10031.85
+
+Distance from selected image 4 to others: 
+1816.62 1709.83 946.80 1152.20 1484.89 1160.83 1576.25 1205.90 1303.81 3312.97 1880.31 1410.41 1967.73 1938.26 1536.66 1847.31 1462.79 1705.08 3433.92 2414.38 2141.12 2273.33 2983.63 2679.78 1735.61 2247.01 2273.67 2373.54 2101.04 2839.41 1742.32 1687.66 2184.71 1948.87 1286.65 2616.34 1134.37 1305.98 1733.80 1714.30 1097.74 1417.01 2117.79 1799.74 1049.95 
+Total distance to top kth label alpha: 8830.67
+Total distance to top kth label beta: 11780.81
+Total distance to top kth label gamma: 13324.80
+Total distance to top kth label eta: 15764.91
+Total distance to top kth label phi: 9453.14
+
+Distance from selected image 5 to others: 
+2233.48 2318.01 1671.98 1294.04 1208.22 1833.47 1966.43 1012.61 1446.52 4964.01 2728.55 2766.75 2512.10 2945.72 2293.36 3139.12 2531.34 3332.59 1949.05 1474.46 1163.25 2701.49 1245.21 1492.60 1951.54 1118.66 1409.87 1539.63 1560.80 2277.55 1460.47 1719.12 1620.17 1822.39 1122.60 1779.33 1390.22 785.01 1602.79 1413.13 792.30 1471.28 1815.33 1225.68 1406.24 
+Total distance to top kth label alpha: 10433.27
+Total distance to top kth label beta: 18916.95
+Total distance to top kth label gamma: 10802.13
+Total distance to top kth label eta: 9853.12
+Total distance to top kth label phi: 8483.85
+
+Distance from selected image 6 to others: 
+1350.61 1668.24 935.86 1328.26 1810.42 1174.02 1429.16 1205.16 1094.32 3101.60 1905.82 1846.34 1560.63 2209.74 1381.96 1390.43 1596.06 1665.16 2762.01 2382.41 1485.11 2268.44 2445.11 2259.05 1727.01 1948.12 1809.55 1892.35 1110.71 2248.34 1400.84 1073.24 647.11 1427.46 1113.40 1428.44 1098.81 1484.11 723.75 1283.36 1660.55 675.61 1244.02 1648.81 927.26 
+Total distance to top kth label alpha: 8517.38
+Total distance to top kth label beta: 11346.41
+Total distance to top kth label gamma: 8201.20
+Total distance to top kth label eta: 13879.69
+Total distance to top kth label phi: 7436.92
+
+Distance from selected image 7 to others: 
+1745.20 2306.40 1373.49 1480.99 1711.81 1559.95 1896.51 1167.77 1214.51 3610.86 2128.57 2185.98 1597.54 3063.06 1611.19 1862.27 2383.70 2223.44 2480.49 2147.93 803.18 2058.90 2229.28 1803.12 1661.35 1134.42 1320.90 2304.87 1180.91 2360.03 1311.99 1177.18 848.70 1833.14 1547.69 1429.05 1881.94 1749.22 931.59 1588.31 1829.57 692.10 992.76 1217.75 1388.39 
+Total distance to top kth label alpha: 10253.72
+Total distance to top kth label beta: 13992.70
+Total distance to top kth label gamma: 9328.66
+Total distance to top kth label eta: 10929.79
+Total distance to top kth label phi: 8560.11
+
+Distance from selected image 8 to others: 
+2325.30 3321.57 2323.39 2666.22 1782.82 2117.23 2417.30 1950.14 1963.70 4463.86 2945.31 3063.40 2750.05 3885.96 2540.71 3232.01 2950.95 3385.71 2080.05 3150.90 1670.79 2922.07 2056.60 1917.50 2538.85 2077.55 1865.94 2000.07 1233.72 1619.90 1273.68 1292.23 1433.18 1591.11 1810.24 1107.36 2075.67 1951.10 1695.92 1536.31 1974.56 1001.39 1910.41 1443.00 1499.01 
+Total distance to top kth label alpha: 14879.88
+Total distance to top kth label beta: 20868.14
+Total distance to top kth label gamma: 9551.18
+Total distance to top kth label eta: 14207.29
+Total distance to top kth label phi: 11037.13
+
+Distance from selected image 9 to others: 
+3452.11 2636.01 1873.80 1997.87 2442.16 2332.16 3250.16 2505.29 1909.13 2255.50 2075.18 2304.29 2662.31 3024.26 2054.32 2345.98 2460.02 2211.05 2291.05 1628.47 1820.75 1786.47 2190.41 1949.43 1372.29 2379.09 2119.54 2995.59 2666.68 3632.90 2008.74 2768.16 1767.47 2830.21 1583.16 2718.61 1781.06 1455.00 895.47 2187.88 1444.86 1650.68 1609.57 2552.19 903.73 
+Total distance to top kth label alpha: 15696.42
+Total distance to top kth label beta: 15706.34
+Total distance to top kth label gamma: 16343.03
+Total distance to top kth label eta: 12867.37
+Total distance to top kth label phi: 9740.37
+
+Distance from selected image 10 to others: 
+1977.45 2683.87 1531.80 1415.60 1046.99 1382.39 1603.99 1006.15 2133.77 5665.53 3257.28 2811.26 3308.50 3275.96 3126.07 3704.21 2761.90 3757.78 1163.66 1161.57 1740.58 2319.31 737.12 1315.77 1429.07 1064.65 733.06 1420.55 1174.46 2174.03 940.05 1332.47 1928.01 1177.74 1093.74 1526.95 869.10 529.55 1847.60 985.67 751.13 1929.90 2314.54 1253.98 1758.44 
+Total distance to top kth label alpha: 9964.38
+Total distance to top kth label beta: 22245.18
+Total distance to top kth label gamma: 8665.98
+Total distance to top kth label eta: 7604.91
+Total distance to top kth label phi: 7995.47
+
+Distance from selected image 11 to others: 
+1913.17 2169.83 1393.48 901.91 1216.71 1381.60 1543.97 807.54 2226.68 5374.48 3089.87 2627.00 3093.54 3121.09 3314.56 3361.81 2493.12 3367.75 1482.73 865.47 1869.16 2095.58 1009.09 1304.04 1304.79 784.42 715.40 1736.25 1186.43 2172.49 871.54 1459.75 2084.32 1257.39 1309.59 1634.94 1416.93 834.70 1787.17 1232.99 1048.60 2094.35 1905.13 1448.93 2052.86 
+Total distance to top kth label alpha: 9158.38
+Total distance to top kth label beta: 21101.00
+Total distance to top kth label gamma: 9455.88
+Total distance to top kth label eta: 7465.92
+Total distance to top kth label phi: 9674.45
+
+Distance from selected image 12 to others: 
+2085.22 2186.23 1479.44 1671.11 1334.65 1716.25 1529.59 1559.23 1663.52 4061.84 3503.11 2859.27 2855.06 3084.05 2542.07 2801.12 2587.32 2834.57 2836.08 2225.95 2007.89 2703.78 2354.83 2514.19 3026.18 2227.91 2487.29 2015.31 1552.83 3066.24 1997.42 1413.73 2194.55 1604.29 1255.71 2333.38 2164.68 1531.76 2018.14 1155.65 941.18 1461.11 2179.94 460.06 1348.84 
+Total distance to top kth label alpha: 10953.80
+Total distance to top kth label beta: 19563.44
+Total distance to top kth label gamma: 12033.84
+Total distance to top kth label eta: 16521.84
+Total distance to top kth label phi: 8916.74
+
+Distance from selected image 13 to others: 
+3895.07 4177.66 2697.76 2717.28 1897.07 2596.30 3249.41 2136.77 2294.65 5175.46 3347.47 3572.51 3393.03 4231.40 2678.09 4310.32 3789.07 4182.42 946.71 1669.06 1278.00 2459.94 684.19 1069.21 1752.40 1999.40 1301.89 2344.60 2592.03 3380.62 2220.65 2802.38 2183.28 2702.45 1768.22 2349.21 1447.11 1029.33 1759.68 1953.08 1181.10 2118.49 2864.05 2515.10 1526.68 
+Total distance to top kth label alpha: 17589.26
+Total distance to top kth label beta: 25193.99
+Total distance to top kth label gamma: 16160.44
+Total distance to top kth label eta: 8701.44
+Total distance to top kth label phi: 11015.47
+
+Distance from selected image 14 to others: 
+2610.30 3197.18 2075.33 1675.17 1263.34 2074.56 1881.83 1230.47 1935.10 4867.99 3391.85 2999.92 2955.05 4160.19 2804.55 3128.07 3365.11 3375.53 1307.26 1846.68 1337.97 2254.45 1082.21 1347.99 2395.48 1306.92 1181.53 1400.45 1421.95 2025.95 1549.57 1317.46 1624.51 1474.77 1444.36 1559.27 1747.62 1649.69 1575.04 738.68 1157.29 1162.60 2098.39 466.19 1292.81 
+Total distance to top kth label alpha: 12135.80
+Total distance to top kth label beta: 22020.08
+Total distance to top kth label gamma: 10167.82
+Total distance to top kth label eta: 9410.55
+Total distance to top kth label phi: 8042.30
+#################################################################
+
+#################################################################
+For kernel size = 7 and drop rate = 0.3
+
+Building embedding space of greek-1
+
+Batch 0:
+Input batch size: torch.Size([45, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([45, 50])
+
+Shape of the output nodes from the submodel: torch.Size([45, 50])
+Number of the labels: torch.Size([45])
+Embedding space of greek-1 built
+
+Distance from selected alpha to others: 
+0.00 1438.70 1196.08 2015.15 2282.83 2145.88 1488.89 2079.08 1392.32 2884.24 1786.68 1400.83 1546.44 1969.46 3068.58 1610.91 1723.61 1319.67 2301.74 1843.82 2777.16 1702.67 2464.32 2658.49 1657.65 2234.73 2545.89 5181.72 1973.03 1634.98 2679.77 1878.43 1633.90 2081.52 2799.07 2746.02 1677.03 1966.36 1578.15 1477.91 2421.04 2053.39 2521.80 3327.64 1658.16 
+Average distance to label alpha: 1754.87
+Average distance to label beta: 1923.38
+Average distance to label gamma: 2512.05
+Average distance to label eta: 2242.94
+Average distance to label phi: 2075.72
+
+Distance from selected beta to others: 
+2884.24 3691.48 2080.85 2429.03 3213.03 1943.43 2120.62 3094.75 1894.18 0.00 1435.50 2542.72 1388.75 2390.39 1448.09 1543.34 1420.27 2165.53 1431.31 2593.82 3347.07 2749.12 2433.95 3654.78 1606.28 2782.52 3203.01 4992.81 2867.96 2855.50 2983.21 2473.77 1831.71 2256.72 2551.60 2997.15 1681.05 1368.46 1982.77 1103.63 1377.25 784.10 2485.01 2361.19 1524.49 
+Average distance to label alpha: 2594.62
+Average distance to label beta: 1791.83
+Average distance to label gamma: 2867.82
+Average distance to label eta: 2644.65
+Average distance to label phi: 1629.77
+
+Distance from selected gamma to others: 
+5181.72 4795.60 3790.09 4596.33 4341.19 2955.98 4452.70 3999.44 5115.45 4992.81 4818.43 3708.64 4185.40 3902.16 4043.43 5253.02 5214.41 6396.91 2601.10 4355.29 3560.66 4141.38 3568.94 3357.95 3116.21 4732.26 4427.96 0.00 2412.19 3738.92 2378.53 2731.53 4742.69 1518.28 1730.34 2308.76 4361.85 2650.96 2432.67 3806.32 2754.40 3685.04 3191.06 2644.20 4369.82 
+Average distance to label alpha: 4358.72
+Average distance to label beta: 4723.91
+Average distance to label gamma: 2695.15
+Average distance to label eta: 3762.42
+Average distance to label phi: 3321.81
+
+
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+2351.35 2017.92 1662.01 2441.63 2517.85 1256.16 2132.13 2086.22 2445.82 2226.36 1489.55 2319.04 1398.70 1528.95 2888.28 1786.18 2228.77 3335.37 1826.43 2010.43 3050.01 3209.60 1701.73 3025.06 2629.92 2807.01 2828.67 3782.61 2881.45 3249.71 3677.46 1921.76 2544.44 2181.58 2654.28 2726.39 2391.71 1470.68 1018.54 2073.30 1462.05 1701.82 2002.71 1836.99 1768.87 
+Average distance to label alpha: 2101.23
+Average distance to label beta: 2133.47
+Average distance to label gamma: 2846.63
+Average distance to label eta: 2565.43
+Average distance to label phi: 1747.41
+
+Distance from selected image 1 to others: 
+2643.22 2788.45 1540.68 2128.36 1798.99 1391.75 1443.60 1324.49 2471.29 3207.31 2242.36 2664.49 2175.12 2656.23 3339.99 2688.00 2914.77 3533.40 2221.35 2286.90 2268.95 3351.88 2040.88 2941.00 2378.27 2791.55 2210.99 2361.66 1919.15 2009.54 2590.84 1665.16 2689.24 1503.16 2246.75 1658.76 2347.96 1380.77 1424.10 2386.00 1296.48 1752.95 1573.91 1640.44 2477.98 
+Average distance to label alpha: 1947.87
+Average distance to label beta: 2824.63
+Average distance to label gamma: 2071.58
+Average distance to label eta: 2499.08
+Average distance to label phi: 1808.95
+
+Distance from selected image 2 to others: 
+1123.60 1999.47 1077.90 1799.43 1578.36 1210.21 1709.39 1573.58 1253.49 1273.56 758.38 1006.29 723.63 1387.00 1281.44 918.55 1142.41 1570.08 1099.62 1827.37 1689.92 1208.64 1567.78 2325.42 1042.45 2040.66 2244.49 3124.09 1345.21 1598.02 1761.90 947.66 1104.15 1089.03 1128.85 1814.46 1335.56 790.12 785.00 987.37 1241.94 1033.76 1928.59 1612.09 814.71 
+Average distance to label alpha: 1480.60
+Average distance to label beta: 1117.92
+Average distance to label gamma: 1545.93
+Average distance to label eta: 1671.82
+Average distance to label phi: 1169.90
+
+Distance from selected image 3 to others: 
+2088.73 3073.38 2217.01 1842.24 2227.40 2456.97 2616.73 1564.85 1126.58 2475.54 1348.99 1869.11 1292.28 3134.66 2586.22 829.94 1446.65 2286.46 2795.89 2907.62 2353.82 1599.00 2368.89 3581.77 2221.04 2346.58 2734.55 4743.50 2406.85 2055.71 3227.13 1468.68 1857.87 2217.08 2104.62 2955.11 2023.44 1863.99 2157.95 2321.22 2078.25 1950.60 3229.38 2462.41 1370.87 
+Average distance to label alpha: 2134.87
+Average distance to label beta: 1918.87
+Average distance to label gamma: 2559.62
+Average distance to label eta: 2545.46
+Average distance to label phi: 2162.01
+
+Distance from selected image 4 to others: 
+2073.37 2684.71 2021.07 2557.24 1745.82 1925.32 2070.31 2027.31 1573.41 1959.03 729.03 1268.33 1385.84 2317.68 1620.89 756.86 665.79 1294.05 2434.13 3119.65 2156.81 1968.17 3154.69 4125.96 2409.38 3156.17 3451.29 4254.39 2212.75 1846.26 2963.08 1528.06 1503.13 2261.75 1682.85 2297.48 1692.31 1306.24 2044.27 1407.27 2036.16 2049.03 3360.53 2808.03 1070.89 
+Average distance to label alpha: 2075.40
+Average distance to label beta: 1333.05
+Average distance to label gamma: 2283.31
+Average distance to label eta: 2886.25
+Average distance to label phi: 1974.97
+
+Distance from selected image 5 to others: 
+1896.12 3692.61 2286.88 1943.84 1611.44 3293.51 2851.44 1601.04 2091.35 3850.25 1959.26 2697.19 1984.44 4062.43 3051.49 2131.62 2315.18 2640.23 3050.91 2345.18 1760.05 1903.46 2738.81 3159.34 2603.27 1985.36 2814.47 4936.88 1871.05 1204.28 2844.15 1429.02 1213.36 1744.43 1794.59 2115.22 1921.32 2492.80 1979.46 2126.05 2299.82 2642.54 2643.89 2666.49 1254.39 
+Average distance to label alpha: 2363.14
+Average distance to label beta: 2743.56
+Average distance to label gamma: 2128.11
+Average distance to label eta: 2484.54
+Average distance to label phi: 2225.20
+
+Distance from selected image 6 to others: 
+1294.72 2224.68 1981.40 2026.99 1632.51 2516.70 1772.12 2031.93 1300.47 1992.75 1171.78 1437.82 1094.84 2796.52 2401.73 1167.80 1018.29 1262.73 2021.35 1710.79 1777.29 1108.45 2180.99 2491.53 1415.96 1576.04 2055.47 4573.30 1468.05 764.00 2039.33 847.50 520.33 1757.03 1569.05 1685.28 784.40 1205.87 1212.87 715.56 1471.18 1450.35 1796.28 2776.77 722.56 
+Average distance to label alpha: 1864.61
+Average distance to label beta: 1593.81
+Average distance to label gamma: 1691.54
+Average distance to label eta: 1815.32
+Average distance to label phi: 1348.43
+
+Distance from selected image 7 to others: 
+1661.83 2555.11 2060.59 1887.99 2069.85 2157.04 2216.14 2271.75 2004.95 1995.17 1506.68 1945.07 1351.99 2070.97 2040.99 1882.82 1667.33 2616.32 1039.03 1135.66 1693.50 1499.05 1719.55 1083.66 970.82 1724.84 1661.63 2810.18 1427.17 1049.57 1329.92 856.96 1278.30 1030.85 1325.52 1380.81 1229.84 1002.70 754.21 651.07 729.29 1245.63 1416.46 1890.49 1167.88 
+Average distance to label alpha: 2098.36
+Average distance to label beta: 1897.48
+Average distance to label gamma: 1387.70
+Average distance to label eta: 1391.97
+Average distance to label phi: 1120.84
+
+Distance from selected image 8 to others: 
+1562.34 2582.21 1997.77 2881.49 1739.28 1936.66 1564.27 2490.57 2262.33 2116.29 1469.66 1040.81 1383.11 1986.11 1752.09 1949.62 1312.79 1923.51 1727.26 1871.83 2020.28 2178.81 1980.43 2195.82 1545.88 2193.39 2643.81 2900.38 1237.28 1368.50 1756.57 957.33 1622.74 1368.99 1244.76 1497.23 1196.93 774.06 1400.81 718.40 1461.00 1795.93 2301.35 2231.39 1122.54 
+Average distance to label alpha: 2112.99
+Average distance to label beta: 1659.33
+Average distance to label gamma: 1550.42
+Average distance to label eta: 2039.72
+Average distance to label phi: 1444.71
+
+Distance from selected image 9 to others: 
+2963.59 4105.69 2489.03 2367.04 3982.98 3048.94 2791.68 3943.77 1827.14 871.54 2664.55 3214.31 1760.94 3813.37 2807.14 2362.98 2413.42 2595.88 1480.55 2144.92 3131.84 1876.65 2082.46 3075.87 1306.05 2041.60 2338.72 5657.98 2863.80 2769.57 2655.06 2885.76 1888.53 2530.10 2960.13 3326.09 1913.14 1912.68 2343.97 1709.84 1717.81 968.20 2125.96 2872.53 2197.92 
+Average distance to label alpha: 3057.76
+Average distance to label beta: 2500.46
+Average distance to label gamma: 3059.67
+Average distance to label eta: 2164.30
+Average distance to label phi: 1973.56
+
+Distance from selected image 10 to others: 
+1771.62 2738.83 1914.48 2294.93 2654.93 2273.98 2397.95 3092.46 1981.54 2148.45 2430.59 2006.04 1491.46 2468.11 3161.24 2670.59 2684.49 3143.79 641.14 997.58 2177.46 1356.70 488.96 1076.72 876.49 1143.14 1228.62 2795.64 1428.33 1760.36 1101.49 1291.59 1667.59 971.39 1477.99 1956.94 1536.91 957.92 841.02 1368.18 1014.79 1188.57 1061.73 1405.77 2071.53 
+Average distance to label alpha: 2346.75
+Average distance to label beta: 2467.20
+Average distance to label gamma: 1605.70
+Average distance to label eta: 1109.65
+Average distance to label phi: 1271.83
+
+Distance from selected image 11 to others: 
+1542.52 2855.08 1396.85 1443.80 2085.29 1943.99 1870.99 2157.84 1517.29 1769.65 1934.67 2098.34 1351.47 2492.91 2412.29 2149.60 2163.18 2576.32 566.84 707.55 1524.52 1173.58 701.52 1019.94 590.61 736.90 976.35 2749.37 1132.05 1140.58 1046.01 1126.77 1106.25 612.41 1190.09 1472.05 1009.48 896.85 741.16 1046.19 556.36 721.46 883.19 1160.53 1474.01 
+Average distance to label alpha: 1868.18
+Average distance to label beta: 2105.38
+Average distance to label gamma: 1286.18
+Average distance to label eta: 888.65
+Average distance to label phi: 943.25
+
+Distance from selected image 12 to others: 
+1524.62 2489.48 1271.37 1998.53 1485.44 1368.50 1147.28 1678.43 1820.59 2002.46 1693.57 1466.58 1592.36 1942.06 1969.07 2239.45 1879.22 2093.14 1055.91 1467.76 1524.16 1721.88 1517.46 1829.67 923.67 1649.51 1736.18 2039.37 984.25 853.25 1108.63 875.51 1245.16 553.55 956.03 1059.24 981.02 683.93 828.72 882.89 820.29 1008.91 1011.70 1456.92 1325.47 
+Average distance to label alpha: 1642.69
+Average distance to label beta: 1875.32
+Average distance to label gamma: 1075.00
+Average distance to label eta: 1491.80
+Average distance to label phi: 999.98
+
+Distance from selected image 13 to others: 
+2162.22 4000.81 2319.34 2065.63 2838.57 2916.64 2797.17 3084.43 1734.76 2138.28 2396.75 2399.21 1732.38 3277.80 3178.66 2587.33 2658.78 2970.24 842.08 801.34 1931.96 1187.54 619.93 1101.42 879.36 541.51 1191.35 3892.54 1762.02 1413.21 1519.19 1543.13 1231.46 1226.34 1592.40 2194.18 1133.77 1372.56 1526.78 1472.75 998.47 1168.44 1385.40 1411.15 1759.64 
+Average distance to label alpha: 2657.73
+Average distance to label beta: 2593.27
+Average distance to label gamma: 1819.38
+Average distance to label eta: 1010.72
+Average distance to label phi: 1358.77
+
+Distance from selected image 14 to others: 
+1929.66 3364.03 1684.89 1808.15 2123.43 2073.35 2033.69 2477.23 1459.42 1764.72 2127.50 1995.69 1563.17 2750.43 2606.84 2360.62 2250.25 2654.02 850.63 934.98 1287.40 1305.42 924.73 1575.41 891.65 1365.07 1370.76 3043.35 1532.48 1362.30 1595.57 1485.99 1228.42 1097.41 1645.20 1887.91 1330.20 1118.32 1296.61 1025.69 711.88 621.36 739.98 1254.81 1593.88 
+Average distance to label alpha: 2105.98
+Average distance to label beta: 2230.36
+Average distance to label gamma: 1653.18
+Average distance to label eta: 1167.34
+Average distance to label phi: 1076.97
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+2351.35 2017.92 1662.01 2441.63 2517.85 1256.16 2132.13 2086.22 2445.82 2226.36 1489.55 2319.04 1398.70 1528.95 2888.28 1786.18 2228.77 3335.37 1826.43 2010.43 3050.01 3209.60 1701.73 3025.06 2629.92 2807.01 2828.67 3782.61 2881.45 3249.71 3677.46 1921.76 2544.44 2181.58 2654.28 2726.39 2391.71 1470.68 1018.54 2073.30 1462.05 1701.82 2002.71 1836.99 1768.87 
+Total distance to top kth label alpha: 13947.43
+Total distance to top kth label beta: 12977.56
+Total distance to top kth label gamma: 18159.61
+Total distance to top kth label eta: 16829.25
+Total distance to top kth label phi: 11261.68
+
+Distance from selected image 1 to others: 
+2643.22 2788.45 1540.68 2128.36 1798.99 1391.75 1443.60 1324.49 2471.29 3207.31 2242.36 2664.49 2175.12 2656.23 3339.99 2688.00 2914.77 3533.40 2221.35 2286.90 2268.95 3351.88 2040.88 2941.00 2378.27 2791.55 2210.99 2361.66 1919.15 2009.54 2590.84 1665.16 2689.24 1503.16 2246.75 1658.76 2347.96 1380.77 1424.10 2386.00 1296.48 1752.95 1573.91 1640.44 2477.98 
+Total distance to top kth label alpha: 12099.18
+Total distance to top kth label beta: 18548.27
+Total distance to top kth label gamma: 13364.16
+Total distance to top kth label eta: 16198.87
+Total distance to top kth label phi: 11416.61
+
+Distance from selected image 2 to others: 
+1123.60 1999.47 1077.90 1799.43 1578.36 1210.21 1709.39 1573.58 1253.49 1273.56 758.38 1006.29 723.63 1387.00 1281.44 918.55 1142.41 1570.08 1099.62 1827.37 1689.92 1208.64 1567.78 2325.42 1042.45 2040.66 2244.49 3124.09 1345.21 1598.02 1761.90 947.66 1104.15 1089.03 1128.85 1814.46 1335.56 790.12 785.00 987.37 1241.94 1033.76 1928.59 1612.09 814.71 
+Total distance to top kth label alpha: 9526.52
+Total distance to top kth label beta: 7104.25
+Total distance to top kth label gamma: 8974.82
+Total distance to top kth label eta: 10476.45
+Total distance to top kth label phi: 6988.45
+
+Distance from selected image 3 to others: 
+2088.73 3073.38 2217.01 1842.24 2227.40 2456.97 2616.73 1564.85 1126.58 2475.54 1348.99 1869.11 1292.28 3134.66 2586.22 829.94 1446.65 2286.46 2795.89 2907.62 2353.82 1599.00 2368.89 3581.77 2221.04 2346.58 2734.55 4743.50 2406.85 2055.71 3227.13 1468.68 1857.87 2217.08 2104.62 2955.11 2023.44 1863.99 2157.95 2321.22 2078.25 1950.60 3229.38 2462.41 1370.87 
+Total distance to top kth label alpha: 13523.77
+Total distance to top kth label beta: 11548.98
+Total distance to top kth label gamma: 15065.93
+Total distance to top kth label eta: 16419.77
+Total distance to top kth label phi: 13766.31
+
+Distance from selected image 4 to others: 
+2073.37 2684.71 2021.07 2557.24 1745.82 1925.32 2070.31 2027.31 1573.41 1959.03 729.03 1268.33 1385.84 2317.68 1620.89 756.86 665.79 1294.05 2434.13 3119.65 2156.81 1968.17 3154.69 4125.96 2409.38 3156.17 3451.29 4254.39 2212.75 1846.26 2963.08 1528.06 1503.13 2261.75 1682.85 2297.48 1692.31 1306.24 2044.27 1407.27 2036.16 2049.03 3360.53 2808.03 1070.89 
+Total distance to top kth label alpha: 13436.61
+Total distance to top kth label beta: 7720.79
+Total distance to top kth label gamma: 13332.28
+Total distance to top kth label eta: 18399.00
+Total distance to top kth label phi: 11606.18
+
+Distance from selected image 5 to others: 
+1896.12 3692.61 2286.88 1943.84 1611.44 3293.51 2851.44 1601.04 2091.35 3850.25 1959.26 2697.19 1984.44 4062.43 3051.49 2131.62 2315.18 2640.23 3050.91 2345.18 1760.05 1903.46 2738.81 3159.34 2603.27 1985.36 2814.47 4936.88 1871.05 1204.28 2844.15 1429.02 1213.36 1744.43 1794.59 2115.22 1921.32 2492.80 1979.46 2126.05 2299.82 2642.54 2643.89 2666.49 1254.39 
+Total distance to top kth label alpha: 14282.13
+Total distance to top kth label beta: 16779.40
+Total distance to top kth label gamma: 11371.96
+Total distance to top kth label eta: 16150.60
+Total distance to top kth label phi: 14716.38
+
+Distance from selected image 6 to others: 
+1294.72 2224.68 1981.40 2026.99 1632.51 2516.70 1772.12 2031.93 1300.47 1992.75 1171.78 1437.82 1094.84 2796.52 2401.73 1167.80 1018.29 1262.73 2021.35 1710.79 1777.29 1108.45 2180.99 2491.53 1415.96 1576.04 2055.47 4573.30 1468.05 764.00 2039.33 847.50 520.33 1757.03 1569.05 1685.28 784.40 1205.87 1212.87 715.56 1471.18 1450.35 1796.28 2776.77 722.56 
+Total distance to top kth label alpha: 12040.14
+Total distance to top kth label beta: 9146.01
+Total distance to top kth label gamma: 8611.23
+Total distance to top kth label eta: 11665.35
+Total distance to top kth label phi: 7562.80
+
+Distance from selected image 7 to others: 
+1661.83 2555.11 2060.59 1887.99 2069.85 2157.04 2216.14 2271.75 2004.95 1995.17 1506.68 1945.07 1351.99 2070.97 2040.99 1882.82 1667.33 2616.32 1039.03 1135.66 1693.50 1499.05 1719.55 1083.66 970.82 1724.84 1661.63 2810.18 1427.17 1049.57 1329.92 856.96 1278.30 1030.85 1325.52 1380.81 1229.84 1002.70 754.21 651.07 729.29 1245.63 1416.46 1890.49 1167.88 
+Total distance to top kth label alpha: 14058.39
+Total distance to top kth label beta: 12390.05
+Total distance to top kth label gamma: 8251.94
+Total distance to top kth label eta: 9083.35
+Total distance to top kth label phi: 6780.62
+
+Distance from selected image 8 to others: 
+1562.34 2582.21 1997.77 2881.49 1739.28 1936.66 1564.27 2490.57 2262.33 2116.29 1469.66 1040.81 1383.11 1986.11 1752.09 1949.62 1312.79 1923.51 1727.26 1871.83 2020.28 2178.81 1980.43 2195.82 1545.88 2193.39 2643.81 2900.38 1237.28 1368.50 1756.57 957.33 1622.74 1368.99 1244.76 1497.23 1196.93 774.06 1400.81 718.40 1461.00 1795.93 2301.35 2231.39 1122.54 
+Total distance to top kth label alpha: 13553.21
+Total distance to top kth label beta: 10831.57
+Total distance to top kth label gamma: 9296.83
+Total distance to top kth label eta: 13517.88
+Total distance to top kth label phi: 8469.67
+
+Distance from selected image 9 to others: 
+2963.59 4105.69 2489.03 2367.04 3982.98 3048.94 2791.68 3943.77 1827.14 871.54 2664.55 3214.31 1760.94 3813.37 2807.14 2362.98 2413.42 2595.88 1480.55 2144.92 3131.84 1876.65 2082.46 3075.87 1306.05 2041.60 2338.72 5657.98 2863.80 2769.57 2655.06 2885.76 1888.53 2530.10 2960.13 3326.09 1913.14 1912.68 2343.97 1709.84 1717.81 968.20 2125.96 2872.53 2197.92 
+Total distance to top kth label alpha: 19431.19
+Total distance to top kth label beta: 15476.45
+Total distance to top kth label gamma: 18552.95
+Total distance to top kth label eta: 13270.96
+Total distance to top kth label phi: 12545.54
+
+Distance from selected image 10 to others: 
+1771.62 2738.83 1914.48 2294.93 2654.93 2273.98 2397.95 3092.46 1981.54 2148.45 2430.59 2006.04 1491.46 2468.11 3161.24 2670.59 2684.49 3143.79 641.14 997.58 2177.46 1356.70 488.96 1076.72 876.49 1143.14 1228.62 2795.64 1428.33 1760.36 1101.49 1291.59 1667.59 971.39 1477.99 1956.94 1536.91 957.92 841.02 1368.18 1014.79 1188.57 1061.73 1405.77 2071.53 
+Total distance to top kth label alpha: 15289.43
+Total distance to top kth label beta: 15899.73
+Total distance to top kth label gamma: 9698.74
+Total distance to top kth label eta: 6452.65
+Total distance to top kth label phi: 7837.99
+
+Distance from selected image 11 to others: 
+1542.52 2855.08 1396.85 1443.80 2085.29 1943.99 1870.99 2157.84 1517.29 1769.65 1934.67 2098.34 1351.47 2492.91 2412.29 2149.60 2163.18 2576.32 566.84 707.55 1524.52 1173.58 701.52 1019.94 590.61 736.90 976.35 2749.37 1132.05 1140.58 1046.01 1126.77 1106.25 612.41 1190.09 1472.05 1009.48 896.85 741.16 1046.19 556.36 721.46 883.19 1160.53 1474.01 
+Total distance to top kth label alpha: 11800.72
+Total distance to top kth label beta: 13879.18
+Total distance to top kth label gamma: 7354.18
+Total distance to top kth label eta: 5299.71
+Total distance to top kth label phi: 5854.71
+
+Distance from selected image 12 to others: 
+1524.62 2489.48 1271.37 1998.53 1485.44 1368.50 1147.28 1678.43 1820.59 2002.46 1693.57 1466.58 1592.36 1942.06 1969.07 2239.45 1879.22 2093.14 1055.91 1467.76 1524.16 1721.88 1517.46 1829.67 923.67 1649.51 1736.18 2039.37 984.25 853.25 1108.63 875.51 1245.16 553.55 956.03 1059.24 981.02 683.93 828.72 882.89 820.29 1008.91 1011.70 1456.92 1325.47 
+Total distance to top kth label alpha: 10296.23
+Total distance to top kth label beta: 12545.32
+Total distance to top kth label gamma: 6390.46
+Total distance to top kth label eta: 9860.35
+Total distance to top kth label phi: 6217.45
+
+Distance from selected image 13 to others: 
+2162.22 4000.81 2319.34 2065.63 2838.57 2916.64 2797.17 3084.43 1734.76 2138.28 2396.75 2399.21 1732.38 3277.80 3178.66 2587.33 2658.78 2970.24 842.08 801.34 1931.96 1187.54 619.93 1101.42 879.36 541.51 1191.35 3892.54 1762.02 1413.21 1519.19 1543.13 1231.46 1226.34 1592.40 2194.18 1133.77 1372.56 1526.78 1472.75 998.47 1168.44 1385.40 1411.15 1759.64 
+Total distance to top kth label alpha: 16834.34
+Total distance to top kth label beta: 16882.97
+Total distance to top kth label gamma: 10287.74
+Total distance to top kth label eta: 5973.18
+Total distance to top kth label phi: 8942.53
+
+Distance from selected image 14 to others: 
+1929.66 3364.03 1684.89 1808.15 2123.43 2073.35 2033.69 2477.23 1459.42 1764.72 2127.50 1995.69 1563.17 2750.43 2606.84 2360.62 2250.25 2654.02 850.63 934.98 1287.40 1305.42 924.73 1575.41 891.65 1365.07 1370.76 3043.35 1532.48 1362.30 1595.57 1485.99 1228.42 1097.41 1645.20 1887.91 1330.20 1118.32 1296.61 1025.69 711.88 621.36 739.98 1254.81 1593.88 
+Total distance to top kth label alpha: 13112.59
+Total distance to top kth label beta: 14668.80
+Total distance to top kth label gamma: 9947.37
+Total distance to top kth label eta: 7559.89
+Total distance to top kth label phi: 6768.65
+#################################################################
+
+#################################################################
+For kernel size = 7 and drop rate = 0.5
+
+Building embedding space of greek-1
+
+Batch 0:
+Input batch size: torch.Size([45, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([45, 50])
+
+Shape of the output nodes from the submodel: torch.Size([45, 50])
+Number of the labels: torch.Size([45])
+Embedding space of greek-1 built
+
+Distance from selected alpha to others: 
+0.00 590.22 1149.08 1758.19 2129.97 2187.81 1758.65 1985.55 781.28 3940.96 3524.92 4273.90 3537.18 3425.59 2831.45 1753.72 3110.24 2273.09 2327.93 2971.16 3897.77 3625.39 2769.60 4054.65 3530.41 3763.19 3061.02 3135.01 2729.13 3452.99 3311.09 3124.01 1472.41 3459.35 2831.51 3599.29 2857.40 3802.53 3056.10 2351.21 3189.41 3869.91 3539.83 2426.28 3531.92 
+Average distance to label alpha: 1542.59
+Average distance to label beta: 3185.67
+Average distance to label gamma: 3012.75
+Average distance to label eta: 3333.46
+Average distance to label phi: 3180.51
+
+Distance from selected beta to others: 
+3940.96 2751.28 2697.85 2155.16 2747.34 2614.28 2796.45 1903.93 3242.46 0.00 2517.40 1764.70 1768.87 1354.20 2072.26 3235.34 1802.65 1769.51 1497.99 2266.20 4073.22 4057.90 2973.07 2319.70 1913.02 2377.14 2291.48 2940.81 2426.27 2049.26 2711.97 1955.52 2199.69 2717.74 2948.98 2351.75 1619.44 1987.27 1628.76 1686.97 2725.67 2670.68 2150.90 1999.02 2645.37 
+Average distance to label alpha: 2761.08
+Average distance to label beta: 2035.62
+Average distance to label gamma: 2478.00
+Average distance to label eta: 2641.08
+Average distance to label phi: 2123.79
+
+Distance from selected gamma to others: 
+3135.01 3044.89 2671.93 2410.10 2251.73 2718.08 2915.49 2825.55 2549.98 2940.81 4694.02 6156.43 4994.46 3634.15 3745.34 3561.87 3935.27 3292.10 1405.03 3239.38 3773.01 3882.41 2069.30 3104.09 3511.93 3888.21 3358.87 0.00 874.94 1029.92 1291.17 964.22 1931.02 894.13 1003.86 989.08 2532.80 2146.69 1280.45 1503.81 1215.94 1813.46 2059.86 1273.36 1559.39 
+Average distance to label alpha: 2724.75
+Average distance to label beta: 4106.05
+Average distance to label gamma: 1122.29
+Average distance to label eta: 3136.92
+Average distance to label phi: 1709.53
+
+
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+2188.44 1771.21 1001.00 1175.77 580.91 954.78 1165.81 607.80 1447.68 2362.51 1663.33 3632.85 2590.23 2052.05 1197.25 1994.24 1842.73 1470.12 846.34 1363.50 1873.28 2001.43 1167.68 1558.13 1366.88 2023.50 1309.48 1828.87 1688.81 1710.61 1358.43 1429.48 1457.54 1408.60 1771.42 1575.41 2143.42 1100.65 1814.09 905.29 970.56 1289.21 1841.98 706.67 1474.14 
+Average distance to label alpha: 1210.38
+Average distance to label beta: 2089.48
+Average distance to label gamma: 1581.02
+Average distance to label eta: 1501.13
+Average distance to label phi: 1360.67
+
+Distance from selected image 1 to others: 
+1560.47 1091.45 1085.85 1299.33 1327.66 1818.11 1651.61 1033.91 1404.71 2116.01 1907.15 2977.41 2379.94 1712.79 2084.97 1469.06 2077.07 1152.05 870.39 1985.11 3338.06 3106.34 1892.77 2324.39 1706.49 2624.39 1725.81 2163.71 2016.47 1982.75 1975.70 1943.75 994.13 1589.87 1757.73 1734.37 2255.42 2145.84 1541.09 813.76 1799.60 2303.55 1846.80 1468.00 2359.07 
+Average distance to label alpha: 1363.68
+Average distance to label beta: 1986.27
+Average distance to label gamma: 1795.39
+Average distance to label eta: 2174.86
+Average distance to label phi: 1837.02
+
+Distance from selected image 2 to others: 
+1448.44 1223.62 1231.03 1445.57 1961.62 1552.78 1837.79 1410.90 876.05 2121.26 2426.82 1820.40 2435.44 1337.81 2223.38 2011.83 2249.00 1461.80 1693.51 2564.94 3756.91 3824.81 2872.32 3111.39 2010.14 3104.87 1828.00 3423.20 2963.10 3185.87 3820.99 2959.75 1793.32 3287.66 3538.56 3286.20 1939.64 2847.32 3111.14 1764.97 3331.47 3913.88 3816.01 2231.37 3971.19 
+Average distance to label alpha: 1443.09
+Average distance to label beta: 2009.75
+Average distance to label gamma: 3139.85
+Average distance to label eta: 2751.88
+Average distance to label phi: 2991.89
+
+Distance from selected image 3 to others: 
+4861.63 3501.04 2784.80 2825.49 2864.50 3400.42 3797.96 1905.48 4398.66 3280.50 2134.27 2912.91 2333.62 2652.18 1544.78 4764.59 1572.02 3976.76 3070.18 1120.03 2238.16 1858.12 2658.67 2016.44 1810.94 1278.15 1159.57 5189.56 3681.79 4218.72 3960.17 4267.28 4128.11 5023.50 5529.15 4224.15 3515.29 2695.31 3923.99 3026.81 3783.95 3077.79 2970.98 3244.13 3552.19 
+Average distance to label alpha: 3371.11
+Average distance to label beta: 2796.85
+Average distance to label gamma: 4469.16
+Average distance to label eta: 1912.25
+Average distance to label phi: 3310.05
+
+Distance from selected image 4 to others: 
+3083.67 2323.15 1732.25 2007.27 2694.03 2605.66 2973.32 1861.72 2593.80 3072.55 1171.53 1329.43 1483.22 1751.71 1562.27 2550.76 1406.91 2003.59 2316.13 1896.24 3086.64 3335.85 3352.27 3048.38 1225.47 2298.06 1377.40 5689.07 4182.23 5022.62 4212.46 4570.39 2535.60 5066.00 4824.37 4363.98 3018.00 3428.90 4303.08 2494.39 4001.19 4224.39 3854.70 3237.36 4433.27 
+Average distance to label alpha: 2430.54
+Average distance to label beta: 1814.66
+Average distance to label gamma: 4496.30
+Average distance to label eta: 2437.38
+Average distance to label phi: 3666.14
+
+Distance from selected image 5 to others: 
+2952.37 2080.48 1720.33 1986.74 925.71 1822.41 1686.24 850.48 2650.17 2163.97 2107.00 3350.84 2048.98 2079.27 1340.65 2842.04 1505.93 2437.83 1177.69 517.70 1732.92 1502.13 825.10 747.10 1440.28 1148.24 1096.61 2633.15 1842.74 2309.18 1828.77 2135.09 2282.83 2320.62 2805.79 1833.97 2546.05 1537.38 1924.34 1278.25 1678.66 1445.82 1415.87 1185.55 1807.99 
+Average distance to label alpha: 1852.77
+Average distance to label beta: 2208.50
+Average distance to label gamma: 2221.35
+Average distance to label eta: 1131.98
+Average distance to label phi: 1646.66
+
+Distance from selected image 6 to others: 
+2216.00 2173.21 1396.56 1292.06 1433.50 2232.62 1757.14 1466.53 1649.11 2055.58 2218.05 4020.16 2527.22 2190.49 2092.10 1654.74 2085.88 1878.08 835.95 1656.74 2889.31 2498.93 1635.08 1756.58 1650.96 2247.90 1846.38 1393.84 1262.49 1312.94 894.96 1019.01 528.64 1094.37 888.69 800.61 1775.97 1346.44 799.63 458.79 932.74 971.13 1085.05 647.51 1109.31 
+Average distance to label alpha: 1735.19
+Average distance to label beta: 2302.48
+Average distance to label gamma: 1021.73
+Average distance to label eta: 1890.87
+Average distance to label phi: 1014.06
+
+Distance from selected image 7 to others: 
+2896.06 2247.55 2128.85 1589.71 1289.99 2634.37 2371.14 1178.58 2508.21 1924.81 2704.80 4292.65 2965.54 2668.84 2207.23 2806.69 2583.36 2432.20 1088.50 1491.94 3247.50 2477.82 1478.72 1432.56 2093.51 2165.74 2090.99 1564.76 1560.47 1018.82 859.32 868.19 1306.99 1006.78 1096.56 826.81 2167.57 1217.56 767.14 556.34 947.56 642.82 659.74 640.33 1005.81 
+Average distance to label alpha: 2093.83
+Average distance to label beta: 2731.79
+Average distance to label gamma: 1123.19
+Average distance to label eta: 1951.92
+Average distance to label phi: 956.10
+
+Distance from selected image 8 to others: 
+4526.22 4295.88 3492.47 2909.19 2770.63 3602.15 3150.93 3195.40 3522.38 3386.52 4290.34 6527.92 5199.91 4269.05 3262.38 4548.19 4174.51 3621.59 2375.47 2996.24 3959.73 3530.93 2414.71 3178.67 3540.29 3207.36 3431.13 1393.05 2284.47 966.23 1680.01 1074.44 2392.07 1607.84 1651.59 1923.51 2403.85 1683.35 1515.52 2031.98 1639.43 1130.18 1678.86 1196.89 1021.92 
+Average distance to label alpha: 3496.14
+Average distance to label beta: 4364.49
+Average distance to label gamma: 1663.69
+Average distance to label eta: 3181.62
+Average distance to label phi: 1589.11
+
+Distance from selected image 9 to others: 
+2597.71 1730.39 1501.49 1743.88 1096.41 2324.82 1868.57 980.12 2655.70 2590.15 1730.95 3176.93 1909.19 2693.66 956.45 2777.72 1493.17 2402.67 1723.67 816.73 1558.99 1074.09 1427.78 1486.55 1573.85 1185.07 1146.53 3295.33 2551.53 3069.49 2249.14 2425.68 1933.77 3198.00 3145.12 2797.45 2767.31 2299.71 2067.15 1816.02 1943.88 1529.57 1489.35 1579.07 1619.49 
+Average distance to label alpha: 1833.23
+Average distance to label beta: 2192.32
+Average distance to label gamma: 2740.61
+Average distance to label eta: 1332.58
+Average distance to label phi: 1901.28
+
+Distance from selected image 10 to others: 
+2663.30 2047.01 1548.96 2098.44 948.68 1943.32 1871.01 802.86 2133.56 2502.15 1585.43 3063.48 2494.64 1772.92 1691.65 2312.58 1667.75 1953.38 1088.88 763.89 1966.55 1526.02 865.53 1034.48 1171.03 1301.95 874.82 2844.03 2207.53 2268.91 2197.57 2498.48 2282.33 2058.61 2881.42 2054.72 2560.81 1676.55 2035.08 1274.04 1746.87 2027.65 1791.52 1433.46 2251.82 
+Average distance to label alpha: 1784.13
+Average distance to label beta: 2116.00
+Average distance to label gamma: 2365.95
+Average distance to label eta: 1177.02
+Average distance to label phi: 1866.42
+
+Distance from selected image 11 to others: 
+2867.74 2064.30 1811.84 2153.12 1422.70 2458.57 1904.80 1041.08 2472.64 1997.63 1726.48 2287.66 1876.81 1602.58 1322.45 2877.56 1280.79 2264.64 1357.75 270.58 1541.09 1014.51 924.67 792.83 895.23 386.27 562.91 3378.37 2532.48 2573.87 2709.92 2652.70 2208.54 2983.07 3497.12 2524.60 2201.58 2029.19 1920.53 1637.11 2315.47 1869.53 1491.15 1560.27 2108.03 
+Average distance to label alpha: 2021.87
+Average distance to label beta: 1915.18
+Average distance to label gamma: 2784.52
+Average distance to label eta: 860.65
+Average distance to label phi: 1903.65
+
+Distance from selected image 12 to others: 
+3621.75 3045.30 1926.94 1690.69 1315.53 1833.14 2147.01 1237.20 2109.20 2167.15 2844.41 3603.57 3340.80 2238.48 1575.37 3570.06 2396.78 2684.02 1313.05 1279.68 2037.63 1776.79 1275.99 1021.67 1449.14 1866.92 1475.63 2148.65 1931.31 1985.56 1695.42 1614.21 2234.09 2013.82 2351.03 1413.11 2417.63 1243.22 2063.23 1122.02 1060.39 996.11 1774.06 694.67 1411.98 
+Average distance to label alpha: 2102.97
+Average distance to label beta: 2713.40
+Average distance to label gamma: 1931.91
+Average distance to label eta: 1499.61
+Average distance to label phi: 1420.37
+
+Distance from selected image 13 to others: 
+3059.18 2663.55 1647.67 1212.81 1058.25 1416.34 1662.89 1142.17 2143.24 1808.29 1943.89 3508.46 2196.88 1984.78 1502.10 2343.43 1708.72 1853.85 1029.44 1401.66 2038.51 2153.58 1516.02 1154.63 1218.74 1883.66 1418.31 1635.42 1126.54 1558.95 1198.72 874.24 1456.55 1236.16 1475.20 1012.61 1594.76 585.70 1432.95 688.60 908.01 1001.13 1717.96 612.61 1245.60 
+Average distance to label alpha: 1778.46
+Average distance to label beta: 2094.49
+Average distance to label gamma: 1286.05
+Average distance to label eta: 1534.95
+Average distance to label phi: 1087.48
+
+Distance from selected image 14 to others: 
+3109.53 2766.50 1881.79 2155.65 1110.40 2110.70 1783.50 1295.28 1958.42 2542.56 3147.06 4626.40 3712.32 2690.96 2068.62 3353.92 2712.11 2972.81 1168.96 1456.37 2471.77 2104.19 786.19 1216.40 2156.23 2022.31 1614.51 1564.81 1822.78 1674.60 1813.75 1577.01 2075.35 1713.99 2210.92 1360.15 2231.41 1593.72 1559.50 1180.55 1079.44 879.93 1557.92 416.19 1157.68 
+Average distance to label alpha: 2019.09
+Average distance to label beta: 3091.86
+Average distance to label gamma: 1757.04
+Average distance to label eta: 1666.33
+Average distance to label phi: 1295.15
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+2188.44 1771.21 1001.00 1175.77 580.91 954.78 1165.81 607.80 1447.68 2362.51 1663.33 3632.85 2590.23 2052.05 1197.25 1994.24 1842.73 1470.12 846.34 1363.50 1873.28 2001.43 1167.68 1558.13 1366.88 2023.50 1309.48 1828.87 1688.81 1710.61 1358.43 1429.48 1457.54 1408.60 1771.42 1575.41 2143.42 1100.65 1814.09 905.29 970.56 1289.21 1841.98 706.67 1474.14 
+Total distance to top kth label alpha: 6933.74
+Total distance to top kth label beta: 12582.22
+Total distance to top kth label gamma: 10628.89
+Total distance to top kth label eta: 9485.28
+Total distance to top kth label phi: 8260.61
+
+Distance from selected image 1 to others: 
+1560.47 1091.45 1085.85 1299.33 1327.66 1818.11 1651.61 1033.91 1404.71 2116.01 1907.15 2977.41 2379.94 1712.79 2084.97 1469.06 2077.07 1152.05 870.39 1985.11 3338.06 3106.34 1892.77 2324.39 1706.49 2624.39 1725.81 2163.71 2016.47 1982.75 1975.70 1943.75 994.13 1589.87 1757.73 1734.37 2255.42 2145.84 1541.09 813.76 1799.60 2303.55 1846.80 1468.00 2359.07 
+Total distance to top kth label alpha: 8803.37
+Total distance to top kth label beta: 12519.10
+Total distance to top kth label gamma: 11978.30
+Total distance to top kth label eta: 13129.35
+Total distance to top kth label phi: 11870.52
+
+Distance from selected image 2 to others: 
+1448.44 1223.62 1231.03 1445.57 1961.62 1552.78 1837.79 1410.90 876.05 2121.26 2426.82 1820.40 2435.44 1337.81 2223.38 2011.83 2249.00 1461.80 1693.51 2564.94 3756.91 3824.81 2872.32 3111.39 2010.14 3104.87 1828.00 3423.20 2963.10 3185.87 3820.99 2959.75 1793.32 3287.66 3538.56 3286.20 1939.64 2847.32 3111.14 1764.97 3331.47 3913.88 3816.01 2231.37 3971.19 
+Total distance to top kth label alpha: 9188.40
+Total distance to top kth label beta: 13225.48
+Total distance to top kth label gamma: 20899.11
+Total distance to top kth label eta: 17185.16
+Total distance to top kth label phi: 19041.92
+
+Distance from selected image 3 to others: 
+4861.63 3501.04 2784.80 2825.49 2864.50 3400.42 3797.96 1905.48 4398.66 3280.50 2134.27 2912.91 2333.62 2652.18 1544.78 4764.59 1572.02 3976.76 3070.18 1120.03 2238.16 1858.12 2658.67 2016.44 1810.94 1278.15 1159.57 5189.56 3681.79 4218.72 3960.17 4267.28 4128.11 5023.50 5529.15 4224.15 3515.29 2695.31 3923.99 3026.81 3783.95 3077.79 2970.98 3244.13 3552.19 
+Total distance to top kth label alpha: 21079.69
+Total distance to top kth label beta: 16430.28
+Total distance to top kth label gamma: 29503.71
+Total distance to top kth label eta: 11481.41
+Total distance to top kth label phi: 22082.51
+
+Distance from selected image 4 to others: 
+3083.67 2323.15 1732.25 2007.27 2694.03 2605.66 2973.32 1861.72 2593.80 3072.55 1171.53 1329.43 1483.22 1751.71 1562.27 2550.76 1406.91 2003.59 2316.13 1896.24 3086.64 3335.85 3352.27 3048.38 1225.47 2298.06 1377.40 5689.07 4182.23 5022.62 4212.46 4570.39 2535.60 5066.00 4824.37 4363.98 3018.00 3428.90 4303.08 2494.39 4001.19 4224.39 3854.70 3237.36 4433.27 
+Total distance to top kth label alpha: 15817.89
+Total distance to top kth label beta: 10708.66
+Total distance to top kth label gamma: 29711.66
+Total distance to top kth label eta: 15248.33
+Total distance to top kth label phi: 24258.93
+
+Distance from selected image 5 to others: 
+2952.37 2080.48 1720.33 1986.74 925.71 1822.41 1686.24 850.48 2650.17 2163.97 2107.00 3350.84 2048.98 2079.27 1340.65 2842.04 1505.93 2437.83 1177.69 517.70 1732.92 1502.13 825.10 747.10 1440.28 1148.24 1096.61 2633.15 1842.74 2309.18 1828.77 2135.09 2282.83 2320.62 2805.79 1833.97 2546.05 1537.38 1924.34 1278.25 1678.66 1445.82 1415.87 1185.55 1807.99 
+Total distance to top kth label alpha: 11072.39
+Total distance to top kth label beta: 13683.63
+Total distance to top kth label gamma: 14553.19
+Total distance to top kth label eta: 6952.73
+Total distance to top kth label phi: 10349.53
+
+Distance from selected image 6 to others: 
+2216.00 2173.21 1396.56 1292.06 1433.50 2232.62 1757.14 1466.53 1649.11 2055.58 2218.05 4020.16 2527.22 2190.49 2092.10 1654.74 2085.88 1878.08 835.95 1656.74 2889.31 2498.93 1635.08 1756.58 1650.96 2247.90 1846.38 1393.84 1262.49 1312.94 894.96 1019.01 528.64 1094.37 888.69 800.61 1775.97 1346.44 799.63 458.79 932.74 971.13 1085.05 647.51 1109.31 
+Total distance to top kth label alpha: 11168.10
+Total distance to top kth label beta: 14174.93
+Total distance to top kth label gamma: 6488.77
+Total distance to top kth label eta: 11629.59
+Total distance to top kth label phi: 6004.15
+
+Distance from selected image 7 to others: 
+2896.06 2247.55 2128.85 1589.71 1289.99 2634.37 2371.14 1178.58 2508.21 1924.81 2704.80 4292.65 2965.54 2668.84 2207.23 2806.69 2583.36 2432.20 1088.50 1491.94 3247.50 2477.82 1478.72 1432.56 2093.51 2165.74 2090.99 1564.76 1560.47 1018.82 859.32 868.19 1306.99 1006.78 1096.56 826.81 2167.57 1217.56 767.14 556.34 947.56 642.82 659.74 640.33 1005.81 
+Total distance to top kth label alpha: 13314.03
+Total distance to top kth label beta: 17327.94
+Total distance to top kth label gamma: 6983.48
+Total distance to top kth label eta: 11841.96
+Total distance to top kth label phi: 5219.73
+
+Distance from selected image 8 to others: 
+4526.22 4295.88 3492.47 2909.19 2770.63 3602.15 3150.93 3195.40 3522.38 3386.52 4290.34 6527.92 5199.91 4269.05 3262.38 4548.19 4174.51 3621.59 2375.47 2996.24 3959.73 3530.93 2414.71 3178.67 3540.29 3207.36 3431.13 1393.05 2284.47 966.23 1680.01 1074.44 2392.07 1607.84 1651.59 1923.51 2403.85 1683.35 1515.52 2031.98 1639.43 1130.18 1678.86 1196.89 1021.92 
+Total distance to top kth label alpha: 22643.14
+Total distance to top kth label beta: 27552.59
+Total distance to top kth label gamma: 10296.68
+Total distance to top kth label eta: 21134.52
+Total distance to top kth label phi: 9866.14
+
+Distance from selected image 9 to others: 
+2597.71 1730.39 1501.49 1743.88 1096.41 2324.82 1868.57 980.12 2655.70 2590.15 1730.95 3176.93 1909.19 2693.66 956.45 2777.72 1493.17 2402.67 1723.67 816.73 1558.99 1074.09 1427.78 1486.55 1573.85 1185.07 1146.53 3295.33 2551.53 3069.49 2249.14 2425.68 1933.77 3198.00 3145.12 2797.45 2767.31 2299.71 2067.15 1816.02 1943.88 1529.57 1489.35 1579.07 1619.49 
+Total distance to top kth label alpha: 11245.68
+Total distance to top kth label beta: 13776.24
+Total distance to top kth label gamma: 18172.18
+Total distance to top kth label eta: 8695.74
+Total distance to top kth label phi: 12044.53
+
+Distance from selected image 10 to others: 
+2663.30 2047.01 1548.96 2098.44 948.68 1943.32 1871.01 802.86 2133.56 2502.15 1585.43 3063.48 2494.64 1772.92 1691.65 2312.58 1667.75 1953.38 1088.88 763.89 1966.55 1526.02 865.53 1034.48 1171.03 1301.95 874.82 2844.03 2207.53 2268.91 2197.57 2498.48 2282.33 2058.61 2881.42 2054.72 2560.81 1676.55 2035.08 1274.04 1746.87 2027.65 1791.52 1433.46 2251.82 
+Total distance to top kth label alpha: 11260.29
+Total distance to top kth label beta: 13478.34
+Total distance to top kth label gamma: 15568.14
+Total distance to top kth label eta: 7100.58
+Total distance to top kth label phi: 11985.17
+
+Distance from selected image 11 to others: 
+2867.74 2064.30 1811.84 2153.12 1422.70 2458.57 1904.80 1041.08 2472.64 1997.63 1726.48 2287.66 1876.81 1602.58 1322.45 2877.56 1280.79 2264.64 1357.75 270.58 1541.09 1014.51 924.67 792.83 895.23 386.27 562.91 3378.37 2532.48 2573.87 2709.92 2652.70 2208.54 2983.07 3497.12 2524.60 2201.58 2029.19 1920.53 1637.11 2315.47 1869.53 1491.15 1560.27 2108.03 
+Total distance to top kth label alpha: 12856.41
+Total distance to top kth label beta: 12071.39
+Total distance to top kth label gamma: 18185.16
+Total distance to top kth label eta: 4847.00
+Total distance to top kth label phi: 12615.81
+
+Distance from selected image 12 to others: 
+3621.75 3045.30 1926.94 1690.69 1315.53 1833.14 2147.01 1237.20 2109.20 2167.15 2844.41 3603.57 3340.80 2238.48 1575.37 3570.06 2396.78 2684.02 1313.05 1279.68 2037.63 1776.79 1275.99 1021.67 1449.14 1866.92 1475.63 2148.65 1931.31 1985.56 1695.42 1614.21 2234.09 2013.82 2351.03 1413.11 2417.63 1243.22 2063.23 1122.02 1060.39 996.11 1774.06 694.67 1411.98 
+Total distance to top kth label alpha: 12259.70
+Total distance to top kth label beta: 17247.00
+Total distance to top kth label gamma: 12802.08
+Total distance to top kth label eta: 9591.96
+Total distance to top kth label phi: 8302.46
+
+Distance from selected image 13 to others: 
+3059.18 2663.55 1647.67 1212.81 1058.25 1416.34 1662.89 1142.17 2143.24 1808.29 1943.89 3508.46 2196.88 1984.78 1502.10 2343.43 1708.72 1853.85 1029.44 1401.66 2038.51 2153.58 1516.02 1154.63 1218.74 1883.66 1418.31 1635.42 1126.54 1558.95 1198.72 874.24 1456.55 1236.16 1475.20 1012.61 1594.76 585.70 1432.95 688.60 908.01 1001.13 1717.96 612.61 1245.60 
+Total distance to top kth label alpha: 10283.37
+Total distance to top kth label beta: 12998.50
+Total distance to top kth label gamma: 8380.04
+Total distance to top kth label eta: 9622.45
+Total distance to top kth label phi: 6474.61
+
+Distance from selected image 14 to others: 
+3109.53 2766.50 1881.79 2155.65 1110.40 2110.70 1783.50 1295.28 1958.42 2542.56 3147.06 4626.40 3712.32 2690.96 2068.62 3353.92 2712.11 2972.81 1168.96 1456.37 2471.77 2104.19 786.19 1216.40 2156.23 2022.31 1614.51 1564.81 1822.78 1674.60 1813.75 1577.01 2075.35 1713.99 2210.92 1360.15 2231.41 1593.72 1559.50 1180.55 1079.44 879.93 1557.92 416.19 1157.68 
+Total distance to top kth label alpha: 12295.74
+Total distance to top kth label beta: 19488.04
+Total distance to top kth label gamma: 11527.09
+Total distance to top kth label eta: 10368.94
+Total distance to top kth label phi: 7831.21
+#################################################################
+
+#################################################################
+For kernel size = 7 and drop rate = 0.7
+
+Building embedding space of greek-1
+
+Batch 0:
+Input batch size: torch.Size([45, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([45, 50])
+
+Shape of the output nodes from the submodel: torch.Size([45, 50])
+Number of the labels: torch.Size([45])
+Embedding space of greek-1 built
+
+Distance from selected alpha to others: 
+0.00 1304.40 1243.90 1049.25 2919.86 1969.63 1560.29 1283.94 1798.07 1820.72 2035.18 1691.73 1917.64 1926.53 1685.42 3440.36 1816.80 2443.26 2597.93 1716.39 2185.33 1595.86 2309.94 2270.50 1829.38 1493.78 2157.77 1211.96 2229.06 2164.04 3204.13 1501.34 1112.53 2283.13 2478.91 2281.46 2244.02 1606.98 1331.62 3039.53 1733.49 2527.44 2157.28 4159.49 1744.83 
+Average distance to label alpha: 1641.17
+Average distance to label beta: 2086.40
+Average distance to label gamma: 2051.84
+Average distance to label eta: 2017.43
+Average distance to label phi: 2282.74
+
+Distance from selected beta to others: 
+1820.72 2459.54 1978.73 1446.50 3463.70 1671.66 2714.94 1674.01 1529.99 0.00 1954.77 1300.29 1881.68 2219.65 2300.22 3981.90 2153.61 1043.04 2572.47 1775.09 1928.47 1274.33 2070.75 2072.11 1270.57 1248.69 1527.12 1998.37 2850.29 2522.71 3491.19 1893.27 1816.52 2790.74 3507.97 2251.85 2939.18 1663.08 2328.65 2928.74 2096.18 2183.00 3298.17 3489.80 1935.19 
+Average distance to label alpha: 2084.42
+Average distance to label beta: 2104.40
+Average distance to label gamma: 2569.21
+Average distance to label eta: 1748.84
+Average distance to label phi: 2540.22
+
+Distance from selected gamma to others: 
+1211.96 1777.39 812.28 963.20 1809.12 1379.94 1726.28 1663.77 1180.28 1998.37 1885.50 1606.04 2267.06 2100.61 1943.65 3773.72 2497.72 2530.20 1552.27 769.45 1122.43 951.06 960.99 1277.95 1238.44 986.60 979.91 0.00 1055.44 1322.08 1764.64 733.81 829.47 903.32 1045.59 1160.39 1425.70 1150.67 1418.04 1305.40 819.79 1187.96 1574.59 1787.57 801.93 
+Average distance to label alpha: 1391.58
+Average distance to label beta: 2289.21
+Average distance to label gamma: 1101.84
+Average distance to label eta: 1093.23
+Average distance to label phi: 1274.63
+
+
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+2118.56 2706.34 1726.86 1716.24 1196.14 1785.10 2358.49 1710.88 1644.58 3018.93 1660.79 2365.58 2253.54 2023.18 2182.76 5151.57 2142.99 3001.65 1744.36 1677.37 1682.93 2469.46 1261.87 1514.16 2129.13 1385.21 1927.09 1297.12 1099.87 1358.20 1395.53 1073.75 1507.22 622.31 836.34 919.79 1434.10 1131.73 2103.95 1363.49 790.91 2158.38 2976.72 1716.92 1244.60 
+Average distance to label alpha: 1884.80
+Average distance to label beta: 2644.55
+Average distance to label gamma: 1123.35
+Average distance to label eta: 1754.62
+Average distance to label phi: 1657.87
+
+Distance from selected image 1 to others: 
+2875.88 4101.79 1306.08 1815.31 2179.47 1765.68 3124.19 2578.04 2324.08 2996.15 2417.89 2955.45 3178.56 3670.33 1672.53 4622.53 3767.95 3692.42 2681.91 2500.25 1446.79 2539.46 2107.57 2159.86 2393.51 2671.85 2416.41 1696.77 2221.58 1577.50 2162.81 1737.79 2151.84 2186.60 2042.95 1392.09 2909.92 2984.43 2957.48 2472.46 2353.98 1377.65 2482.90 2339.15 1687.31 
+Average distance to label alpha: 2452.28
+Average distance to label beta: 3219.31
+Average distance to label gamma: 1907.77
+Average distance to label eta: 2324.18
+Average distance to label phi: 2396.14
+
+Distance from selected image 2 to others: 
+1627.74 2690.13 1852.42 2020.83 2827.46 1598.90 3395.78 2040.69 2090.68 2754.04 2661.60 3402.35 2801.88 3045.52 1372.38 5146.82 1790.62 2858.30 3049.35 2850.67 2749.80 3018.76 2511.58 2900.30 3011.25 1761.80 2497.30 1738.84 1680.49 2578.17 3017.91 1780.51 1883.37 2302.14 2721.74 2179.93 3041.19 2637.51 2274.57 3071.34 1672.45 2445.36 2617.48 3260.84 1452.83 
+Average distance to label alpha: 2238.29
+Average distance to label beta: 2870.39
+Average distance to label gamma: 2209.23
+Average distance to label eta: 2705.65
+Average distance to label phi: 2497.06
+
+Distance from selected image 3 to others: 
+1889.04 2918.03 1581.12 1139.13 1653.42 1174.45 1706.61 538.82 1296.01 1776.71 2206.77 1094.97 1955.76 2004.42 1848.31 3923.00 2073.55 1914.96 2468.56 2237.79 1853.43 1984.40 1592.28 2173.66 1813.92 1531.15 2264.18 1788.30 2370.54 1854.33 3072.72 1381.12 1316.24 1570.86 2693.29 1441.72 2057.64 1619.38 2728.27 2500.75 1751.00 2215.75 3607.75 2610.39 1484.64 
+Average distance to label alpha: 1544.07
+Average distance to label beta: 2088.72
+Average distance to label gamma: 1943.24
+Average distance to label eta: 1991.04
+Average distance to label phi: 2286.17
+
+Distance from selected image 4 to others: 
+1617.91 2506.65 1729.15 1440.69 3044.32 2588.45 2044.24 1949.22 1619.25 1308.62 2132.20 1025.91 1484.02 2289.97 2459.13 3480.49 2958.28 1895.54 2844.79 2123.76 2206.71 1911.85 2741.74 2725.27 1544.31 1399.03 1953.11 2423.49 3128.94 2941.74 3624.19 2307.19 2267.71 3061.79 3422.38 2985.54 3083.40 1407.84 1943.31 3220.92 2432.75 2690.27 3381.70 3825.97 2249.78 
+Average distance to label alpha: 2059.99
+Average distance to label beta: 2114.91
+Average distance to label gamma: 2907.00
+Average distance to label eta: 2161.17
+Average distance to label phi: 2692.88
+
+Distance from selected image 5 to others: 
+2854.66 2654.89 1704.47 1669.79 1446.02 2149.60 2436.03 2142.30 1924.37 2110.44 1969.05 1108.02 2501.13 2918.33 2696.79 4117.13 2710.94 2436.01 2139.05 1137.07 1090.90 1905.45 1647.67 1822.39 1584.30 1235.20 1657.21 1937.72 2960.16 1355.17 2312.99 1778.27 1697.96 2171.23 2227.88 1648.48 2755.32 1332.88 2598.75 1687.73 1507.60 1236.51 2678.08 2021.88 1371.53 
+Average distance to label alpha: 2109.13
+Average distance to label beta: 2507.54
+Average distance to label gamma: 2009.98
+Average distance to label eta: 1579.91
+Average distance to label phi: 1910.03
+
+Distance from selected image 6 to others: 
+2019.82 1982.03 844.61 1090.50 2579.50 1580.52 1959.05 2198.63 1381.64 2051.30 2362.38 2468.18 2600.89 2663.66 2401.42 4413.42 2781.95 2350.13 2556.36 1445.83 1870.81 1651.46 2057.74 2252.98 1612.33 1341.86 853.14 1072.31 1642.76 2428.69 2445.75 1274.99 1542.23 2033.98 1691.48 2450.34 2261.06 1550.34 1686.54 1923.98 1383.80 1420.19 1728.12 2333.83 1466.94 
+Average distance to label alpha: 1737.37
+Average distance to label beta: 2677.04
+Average distance to label gamma: 1842.50
+Average distance to label eta: 1738.06
+Average distance to label phi: 1750.54
+
+Distance from selected image 7 to others: 
+2268.36 2916.55 1256.99 1546.11 1149.99 1672.86 3130.38 2255.82 1601.38 2746.43 2874.73 2434.11 3492.97 3534.01 2112.30 5529.75 3200.80 3658.63 2485.96 1715.02 1560.39 2473.09 2171.24 2435.29 2361.05 1442.74 1505.17 1214.18 1129.64 1425.03 2002.07 1229.82 1326.50 1296.40 1290.46 1433.88 2314.04 1546.05 2317.47 1679.09 1006.34 734.12 1770.13 1516.50 822.30 
+Average distance to label alpha: 1977.60
+Average distance to label beta: 3287.08
+Average distance to label gamma: 1372.00
+Average distance to label eta: 2016.66
+Average distance to label phi: 1522.89
+
+Distance from selected image 8 to others: 
+3370.50 4439.81 1930.82 2341.81 1133.55 1860.97 3777.44 2480.99 2130.60 3040.28 2922.70 2679.90 3569.58 3650.28 2240.44 4845.56 3988.18 3627.94 2450.40 2153.90 1662.58 2619.54 1892.91 2541.02 2556.94 1935.33 2026.99 1871.14 1543.87 1557.09 1983.96 1652.80 1483.54 1141.41 1900.37 1182.74 2156.72 2288.77 3700.11 1656.76 1364.23 1567.28 3360.41 1441.49 1517.24 
+Average distance to label alpha: 2607.39
+Average distance to label beta: 3396.10
+Average distance to label gamma: 1590.77
+Average distance to label eta: 2204.40
+Average distance to label phi: 2117.00
+
+Distance from selected image 9 to others: 
+2973.05 3609.40 953.69 1542.00 2194.86 1974.61 2551.77 2468.01 1362.54 2529.18 2155.89 2593.28 2271.31 2344.55 2318.59 2804.78 3472.56 2388.30 1555.39 2169.57 1767.03 1739.69 1404.87 1996.76 910.94 2094.15 881.50 1715.88 1716.29 2669.42 1098.02 1193.45 1729.81 1598.43 1721.83 2036.00 1709.61 1908.11 2972.87 1529.18 1745.76 1917.59 3191.84 2308.27 2289.74 
+Average distance to label alpha: 2181.10
+Average distance to label beta: 2542.05
+Average distance to label gamma: 1719.90
+Average distance to label eta: 1613.32
+Average distance to label phi: 2174.77
+
+Distance from selected image 10 to others: 
+2351.63 2774.27 858.24 1184.72 1266.93 2074.78 1834.83 2125.29 1216.33 2264.11 1692.45 1412.02 2147.34 1624.78 2467.83 3122.59 2906.04 2246.37 926.56 1179.04 895.57 1453.34 926.03 1119.19 581.42 1265.12 739.90 1133.12 1781.68 1432.35 1018.93 778.11 1116.91 1048.47 1082.07 1781.11 1596.73 774.49 1966.55 808.10 809.19 1188.88 2911.91 1657.28 1384.27 
+Average distance to label alpha: 1743.00
+Average distance to label beta: 2209.28
+Average distance to label gamma: 1241.42
+Average distance to label eta: 1009.58
+Average distance to label phi: 1455.27
+
+Distance from selected image 11 to others: 
+2557.00 2130.98 1350.80 1460.14 1397.21 2337.51 2369.63 2552.19 1535.21 2541.58 2233.03 1967.83 2836.50 2398.58 3314.46 4776.28 2808.48 2522.14 1689.91 969.06 1141.37 1778.15 1459.99 1452.85 1219.41 979.02 911.78 1432.16 1674.74 1622.13 1422.56 1176.89 1652.86 1632.32 1188.74 2060.77 2077.62 1077.46 2114.10 1219.33 941.69 1412.85 2403.40 1697.83 1717.40 
+Average distance to label alpha: 1965.63
+Average distance to label beta: 2822.10
+Average distance to label gamma: 1540.35
+Average distance to label eta: 1289.06
+Average distance to label phi: 1629.08
+
+Distance from selected image 12 to others: 
+3005.82 2950.62 1502.33 1518.12 969.88 1403.59 2752.36 2008.03 1364.00 2367.72 1918.10 1954.47 2570.96 2852.61 2414.60 5050.50 2772.69 2434.61 1937.39 1153.61 777.68 1760.92 1108.18 1556.44 1546.51 940.15 1251.08 1476.01 1166.00 1099.06 1315.97 1194.95 1775.72 1245.48 1145.17 597.55 1626.16 1650.50 2820.98 1239.66 1076.39 1229.03 2640.34 959.75 1396.87 
+Average distance to label alpha: 1941.64
+Average distance to label beta: 2704.03
+Average distance to label gamma: 1223.99
+Average distance to label eta: 1336.88
+Average distance to label phi: 1626.63
+
+Distance from selected image 13 to others: 
+2415.31 2489.25 1173.82 1447.13 1465.36 2495.87 2323.86 2347.47 1449.01 2285.70 1647.81 1652.52 2181.98 1676.48 2608.62 3672.03 2679.87 2338.90 869.04 1152.27 1131.41 1818.55 1180.42 1341.36 1076.95 1238.13 863.17 1391.06 1952.41 1575.90 1101.62 804.64 1174.99 1269.41 1241.38 1823.58 2087.83 679.19 1576.33 830.65 615.14 1264.13 2790.29 1676.65 1104.82 
+Average distance to label alpha: 1956.34
+Average distance to label beta: 2304.88
+Average distance to label gamma: 1370.56
+Average distance to label eta: 1185.70
+Average distance to label phi: 1402.78
+
+Distance from selected image 14 to others: 
+3203.43 3707.96 1640.05 2090.51 1748.48 2265.17 3016.71 2669.85 1781.55 2355.67 1476.73 2084.54 2457.89 2969.00 2590.81 3274.59 3723.60 2664.22 1656.90 1521.27 1528.06 1984.83 1552.91 2254.80 1432.43 1357.16 1309.53 1633.43 2304.04 1967.95 1739.16 1376.59 1528.49 1755.06 1695.48 1819.26 2347.03 1091.94 2486.48 638.42 1159.71 1520.53 3220.01 1316.72 1059.83 
+Average distance to label alpha: 2458.19
+Average distance to label beta: 2621.89
+Average distance to label gamma: 1757.72
+Average distance to label eta: 1621.99
+Average distance to label phi: 1648.96
+
+Building embedding space for hand write greeks
+
+Batch 0:
+Input batch size: torch.Size([15, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([15, 50])
+
+Shape of the output nodes from the submodel: torch.Size([15, 50])
+Number of the labels: torch.Size([15])
+
+Distance from selected image 0 to others: 
+2118.56 2706.34 1726.86 1716.24 1196.14 1785.10 2358.49 1710.88 1644.58 3018.93 1660.79 2365.58 2253.54 2023.18 2182.76 5151.57 2142.99 3001.65 1744.36 1677.37 1682.93 2469.46 1261.87 1514.16 2129.13 1385.21 1927.09 1297.12 1099.87 1358.20 1395.53 1073.75 1507.22 622.31 836.34 919.79 1434.10 1131.73 2103.95 1363.49 790.91 2158.38 2976.72 1716.92 1244.60 
+Total distance to top kth label alpha: 11898.35
+Total distance to top kth label beta: 15630.49
+Total distance to top kth label gamma: 7207.38
+Total distance to top kth label eta: 11192.97
+Total distance to top kth label phi: 9785.71
+
+Distance from selected image 1 to others: 
+2875.88 4101.79 1306.08 1815.31 2179.47 1765.68 3124.19 2578.04 2324.08 2996.15 2417.89 2955.45 3178.56 3670.33 1672.53 4622.53 3767.95 3692.42 2681.91 2500.25 1446.79 2539.46 2107.57 2159.86 2393.51 2671.85 2416.41 1696.77 2221.58 1577.50 2162.81 1737.79 2151.84 2186.60 2042.95 1392.09 2909.92 2984.43 2957.48 2472.46 2353.98 1377.65 2482.90 2339.15 1687.31 
+Total distance to top kth label alpha: 14844.54
+Total distance to top kth label beta: 20583.33
+Total distance to top kth label gamma: 12761.75
+Total distance to top kth label eta: 15563.86
+Total distance to top kth label phi: 15623.38
+
+Distance from selected image 2 to others: 
+1627.74 2690.13 1852.42 2020.83 2827.46 1598.90 3395.78 2040.69 2090.68 2754.04 2661.60 3402.35 2801.88 3045.52 1372.38 5146.82 1790.62 2858.30 3049.35 2850.67 2749.80 3018.76 2511.58 2900.30 3011.25 1761.80 2497.30 1738.84 1680.49 2578.17 3017.91 1780.51 1883.37 2302.14 2721.74 2179.93 3041.19 2637.51 2274.57 3071.34 1672.45 2445.36 2617.48 3260.84 1452.83 
+Total distance to top kth label alpha: 13921.38
+Total distance to top kth label beta: 17284.33
+Total distance to top kth label gamma: 14143.44
+Total distance to top kth label eta: 18282.70
+Total distance to top kth label phi: 16141.39
+
+Distance from selected image 3 to others: 
+1889.04 2918.03 1581.12 1139.13 1653.42 1174.45 1706.61 538.82 1296.01 1776.71 2206.77 1094.97 1955.76 2004.42 1848.31 3923.00 2073.55 1914.96 2468.56 2237.79 1853.43 1984.40 1592.28 2173.66 1813.92 1531.15 2264.18 1788.30 2370.54 1854.33 3072.72 1381.12 1316.24 1570.86 2693.29 1441.72 2057.64 1619.38 2728.27 2500.75 1751.00 2215.75 3607.75 2610.39 1484.64 
+Total distance to top kth label alpha: 9089.56
+Total distance to top kth label beta: 12668.68
+Total distance to top kth label gamma: 11723.12
+Total distance to top kth label eta: 13186.64
+Total distance to top kth label phi: 14239.55
+
+Distance from selected image 4 to others: 
+1617.91 2506.65 1729.15 1440.69 3044.32 2588.45 2044.24 1949.22 1619.25 1308.62 2132.20 1025.91 1484.02 2289.97 2459.13 3480.49 2958.28 1895.54 2844.79 2123.76 2206.71 1911.85 2741.74 2725.27 1544.31 1399.03 1953.11 2423.49 3128.94 2941.74 3624.19 2307.19 2267.71 3061.79 3422.38 2985.54 3083.40 1407.84 1943.31 3220.92 2432.75 2690.27 3381.70 3825.97 2249.78 
+Total distance to top kth label alpha: 12907.12
+Total distance to top kth label beta: 12595.39
+Total distance to top kth label gamma: 19116.40
+Total distance to top kth label eta: 13864.04
+Total distance to top kth label phi: 17028.26
+
+Distance from selected image 5 to others: 
+2854.66 2654.89 1704.47 1669.79 1446.02 2149.60 2436.03 2142.30 1924.37 2110.44 1969.05 1108.02 2501.13 2918.33 2696.79 4117.13 2710.94 2436.01 2139.05 1137.07 1090.90 1905.45 1647.67 1822.39 1584.30 1235.20 1657.21 1937.72 2960.16 1355.17 2312.99 1778.27 1697.96 2171.23 2227.88 1648.48 2755.32 1332.88 2598.75 1687.73 1507.60 1236.51 2678.08 2021.88 1371.53 
+Total distance to top kth label alpha: 13472.58
+Total distance to top kth label beta: 15532.39
+Total distance to top kth label gamma: 12816.69
+Total distance to top kth label eta: 10174.73
+Total distance to top kth label phi: 11756.88
+
+Distance from selected image 6 to others: 
+2019.82 1982.03 844.61 1090.50 2579.50 1580.52 1959.05 2198.63 1381.64 2051.30 2362.38 2468.18 2600.89 2663.66 2401.42 4413.42 2781.95 2350.13 2556.36 1445.83 1870.81 1651.46 2057.74 2252.98 1612.33 1341.86 853.14 1072.31 1642.76 2428.69 2445.75 1274.99 1542.23 2033.98 1691.48 2450.34 2261.06 1550.34 1686.54 1923.98 1383.80 1420.19 1728.12 2333.83 1466.94 
+Total distance to top kth label alpha: 10858.18
+Total distance to top kth label beta: 16897.96
+Total distance to top kth label gamma: 11686.44
+Total distance to top kth label eta: 10833.16
+Total distance to top kth label phi: 11159.93
+
+Distance from selected image 7 to others: 
+2268.36 2916.55 1256.99 1546.11 1149.99 1672.86 3130.38 2255.82 1601.38 2746.43 2874.73 2434.11 3492.97 3534.01 2112.30 5529.75 3200.80 3658.63 2485.96 1715.02 1560.39 2473.09 2171.24 2435.29 2361.05 1442.74 1505.17 1214.18 1129.64 1425.03 2002.07 1229.82 1326.50 1296.40 1290.46 1433.88 2314.04 1546.05 2317.47 1679.09 1006.34 734.12 1770.13 1516.50 822.30 
+Total distance to top kth label alpha: 11751.51
+Total distance to top kth label beta: 20395.34
+Total distance to top kth label gamma: 8912.02
+Total distance to top kth label eta: 13190.89
+Total distance to top kth label phi: 9074.53
+
+Distance from selected image 8 to others: 
+3370.50 4439.81 1930.82 2341.81 1133.55 1860.97 3777.44 2480.99 2130.60 3040.28 2922.70 2679.90 3569.58 3650.28 2240.44 4845.56 3988.18 3627.94 2450.40 2153.90 1662.58 2619.54 1892.91 2541.02 2556.94 1935.33 2026.99 1871.14 1543.87 1557.09 1983.96 1652.80 1483.54 1141.41 1900.37 1182.74 2156.72 2288.77 3700.11 1656.76 1364.23 1567.28 3360.41 1441.49 1517.24 
+Total distance to top kth label alpha: 15249.24
+Total distance to top kth label beta: 21731.13
+Total distance to top kth label gamma: 10432.59
+Total distance to top kth label eta: 14663.14
+Total distance to top kth label phi: 11992.47
+
+Distance from selected image 9 to others: 
+2973.05 3609.40 953.69 1542.00 2194.86 1974.61 2551.77 2468.01 1362.54 2529.18 2155.89 2593.28 2271.31 2344.55 2318.59 2804.78 3472.56 2388.30 1555.39 2169.57 1767.03 1739.69 1404.87 1996.76 910.94 2094.15 881.50 1715.88 1716.29 2669.42 1098.02 1193.45 1729.81 1598.43 1721.83 2036.00 1709.61 1908.11 2972.87 1529.18 1745.76 1917.59 3191.84 2308.27 2289.74 
+Total distance to top kth label alpha: 13047.48
+Total distance to top kth label beta: 16601.10
+Total distance to top kth label gamma: 10773.71
+Total distance to top kth label eta: 10256.18
+Total distance to top kth label phi: 13408.26
+
+Distance from selected image 10 to others: 
+2351.63 2774.27 858.24 1184.72 1266.93 2074.78 1834.83 2125.29 1216.33 2264.11 1692.45 1412.02 2147.34 1624.78 2467.83 3122.59 2906.04 2246.37 926.56 1179.04 895.57 1453.34 926.03 1119.19 581.42 1265.12 739.90 1133.12 1781.68 1432.35 1018.93 778.11 1116.91 1048.47 1082.07 1781.11 1596.73 774.49 1966.55 808.10 809.19 1188.88 2911.91 1657.28 1384.27 
+Total distance to top kth label alpha: 10561.13
+Total distance to top kth label beta: 13854.91
+Total distance to top kth label gamma: 7609.96
+Total distance to top kth label eta: 6367.71
+Total distance to top kth label phi: 8218.93
+
+Distance from selected image 11 to others: 
+2557.00 2130.98 1350.80 1460.14 1397.21 2337.51 2369.63 2552.19 1535.21 2541.58 2233.03 1967.83 2836.50 2398.58 3314.46 4776.28 2808.48 2522.14 1689.91 969.06 1141.37 1778.15 1459.99 1452.85 1219.41 979.02 911.78 1432.16 1674.74 1622.13 1422.56 1176.89 1652.86 1632.32 1188.74 2060.77 2077.62 1077.46 2114.10 1219.33 941.69 1412.85 2403.40 1697.83 1717.40 
+Total distance to top kth label alpha: 12581.49
+Total distance to top kth label beta: 17308.13
+Total distance to top kth label gamma: 10127.67
+Total distance to top kth label eta: 8133.49
+Total distance to top kth label phi: 10144.18
+
+Distance from selected image 12 to others: 
+3005.82 2950.62 1502.33 1518.12 969.88 1403.59 2752.36 2008.03 1364.00 2367.72 1918.10 1954.47 2570.96 2852.61 2414.60 5050.50 2772.69 2434.61 1937.39 1153.61 777.68 1760.92 1108.18 1556.44 1546.51 940.15 1251.08 1476.01 1166.00 1099.06 1315.97 1194.95 1775.72 1245.48 1145.17 597.55 1626.16 1650.50 2820.98 1239.66 1076.39 1229.03 2640.34 959.75 1396.87 
+Total distance to top kth label alpha: 11518.32
+Total distance to top kth label beta: 16433.15
+Total distance to top kth label gamma: 7764.19
+Total distance to top kth label eta: 8333.64
+Total distance to top kth label phi: 9178.35
+
+Distance from selected image 13 to others: 
+2415.31 2489.25 1173.82 1447.13 1465.36 2495.87 2323.86 2347.47 1449.01 2285.70 1647.81 1652.52 2181.98 1676.48 2608.62 3672.03 2679.87 2338.90 869.04 1152.27 1131.41 1818.55 1180.42 1341.36 1076.95 1238.13 863.17 1391.06 1952.41 1575.90 1101.62 804.64 1174.99 1269.41 1241.38 1823.58 2087.83 679.19 1576.33 830.65 615.14 1264.13 2790.29 1676.65 1104.82 
+Total distance to top kth label alpha: 12621.96
+Total distance to top kth label beta: 14392.00
+Total distance to top kth label gamma: 8559.01
+Total distance to top kth label eta: 7511.38
+Total distance to top kth label phi: 7746.91
+
+Distance from selected image 14 to others: 
+3203.43 3707.96 1640.05 2090.51 1748.48 2265.17 3016.71 2669.85 1781.55 2355.67 1476.73 2084.54 2457.89 2969.00 2590.81 3274.59 3723.60 2664.22 1656.90 1521.27 1528.06 1984.83 1552.91 2254.80 1432.43 1357.16 1309.53 1633.43 2304.04 1967.95 1739.16 1376.59 1528.49 1755.06 1695.48 1819.26 2347.03 1091.94 2486.48 638.42 1159.71 1520.53 3220.01 1316.72 1059.83 
+Total distance to top kth label alpha: 15212.33
+Total distance to top kth label beta: 16598.86
+Total distance to top kth label gamma: 11547.45
+Total distance to top kth label eta: 10358.26
+Total distance to top kth label phi: 9134.18
+#################################################################
+
+
+Batch 0:
+Input batch size: torch.Size([45, 1, 28, 28])
+Apply the submodel with 50-node dense layer to the data, we have the returned output with the shape of: torch.Size([45, 50])
+
+Shape of the output nodes from the submodel: torch.Size([45, 50])
+Number of the labels: torch.Size([45])
+
+Distance from input image to greek database:
+1983.46 2174.45 1508.23 1408.60 1362.00 1430.12 1858.12 1305.00 1148.26 1781.98 1396.22 1795.86 1851.14 1314.68 1715.98 2195.61 1976.23 1508.09 1441.95 906.42 969.06 1204.97 1151.58 1268.77 1225.85 1072.84 1304.30 906.57 882.15 567.18 890.25 1601.89 1098.71 1010.57 772.00 1177.10 861.12 1224.59 1003.44 539.46 465.23 629.71 768.91 557.03 745.17 
+Total distance to top kth label alpha: 3815.26
+Total distance to top kth label beta: 4218.99
+Total distance to top kth label gamma: 2221.34
+Total distance to top kth label eta: 2948.32
+Total distance to top kth label phi: 1561.72
